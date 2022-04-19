@@ -1,0 +1,19 @@
+{
+    "load_pre": true,
+    "re_label_size": 2,
+    "pretrain_route": "../data/pretrained/roberta_large_model/",
+    "pretrain_config_fn": "../data/checkpoint/RE_Roberta_small_samp/bert_config.json",
+    "hidden_dropout_prob": 0.1,
+    "checkpoint_route": "../data/checkpoint/RE_Roberta_small_samp/roberta_dev_latest.pth",
+    "log_dir": "../result/RE_Roberta/",
+    "re_lr_enc": 1e-5,
+    "weight_decay": 1e-5,
+    "train_batch": 100,
+    "test_batch": 512,
+    "lr_decay_exp": 1,
+    "decay_every": 20,
+    "gpus": "0",
+    "pred_topk": 5,
+    "loader_num_workers": 0,
+    "sample_ratio": 15
+}

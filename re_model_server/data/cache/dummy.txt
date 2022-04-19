@@ -1,0 +1,2 @@
+This is an useless file, purely to preserve the data/ folder in git-repo.
+Please do not remove this file, otherwise git will remove the folder and thus automatically building cache.dat will fail!

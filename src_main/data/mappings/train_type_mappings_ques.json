@@ -1,0 +1,2107 @@
+{
+    "city": [
+        "City",
+        "http://dbpedia.org/ontology/City",
+        "Who is the co-founder of the city where Owen Dougherty died?"
+    ],
+    "river": [
+        "River",
+        "http://dbpedia.org/ontology/River",
+        "What cities does the river goes through, whose tributary is the little black river in Arkansas?"
+    ],
+    "cars": [
+        "Automobile",
+        "http://dbpedia.org/ontology/Automobile",
+        "How many cars are the predecessor of cars similar to the Pontiac G8?"
+    ],
+    "people": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "List the religion of people in the Cambodian human rights party?"
+    ],
+    "schools": [
+        "School",
+        "http://dbpedia.org/ontology/School",
+        "What games can be played in schools founded by Fr. Orlando?"
+    ],
+    "stadium": [
+        "Stadium",
+        "http://dbpedia.org/ontology/Stadium",
+        "Who has had been the tenant of the stadium built by PCL construction firm?"
+    ],
+    "mountain": [
+        "Mountain",
+        "http://dbpedia.org/ontology/Mountain",
+        "In which mountain Inyo National Forest and California are located?"
+    ],
+    "mammals": [
+        "Mammal",
+        "http://dbpedia.org/ontology/Mammal",
+        "Give me a count of mammals whose family is Canidae?"
+    ],
+    "books": [
+        "Book",
+        "http://dbpedia.org/ontology/Book",
+        "How many books have been penned by Miguel de Cervantes?"
+    ],
+    "newspapers": [
+        "Newspaper",
+        "http://dbpedia.org/ontology/Newspaper",
+        "What newspapers's owners is Schibsted"
+    ],
+    "models": [
+        "Model",
+        "http://dbpedia.org/ontology/Model",
+        "Name the partners of the models whose one of the partner is Thom Evans ?"
+    ],
+    "office holder": [
+        "OfficeHolder",
+        "http://dbpedia.org/ontology/OfficeHolder",
+        "Which office holder's successor is Adrian A. Basora and child named Lori Black?"
+    ],
+    "ethnic group": [
+        "EthnicGroup",
+        "http://dbpedia.org/ontology/EthnicGroup",
+        "What is the religion of the ethnic group to which Clara Ng belongs?"
+    ],
+    "member of parliament": [
+        "MemberOfParliament",
+        "http://dbpedia.org/ontology/MemberOfParliament",
+        "By which member of parliament was Provisional Government of Saskatchewan led?"
+    ],
+    "F1 racer": [
+        "FormulaOneRacer",
+        "http://dbpedia.org/ontology/FormulaOneRacer",
+        "Name the F1 racer with relative as Ralf Schumacher and has child named Mick Schumacher?"
+    ],
+    "banks": [
+        "Bank",
+        "http://dbpedia.org/ontology/Bank",
+        "In which countries are there banks which came after the National Commercial Bank of Mauritius?"
+    ],
+    "trains": [
+        "Train",
+        "http://dbpedia.org/ontology/Train",
+        "Who produces the trains operated by the MTR?"
+    ],
+    "TV show": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Name the HBO TV show written by Erik jendresen  ?"
+    ],
+    "writers": [
+        "Writer",
+        "http://dbpedia.org/ontology/Writer",
+        "Greek writers have won which award?"
+    ],
+    "Bands": [
+        "Band",
+        "http://dbpedia.org/ontology/Band",
+        "What are the other band member of the Bands whose current members is Hynief?"
+    ],
+    "bacteria": [
+        "Bacteria",
+        "http://dbpedia.org/ontology/Bacteria",
+        "List bacteria whose order (taxonomy) is Bacillales and domain is Bacteria?"
+    ],
+    "band": [
+        "Band",
+        "http://dbpedia.org/ontology/Band",
+        "Which band's past member are Joe Jonas and Nick Jonas?"
+    ],
+    "television shows": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "What are the television shows telecasted on the network which has headquarters at Atlanta?"
+    ],
+    "regions": [
+        "Place",
+        "http://dbpedia.org/ontology/Place",
+        "List some leaders of regions in the Indian Standard Time Zone?"
+    ],
+    "royalties": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "What is the place of death of the royalties one of whose parents was Adam Ludwik Czartoryski?"
+    ],
+    "software": [
+        "Software",
+        "http://dbpedia.org/ontology/Software",
+        "Name the software whose operating system is Mac OS and programming language is C++ ?"
+    ],
+    "horse": [
+        "Horse",
+        "http://dbpedia.org/ontology/Horse",
+        "Which races has the horse bred by Jacques Van't Hart participated in?"
+    ],
+    "horses": [
+        "Horse",
+        "http://dbpedia.org/ontology/Horse",
+        "Mouse Morris' horses have raced in which races?"
+    ],
+    "show": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "What show has  judge as Randy Jackson sculptors as Simon Fuller?"
+    ],
+    "automobile": [
+        "Automobile",
+        "http://dbpedia.org/ontology/Automobile",
+        "List all the layouts of the automobile whose one of the layout is four-wheel-drive layout ?"
+    ],
+    "writer": [
+        "Writer",
+        "http://dbpedia.org/ontology/Writer",
+        "Which  writer has childrens named Mother Mary Alphonsa and Julian Hawthorne?"
+    ],
+    "movies": [
+        "Film",
+        "http://dbpedia.org/ontology/Film",
+        "Give me a count of movies whose music composer is Bernard Herrmann?"
+    ],
+    "television show": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "What television show is aired on channel Sirius XM Holdings?"
+    ],
+    "games": [
+        "VideoGame",
+        "http://dbpedia.org/ontology/VideoGame",
+        "What genres of games are available on the Commodore 64?"
+    ],
+    "bands": [
+        "Band",
+        "http://dbpedia.org/ontology/Band",
+        "How many bands are based in London?"
+    ],
+    "politician": [
+        "OfficeHolder",
+        "http://dbpedia.org/ontology/OfficeHolder",
+        "From which party is the politician who was selected  in Barasat constituency?"
+    ],
+    "None": [
+        "FigureSkater",
+        "http://dbpedia.org/ontology/FigureSkater",
+        "Who used to skate with the pupils of Laureano Ibarra?"
+    ],
+    "university": [
+        "University",
+        "http://dbpedia.org/ontology/University",
+        "Which university has affiliations to Graham Holdings and Kaplan, Inc.?"
+    ],
+    "companies": [
+        "Company",
+        "http://dbpedia.org/ontology/Company",
+        "Where can i find companies which were started in Toronto?"
+    ],
+    "airlines": [
+        "Airline",
+        "http://dbpedia.org/ontology/Airline",
+        "How many airlines have a hub at an airport run by LA World Airports?"
+    ],
+    "nations": [
+        "Country",
+        "http://dbpedia.org/ontology/Country",
+        "How many nations' volleyball players have played for the Russian women volleyball team?"
+    ],
+    "Band": [
+        "Band",
+        "http://dbpedia.org/ontology/Band",
+        "What is the home town of the Band which is the previous work of Sammy Hagar & Friends ?"
+    ],
+    "institues": [
+        "EducationalInstitution",
+        "http://dbpedia.org/ontology/EducationalInstitution",
+        "Which sports are played at institues in Taguig?"
+    ],
+    "military conflicts": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "Name the commanders of military conflicts where Roundhead was one of the commander ?"
+    ],
+    "politicians": [
+        "Politician",
+        "http://dbpedia.org/ontology/Politician",
+        "List all the faiths that British Columbian politicians follow?"
+    ],
+    "company": [
+        "Company",
+        "http://dbpedia.org/ontology/Company",
+        "Name the company founded by Jim Harris located in Harris County, Texas ?"
+    ],
+    "military": [
+        "MilitaryUnit",
+        "http://dbpedia.org/ontology/MilitaryUnit",
+        "What is the mascot of military in Quezon city?"
+    ],
+    "scientists": [
+        "Scientist",
+        "http://dbpedia.org/ontology/Scientist",
+        "What are the famous Uni Toronto scientists known for?"
+    ],
+    "protected area": [
+        "ProtectedArea",
+        "http://dbpedia.org/ontology/ProtectedArea",
+        "What is the protected area whose nearest city is Kenya?"
+    ],
+    "places": [
+        "Place",
+        "http://dbpedia.org/ontology/Place",
+        "In how many places have people canonized by John Paul II died?"
+    ],
+    "fictional character": [
+        "FictionalCharacter",
+        "http://dbpedia.org/ontology/FictionalCharacter",
+        "Name a fictional character whose relative is Uncle Henry and species is Human?"
+    ],
+    "bacterias": [
+        "Bacteria",
+        "http://dbpedia.org/ontology/Bacteria",
+        "List the bacterias whose division is Firmicutes and domain is bacteria?"
+    ],
+    "shows": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "How many shows is Russell Davies known for?"
+    ],
+    "building": [
+        "Building",
+        "http://dbpedia.org/ontology/Building",
+        "In which city is the building, whose part is the Martin AN/FSG1 anti aircraft system?"
+    ],
+    "award": [
+        "Award",
+        "http://dbpedia.org/ontology/Award",
+        "Name the award given in Norway and presented by Swedish Academy ?"
+    ],
+    "book": [
+        "Book",
+        "http://dbpedia.org/ontology/Book",
+        "What was the book that lead to Sagan's Cosmos, about?"
+    ],
+    "chancellor": [
+        "Chancellor",
+        "http://dbpedia.org/ontology/Chancellor",
+        "What is the nationality of the chancellor who was served by Michael Mayr?"
+    ],
+    "awards": [
+        "Award",
+        "http://dbpedia.org/ontology/Award",
+        "Which awards are presented by Swedish Academy?"
+    ],
+    "cartoons": [
+        "Cartoon",
+        "http://dbpedia.org/ontology/Cartoon",
+        "What are some cartoons distributed by a subsidiary of Time Warner?"
+    ],
+    "pope": [
+        "Pope",
+        "http://dbpedia.org/ontology/Pope",
+        "What is the location of the pope whose major shrine is St. Peter's Basilica ?"
+    ],
+    "baseball teams": [
+        "BaseballTeam",
+        "http://dbpedia.org/ontology/BaseballTeam",
+        "List down all the baseball teams whose team manager was a Catcher?"
+    ],
+    "drinks": [
+        "Beverage",
+        "http://dbpedia.org/ontology/Beverage",
+        "In which cities can i find drinks similar to the IBC root beer?"
+    ],
+    "softwares": [
+        "Software",
+        "http://dbpedia.org/ontology/Software",
+        "List softwares written in C++ and runs on Mac OS ?"
+    ],
+    "television station": [
+        "TelevisionStation",
+        "http://dbpedia.org/ontology/TelevisionStation",
+        "What is the city  of the television station whose affiliations is LATV?"
+    ],
+    "administrative region": [
+        "AdministrativeRegion",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "Which administrative region leader is Sukhumbhand Paribatra and was founded by  Rama I?"
+    ],
+    "scientist": [
+        "Scientist",
+        "http://dbpedia.org/ontology/Scientist",
+        "What is the scientist whose PhD students are Erich Bagge and erban ieica?"
+    ],
+    "grand prixes": [
+        "GrandPrix",
+        "http://dbpedia.org/ontology/GrandPrix",
+        "In all the grand prixes where the first team was Scuderia Ferrari, who all were the pole drivers?"
+    ],
+    "TV shows": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Name few TV shows aired by Prime Time Entertainment Network?"
+    ],
+    "information appliance": [
+        "InformationAppliance",
+        "http://dbpedia.org/ontology/InformationAppliance",
+        "How many information appliance are manufactured by companies located in Taiwan?"
+    ],
+    "person": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "Name the person who died in Fair Lane ?"
+    ],
+    "video game": [
+        "VideoGame",
+        "http://dbpedia.org/ontology/VideoGame",
+        "Which video game composed by Hirokazu Tanaka can be played on virtual Console ?"
+    ],
+    "wars": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "How many groups have fought in wars where Richard Taylor fought too?"
+    ],
+    "astronauts": [
+        "Astronaut",
+        "http://dbpedia.org/ontology/Astronaut",
+        "Which astronauts went on the Gemini 8 mission?"
+    ],
+    "station": [
+        "TelevisionStation",
+        "http://dbpedia.org/ontology/TelevisionStation",
+        "Where is the station whose sister channel is the Channel 3 in Thailand?"
+    ],
+    "military unit": [
+        "MilitaryUnit",
+        "http://dbpedia.org/ontology/MilitaryUnit",
+        "Name the military unit whose garrison is Arlington County, Virginia and command structure is United States Department of Defense?"
+    ],
+    "sea": [
+        "Sea",
+        "http://dbpedia.org/ontology/Sea",
+        "How many cities are around the sea in which the ionian sea flows?"
+    ],
+    "game": [
+        "Game",
+        "http://dbpedia.org/ontology/Game",
+        "What is the game whose genre is Mind sport?"
+    ],
+    "race horses": [
+        "RaceHorse",
+        "http://dbpedia.org/ontology/RaceHorse",
+        "Which colored race horses have won the Grand National?"
+    ],
+    "military persons": [
+        "MilitaryPerson",
+        "http://dbpedia.org/ontology/MilitaryPerson",
+        "Name the battle fought by the military persons who also fought in Algeria ?"
+    ],
+    "organizations": [
+        "Organisation",
+        "http://dbpedia.org/ontology/Organisation",
+        "Tell me the total number of organizations who maintain the bridges made by the malaysian PWD?"
+    ],
+    "bridges": [
+        "Bridge",
+        "http://dbpedia.org/ontology/Bridge",
+        "Malaysian highway authority has designed bridges over what things?"
+    ],
+    "the unit": [
+        "MilitaryUnit",
+        "http://dbpedia.org/ontology/MilitaryUnit",
+        "What is the mascot of the unit whose garrison is Canberra ?"
+    ],
+    "settlements": [
+        "Settlement",
+        "http://dbpedia.org/ontology/Settlement",
+        "List all the settlements which has a part named Seguin,Texas ?"
+    ],
+    "movie": [
+        "Film",
+        "http://dbpedia.org/ontology/Film",
+        "What is the casting of the movie directed by Justin Zackham ?"
+    ],
+    "statesman": [
+        "OfficeHolder",
+        "http://dbpedia.org/ontology/OfficeHolder",
+        "Which statesman is married to Dolley Madison?"
+    ],
+    "musician": [
+        "MusicalArtist",
+        "http://dbpedia.org/ontology/MusicalArtist",
+        "Which musician was born in Harriman, NY?"
+    ],
+    "basketball players": [
+        "BasketballPlayer",
+        "http://dbpedia.org/ontology/BasketballPlayer",
+        "Name some basketball players whose team is coached by Fred Hoiberg?"
+    ],
+    "weapons": [
+        "Weapon",
+        "http://dbpedia.org/ontology/Weapon",
+        "List the origin of the weapons which were used in the American Revolutionary War."
+    ],
+    "american football players": [
+        "AmericanFootballPlayer",
+        "http://dbpedia.org/ontology/AmericanFootballPlayer",
+        "Count all american football players whose former team owns Lucas Oil Stadium ?"
+    ],
+    "countries": [
+        "Country",
+        "http://dbpedia.org/ontology/Country",
+        "Semani languages are spoken in which countries?"
+    ],
+    "uni.": [
+        "University",
+        "http://dbpedia.org/ontology/University",
+        "List the uni. having affiliation with Graham Holding Company and have a campus in Iowa ?"
+    ],
+    "tv shows": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "What tv shows were born out of a collaboration of playtone and dreamworks?"
+    ],
+    "novels": [
+        "Book",
+        "http://dbpedia.org/ontology/Book",
+        "What are some non fiction subjects dealt with in fantasy novels?"
+    ],
+    "rocket": [
+        "Rocket",
+        "http://dbpedia.org/ontology/Rocket",
+        "Which companies have launched a rocket from Cape Canaveral Air Force station?"
+    ],
+    "astronaut": [
+        "Astronaut",
+        "http://dbpedia.org/ontology/Astronaut",
+        "Which  NASA astronaut was on mission Gemini 8?"
+    ],
+    "sitcom": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Which sitcom's company is Paramount Television and is located in Cheers Beacon hill ?"
+    ],
+    "artists": [
+        "Artist",
+        "http://dbpedia.org/ontology/Artist",
+        "What awards have been given to the artists coming out of the university of Melbourne, faculty of VCA and MCM?"
+    ],
+    "islands": [
+        "Island",
+        "http://dbpedia.org/ontology/Island",
+        "What islands are there on the Greater Antilles archipelago?"
+    ],
+    "sportsmen": [
+        "Athlete",
+        "http://dbpedia.org/ontology/Athlete",
+        "Where were the sportsmen born, who started their careers with Homestead Grays?"
+    ],
+    "state": [
+        "AdministrativeRegion",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "Which state's largest city is Omaha?"
+    ],
+    "authors": [
+        "Writer",
+        "http://dbpedia.org/ontology/Writer",
+        "List few authors whose education took place in Saint Petersburg ?   "
+    ],
+    "settlement": [
+        "Settlement",
+        "http://dbpedia.org/ontology/Settlement",
+        "What is the settlement whose neighboring municipalities is Lancy and mayor name is Esther Alder?"
+    ],
+    "president": [
+        "President",
+        "http://dbpedia.org/ontology/President",
+        "What is the president whose lieutenants are Winston Bryant and Joe Purcell?"
+    ],
+    "wrestler": [
+        "Athlete",
+        "http://dbpedia.org/ontology/Athlete",
+        "Where did the wrestler trained by Ring of Honour get billed?"
+    ],
+    "universities": [
+        "University",
+        "http://dbpedia.org/ontology/University",
+        "What sports can be played at universities in Metro Manila?"
+    ],
+    "dishes": [
+        "Food",
+        "http://dbpedia.org/ontology/Food",
+        "Name some dishes made with flowering plants."
+    ],
+    "Bridges": [
+        "Bridge",
+        "http://dbpedia.org/ontology/Bridge",
+        "Bridges over what can carry vehicles?"
+    ],
+    "seas": [
+        "Sea",
+        "http://dbpedia.org/ontology/Sea",
+        "What are some seas inside europe ?"
+    ],
+    "engine": [
+        "Engine",
+        "http://dbpedia.org/ontology/Engine",
+        "Who is the mfr. of the engine used in Ford Transit ?"
+    ],
+    "institutions": [
+        "EducationalInstitution",
+        "http://dbpedia.org/ontology/EducationalInstitution",
+        "What games are played at institutions affiliated with the international association of universities?"
+    ],
+    "journal": [
+        "AcademicJournal",
+        "http://dbpedia.org/ontology/AcademicJournal",
+        "Which philosophy journal has compiler as Stephen Law ?"
+    ],
+    "military conflict": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "Name the military conflict whose commander was Colin Powell and took place in israel ?"
+    ],
+    "characters": [
+        "FictionalCharacter",
+        "http://dbpedia.org/ontology/FictionalCharacter",
+        "In which series do I find Minbari species' characters?"
+    ],
+    "basket ball team": [
+        "BasketballTeam",
+        "http://dbpedia.org/ontology/BasketballTeam",
+        "Among which basket ball team having arena as The Palace of Auburn hills has president as Stan Van Gundy ?"
+    ],
+    "players": [
+        "Athlete",
+        "http://dbpedia.org/ontology/Athlete",
+        "For which teams did the Hawai graduated players play their first game?"
+    ],
+    "genres": [
+        "MusicGenre",
+        "http://dbpedia.org/ontology/MusicGenre",
+        "How many genres gave birth to other genres which emphasize Bass Guitars?"
+    ],
+    "relatives": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "List the opponents of the relatives of Thomas Helwys?"
+    ],
+    "television series": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Which HBO's television series was produced by Erik Bork?"
+    ],
+    "record label": [
+        "RecordLabel",
+        "http://dbpedia.org/ontology/RecordLabel",
+        "What kind of music is produced at the record label founded by Andre Bourgeois?"
+    ],
+    "persons": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "To which persons is Ron Cyrus a relative?"
+    ],
+    "television program": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Name the television program voiced by Isaac Hayes and aired on Comedy Central?"
+    ],
+    "conflicts": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "Who has fought in the conflicts around the Mississippi river?"
+    ],
+    "streams": [
+        "Stream",
+        "http://dbpedia.org/ontology/Stream",
+        "What are the source of the streams whose one of the source is Calera, Oklahoma?"
+    ],
+    "country": [
+        "Country",
+        "http://dbpedia.org/ontology/Country",
+        "In which country can I find the State Academic Opera and Ballet Theater and Baku Puppet Theatre?"
+    ],
+    "stations": [
+        "RadioStation",
+        "http://dbpedia.org/ontology/RadioStation",
+        "What are some licensees of the stations playing in Nashville, Tennessee?"
+    ],
+    "publisher": [
+        "Publisher",
+        "http://dbpedia.org/ontology/Publisher",
+        "How many publisher have been founded by american citizens?"
+    ],
+    "sitcoms": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Among which sitcoms in which theme music is composed by Gary Portnoy is located in Massachusetts ?"
+    ],
+    "rivers": [
+        "River",
+        "http://dbpedia.org/ontology/River",
+        "Name the rivers whose source country's capital is Lusaka?"
+    ],
+    "TV stations": [
+        "TelevisionStation",
+        "http://dbpedia.org/ontology/TelevisionStation",
+        "Name all the broadcast area of the TV stations which has Rodrigues as one of the broadcast area ?"
+    ],
+    "ones": [
+        "Automobile",
+        "http://dbpedia.org/ontology/Automobile",
+        "What are some cars which came before the ones on a GM B base?"
+    ],
+    "program": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Which program was on NBC network with executive producer as Glen and Les Charles?"
+    ],
+    "work": [
+        "Work",
+        "http://dbpedia.org/ontology/Work",
+        "What work has been directed by Orson Welles and distributed by  RKO Pictures?"
+    ],
+    "Flatbread": [
+        "Flatbread",
+        "http://dbpedia.org/resource/Flatbread",
+        "Count the different types of Flatbread ?"
+    ],
+    "birthplaces": [
+        "Place",
+        "http://dbpedia.org/ontology/Place",
+        "Count the birthplaces of recepients of the National Museum of Racing and Hall of Fame."
+    ],
+    "district": [
+        "AdministrativeRegion",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "What is the county seat of the district through which the Beckler River flows?"
+    ],
+    "teams": [
+        "SportsTeam",
+        "http://dbpedia.org/ontology/SportsTeam",
+        "In how many teams have people previously played who play as defencemen?"
+    ],
+    "philosophers": [
+        "Philosopher",
+        "http://dbpedia.org/ontology/Philosopher",
+        "Where are the philosophers from, whose main work is on the matter of feminism in Canada?"
+    ],
+    "GP": [
+        "GrandPrix",
+        "http://dbpedia.org/ontology/GrandPrix",
+        "Who were the pole drivers in GP when Damon hill was a first driver?"
+    ],
+    "albums": [
+        "Album",
+        "http://dbpedia.org/ontology/Album",
+        "Who were the narrators of the albums which had Ringo Starr as one of the narrator ?"
+    ],
+    "musical artist": [
+        "MusicalArtist",
+        "http://dbpedia.org/ontology/MusicalArtist",
+        "With which musical artist is the producer of Spotlight associated ?"
+    ],
+    "basketball player": [
+        "BasketballPlayer",
+        "http://dbpedia.org/ontology/BasketballPlayer",
+        "Name a basketball player with teams as Chicago Bulls and Phoenix Suns?"
+    ],
+    "saints": [
+        "Saint",
+        "http://dbpedia.org/ontology/Saint",
+        "Which saints were the messengers of Islam?"
+    ],
+    "grapes": [
+        "Grape",
+        "http://dbpedia.org/ontology/Grape",
+        "In which areas can I find wine made of Vitis vinifera grapes?"
+    ],
+    "musicians": [
+        "MusicalArtist",
+        "http://dbpedia.org/ontology/MusicalArtist",
+        "What famous musicians play the remo?"
+    ],
+    "railway lines": [
+        "RailwayLine",
+        "http://dbpedia.org/ontology/RailwayLine",
+        "Who holds stock in the railway lines ending in Washington DC?"
+    ],
+    "political parties": [
+        "PoliticalParty",
+        "http://dbpedia.org/ontology/PoliticalParty",
+        "What are the political parties whose leaders have lived in the Prime Minister's House?"
+    ],
+    "historic places": [
+        "HistoricPlace",
+        "http://dbpedia.org/ontology/HistoricPlace",
+        "What are the nearest city to the historic places whose one of the nearest city is Wisconsin?"
+    ],
+    "aristocrats": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "In which sects were the aristocrats included, who were buried in Westminister abbey?"
+    ],
+    "bank": [
+        "Bank",
+        "http://dbpedia.org/ontology/Bank",
+        "Who is the stock holder of the bank where  Peter Grauer works  ?"
+    ],
+    "basketball team": [
+        "BasketballTeam",
+        "http://dbpedia.org/ontology/BasketballTeam",
+        "What is the basketball team whose President's college is Brockport Golden Eagles?"
+    ],
+    "road": [
+        "Road",
+        "http://dbpedia.org/ontology/Road",
+        "What is the county of the road whose route end is Pahang ?"
+    ],
+    "medicians": [
+        "Medician",
+        "http://dbpedia.org/ontology/Medician",
+        "List the birthplace of the medicians who studied in Harvard."
+    ],
+    "album": [
+        "Album",
+        "http://dbpedia.org/ontology/Album",
+        "What is the label of the album whose previous work is Waterfall?"
+    ],
+    "beverage": [
+        "Food",
+        "http://dbpedia.org/ontology/Food",
+        "What beverage was launched by Ferrero SpA?"
+    ],
+    "stream": [
+        "Stream",
+        "http://dbpedia.org/ontology/Stream",
+        "Through which states does the stream ending at Saunders county go?"
+    ],
+    "school": [
+        "School",
+        "http://dbpedia.org/ontology/School",
+        "What sports are played by school which owns Fr. Agnel Stadium ?"
+    ],
+    "ice hockey players": [
+        "IceHockeyPlayer",
+        "http://dbpedia.org/ontology/IceHockeyPlayer",
+        "Ontario's ice hockey players have been a part of which teams?"
+    ],
+    "institutes": [
+        "EducationalInstitution",
+        "http://dbpedia.org/ontology/EducationalInstitution",
+        "What sports are played at institutes affiliated by the Association of Southeast Asian Institutes of Higher Learning?"
+    ],
+    "musical": [
+        "Musical",
+        "http://dbpedia.org/ontology/Musical",
+        "Miguel de Cervantes wrote the musical extended from which book?"
+    ],
+    "buildings": [
+        "Building",
+        "http://dbpedia.org/ontology/Building",
+        "How many buildings are located in Toronto ?"
+    ],
+    "comics character": [
+        "ComicsCharacter",
+        "http://dbpedia.org/ontology/ComicsCharacter",
+        "Joe Shuster has created how many comics character ?"
+    ],
+    "distributing label": [
+        "Organisation",
+        "http://dbpedia.org/ontology/Organisation",
+        "Which currency is primarily used by the company which is the distributing label of VDE-Gallo Records?"
+    ],
+    "american football player": [
+        "AmericanFootballPlayer",
+        "http://dbpedia.org/ontology/AmericanFootballPlayer",
+        "What is the debut team of the american football player who studied in North Fort Myers High School?"
+    ],
+    "artist": [
+        "Artist",
+        "http://dbpedia.org/ontology/Artist",
+        "List all the collaborators of the artist which has collaborated with sanremo Music Festival ?"
+    ],
+    "figure skaters": [
+        "FigureSkater",
+        "http://dbpedia.org/ontology/FigureSkater",
+        "List the former partner of the figure skaters whose former choreographer was Igor Shpillband."
+    ],
+    "american football teams": [
+        "AmericanFootballTeam",
+        "http://dbpedia.org/ontology/AmericanFootballTeam",
+        "Pennsylvania has how many american football teams?"
+    ],
+    "Race horses": [
+        "RaceHorse",
+        "http://dbpedia.org/ontology/RaceHorse",
+        "Race horses whose grandsire is Wild  Risk have taken part in which races?"
+    ],
+    "settelment area": [
+        "Settlement",
+        "http://dbpedia.org/ontology/Settlement",
+        "Which settelment area is the home town of the Danny Felice and Cline Buckens?"
+    ],
+    "government agencies": [
+        "GovernmentAgency",
+        "http://dbpedia.org/ontology/GovernmentAgency",
+        "List the leaders of the government agencies whose jurisdiction was German-occupied Europe."
+    ],
+    "academic journal": [
+        "AcademicJournal",
+        "http://dbpedia.org/ontology/AcademicJournal",
+        "What is the academic journal whose editor is Stephen Law?"
+    ],
+    "royalty": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "Name the royalty whose daughter was Cleopatra V and was married to Ptolemy XIV of Egypt?"
+    ],
+    "aircrafts": [
+        "Aircraft",
+        "http://dbpedia.org/ontology/Aircraft",
+        "In which countries have the Start + Flug aircrafts originated?"
+    ],
+    "football player": [
+        "GridironFootballPlayer",
+        "http://dbpedia.org/ontology/GridironFootballPlayer",
+        "What is the debut team of the football player whose college is UCLA Bruins football?"
+    ],
+    "jockey": [
+        "Jockey",
+        "http://dbpedia.org/ontology/Jockey",
+        "What is the place of birth of the jockey who breeded De La Rose ?"
+    ],
+    "devices": [
+        "InformationAppliance",
+        "http://dbpedia.org/ontology/InformationAppliance",
+        "what are some devices made by asus?"
+    ],
+    "senator": [
+        "Senator",
+        "http://dbpedia.org/ontology/Senator",
+        "What is the state of the senator whose successor is Nathaniel P. Hill ?"
+    ],
+    "subsidary": [
+        "Company",
+        "http://dbpedia.org/ontology/Company",
+        "Name the subsidary of Tandem Computers which was founded by Jim Harris ?"
+    ],
+    "events": [
+        "Event",
+        "http://dbpedia.org/ontology/Event",
+        "Who were the commanders during the events which took place in Sandusky County, Ohio?"
+    ],
+    "tennis player": [
+        "TennisPlayer",
+        "http://dbpedia.org/ontology/TennisPlayer",
+        "Who was the president under which a tennis player held office before John W. Weeks?"
+    ],
+    "railroads": [
+        "RailwayLine",
+        "http://dbpedia.org/ontology/RailwayLine",
+        "Where do the railroads owned by the Chicago and Northwestern Transportation company begin?"
+    ],
+    "Rivers": [
+        "River",
+        "http://dbpedia.org/ontology/River",
+        "Rivers which end in Arkansas go through which cities?"
+    ],
+    "saint": [
+        "Saint",
+        "http://dbpedia.org/ontology/Saint",
+        "List the shrines of the saint whose one of the shrine is Ponza ?"
+    ],
+    "manager": [
+        "SoccerManager",
+        "http://dbpedia.org/ontology/SoccerManager",
+        "Who have been the manager of national team of Spain?"
+    ],
+    "drivers": [
+        "RacingDriver",
+        "http://dbpedia.org/ontology/RacingDriver",
+        "Count the number of first drivers in all the GPs where Mika Hakkinen was a pole driver?"
+    ],
+    "bridge": [
+        "Bridge",
+        "http://dbpedia.org/ontology/Bridge",
+        "What does the bridge go over, which is in Katima Mulilo?"
+    ],
+    "hockey team": [
+        "HockeyTeam",
+        "http://dbpedia.org/ontology/HockeyTeam",
+        "Which hockey team is coached by mike babcock?"
+    ],
+    "water body": [
+        "BodyOfWater",
+        "http://dbpedia.org/ontology/BodyOfWater",
+        "List the cities which share the same water body as that of Florida ?"
+    ],
+    "info. appliance": [
+        "InformationAppliance",
+        "http://dbpedia.org/ontology/InformationAppliance",
+        "Which info. appliance is manufactured by Asus and is the predecessor of PS 2?"
+    ],
+    "Scientists": [
+        "Scientist",
+        "http://dbpedia.org/ontology/Scientist",
+        "Scientists at the University of Queensland have won which awards?"
+    ],
+    "place": [
+        "Place",
+        "http://dbpedia.org/ontology/Place",
+        "What is the place where the mayor's wife is Jean-Marc Germain?"
+    ],
+    "physicist": [
+        "Scientist",
+        "http://dbpedia.org/ontology/Scientist",
+        "Which famous physicist was academically advised by Benjamin Pulleyn?"
+    ],
+    "baseball team": [
+        "BaseballTeam",
+        "http://dbpedia.org/ontology/BaseballTeam",
+        "Which baseball team is managed by Bruce Bochy?"
+    ],
+    "military battles": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "Which military battles are associated with Israel?"
+    ],
+    "magazines": [
+        "Magazine",
+        "http://dbpedia.org/ontology/Magazine",
+        "List the magazines published by Playbow Enterprises ?"
+    ],
+    "congressman": [
+        "Congressman",
+        "http://dbpedia.org/ontology/Congressman",
+        "Where is the tombstone of the congressman who died in the McLean hospital?"
+    ],
+    "non profit organization": [
+        "Non-ProfitOrganisation",
+        "http://dbpedia.org/ontology/Non-ProfitOrganisation",
+        "List all important people of the non profit organization which has Hilary Clinton as a key person ?"
+    ],
+    "militaries": [
+        "MilitaryPerson",
+        "http://dbpedia.org/ontology/MilitaryPerson",
+        "Which countries militaries fought the SFOR battle?"
+    ],
+    "american football league": [
+        "AmericanFootballLeague",
+        "http://dbpedia.org/ontology/AmericanFootballLeague",
+        "What is the american football league whose champion is from Kansas City, Missouri?"
+    ],
+    "comic": [
+        "Comic",
+        "http://dbpedia.org/ontology/Comic",
+        "Who is the publisher of the comic, one of whose authors is Kentaro Takekuma ?"
+    ],
+    "rive": [
+        "River",
+        "http://dbpedia.org/ontology/River",
+        "Name the rive whose mouth is located in Limerick and location is Dowra?"
+    ],
+    "sports": [
+        "Sport",
+        "http://dbpedia.org/ontology/Sport",
+        "How many sports are played at the university whose president is Emanuel de Guzman?"
+    ],
+    "magazine": [
+        "Magazine",
+        "http://dbpedia.org/ontology/Magazine",
+        "Which magazine has publisher as Jann Wenner?"
+    ],
+    "areas": [
+        "Place",
+        "http://dbpedia.org/ontology/Place",
+        "In how many areas do the networks broadcast, which also broadcasts in North Carolina?"
+    ],
+    "congressmen": [
+        "Congressman",
+        "http://dbpedia.org/ontology/Congressman",
+        "List the alma mater of the congressmen who attended Nashville, Tennessee ?"
+    ],
+    "planes": [
+        "Aircraft",
+        "http://dbpedia.org/ontology/Aircraft",
+        "In which country did the planes designed by Ursula Hanle originate?"
+    ],
+    "radio station": [
+        "RadioStation",
+        "http://dbpedia.org/ontology/RadioStation",
+        "In which areas is the radio station broadcasted which is a sister station of WXME ?"
+    ],
+    "airline": [
+        "Airline",
+        "http://dbpedia.org/ontology/Airline",
+        "Name an airline with hub airports as Los Angeles International Airport and San Francisco International Airport?"
+    ],
+    "singles": [
+        "Single",
+        "http://dbpedia.org/ontology/Single",
+        "Through which label has Katy B released her singles?"
+    ],
+    "series": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Give me some series whose network's owning company is Warner Bros. Television?"
+    ],
+    "organisation": [
+        "Organisation",
+        "http://dbpedia.org/ontology/Organisation",
+        "list the organisation with motive for peace and environmentalism?"
+    ],
+    "Who": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "Who all have been in bands which have recorded their work in the Electric Lady Studios?"
+    ],
+    "broadcasted TV": [
+        "TelevisionStation",
+        "http://dbpedia.org/ontology/TelevisionStation",
+        "In which countries can i find broadcasted TV in southeast asia?"
+    ],
+    "casualties": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "What are the name of the casualties affected by shooting rampage of Eric Harris and Dylan Klebold?"
+    ],
+    "political party": [
+        "PoliticalParty",
+        "http://dbpedia.org/ontology/PoliticalParty",
+        "What is the religion of the political party which is an international party of Hamas?"
+    ],
+    "radio stations": [
+        "RadioStation",
+        "http://dbpedia.org/ontology/RadioStation",
+        "Who owns the radio stations in Alabama?"
+    ],
+    "networks": [
+        "BroadcastNetwork",
+        "http://dbpedia.org/ontology/BroadcastNetwork",
+        "Where do networks affiliated with ETC broadcast?"
+    ],
+    "historic place": [
+        "HistoricPlace",
+        "http://dbpedia.org/ontology/HistoricPlace",
+        "Name the nearest city to the historic place which has Englewood, Colorado as one of them ?"
+    ],
+    "governor": [
+        "Governor",
+        "http://dbpedia.org/ontology/Governor",
+        "Who appointed the governor under whom Richard Winn works?"
+    ],
+    "plays": [
+        "Play",
+        "http://dbpedia.org/ontology/Play",
+        "Which actors have performed in plays performed in New York?"
+    ],
+    "creator": [
+        "ComicsCreator",
+        "http://dbpedia.org/ontology/ComicsCreator",
+        "Which awards did the creator of A Barrel of Laughs, a Vale of Tears won ?"
+    ],
+    "hockey teams": [
+        "IceHockeyPlayer",
+        "http://dbpedia.org/ontology/IceHockeyPlayer",
+        "Which hockey teams have had people playing as Defenceman?"
+    ],
+    "Grand Prixes": [
+        "GrandPrix",
+        "http://dbpedia.org/ontology/GrandPrix",
+        "List the first drivers of Grand Prixes where Mika Hakkinen was a pole driver."
+    ],
+    "North Caucasus railway": [
+        "North_Caucasus_Railway",
+        "http://dbpedia.org/resource/North_Caucasus_Railway",
+        "Which railway line goes through the stations which are a part of the North Caucasus railway?"
+    ],
+    "animal": [
+        "Animal",
+        "http://dbpedia.org/ontology/Animal",
+        "Which animal is the mascot of the 1502nd Infantry Brigade (Ready Reserve) and Galatasaray Handball Team ?"
+    ],
+    "coutries": [
+        "Country",
+        "http://dbpedia.org/ontology/Country",
+        "From how many coutries do companies come, which are headquartered in the Klang Valley?"
+    ],
+    "golf players": [
+        "GolfPlayer",
+        "http://dbpedia.org/ontology/GolfPlayer",
+        "Who are the golf players whose college is Arizona State Sun Devils?"
+    ],
+    "console": [
+        "InformationAppliance",
+        "http://dbpedia.org/ontology/InformationAppliance",
+        "Name the console whose successor is PlayStation 4 and predecessor is PlayStation 2?"
+    ],
+    "Protestant": [
+        "Protestantism",
+        "http://dbpedia.org/resource/Protestantism",
+        "What games are played in Protestant schools?"
+    ],
+    "Kingship": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "Who is a successor of Kingship whose parents were Julius Caesar?"
+    ],
+    "cities": [
+        "City",
+        "http://dbpedia.org/ontology/City",
+        "List the leaders of all the cities through which the Ganga river flows ?"
+    ],
+    "agencies": [
+        "GovernmentAgency",
+        "http://dbpedia.org/ontology/GovernmentAgency",
+        "Where are the agencies headquartered at, which are under the Colorado Dept of Natural Resources?"
+    ],
+    "TV Show": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Which cities were in the TV Show which came after The Ultimate Fighter: Brazil 2?"
+    ],
+    "highschools": [
+        "EducationalInstitution",
+        "http://dbpedia.org/ontology/EducationalInstitution",
+        "In how many different highschools have people schooled in Penn State Nittany Lions football studied?"
+    ],
+    "record labels": [
+        "RecordLabel",
+        "http://dbpedia.org/ontology/RecordLabel",
+        "Who are some cofounders of record labels with Frank Rogers?"
+    ],
+    "offices": [
+        "OfficeHolder",
+        "http://dbpedia.org/ontology/OfficeHolder",
+        "Which offices were held by the politicians who held their allegiance to the union of american civil war?"
+    ],
+    "ice hockey league": [
+        "IceHockeyLeague",
+        "http://dbpedia.org/ontology/IceHockeyLeague",
+        "In which ice hockey league, did the team coached by Joel Quenneville win?"
+    ],
+    "sports team": [
+        "SportsTeam",
+        "http://dbpedia.org/ontology/SportsTeam",
+        "The sports team which played at the American Basketball League championship (1996-1998), have which stadiums?"
+    ],
+    "songs": [
+        "Song",
+        "http://dbpedia.org/ontology/Song",
+        "Which labels have published songs written by Harry Connick Jr?"
+    ],
+    "Thesaban": [
+        "Thesaban",
+        "http://dbpedia.org/resource/Thesaban",
+        "How many Thesaban towns are there?"
+    ],
+    "towns": [
+        "Town",
+        "http://dbpedia.org/ontology/Town",
+        "How many Thesaban towns are there?"
+    ],
+    "NGOs": [
+        "Non-governmental_organization",
+        "http://dbpedia.org/resource/Non-governmental_organization",
+        "What do typically NGOs work for?"
+    ],
+    "non-profit organisations": [
+        "Non-ProfitOrganisation",
+        "http://dbpedia.org/ontology/Non-ProfitOrganisation",
+        "What are the other key people of the non-profit organisations whose one of the  key person is Joe Green ?"
+    ],
+    "food items": [
+        "Food",
+        "http://dbpedia.org/ontology/Food",
+        "How many food items have an ingredient from the Sapindales family?"
+    ],
+    "fashion designer": [
+        "FashionDesigner",
+        "http://dbpedia.org/ontology/FashionDesigner",
+        "Where did the fashion designer study who died at the Stony Brook University Hospital?"
+    ],
+    "factions": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "How many factions have fought in wars where Francois Marie Le Marchand de Lignery was involved?"
+    ],
+    "musicals": [
+        "Musical",
+        "http://dbpedia.org/ontology/Musical",
+        "What are the musicals based on, whose lyricist was Shelon Harnick?"
+    ],
+    "gridiron football player": [
+        "GridironFootballPlayer",
+        "http://dbpedia.org/ontology/GridironFootballPlayer",
+        "What is the debut team of the gridiron football player who coached the 1931 Staten Island Stapletons season ?"
+    ],
+    "region": [
+        "Region",
+        "http://dbpedia.org/ontology/Region",
+        "What are the county seats of the region which operates the Boeing Field?"
+    ],
+    "journals": [
+        "AcademicJournal",
+        "http://dbpedia.org/ontology/AcademicJournal",
+        "List the academic discipline of the journals whose one of the discipline is neuro imaging ?"
+    ],
+    "mountains": [
+        "Mountain",
+        "http://dbpedia.org/ontology/Mountain",
+        "What are the mountains in the Sequoia National Park?"
+    ],
+    "seasons": [
+        "SportsSeason",
+        "http://dbpedia.org/ontology/SportsSeason",
+        "Which teams participate in the football seasons headed by Patricia Amorim?"
+    ],
+    "manga": [
+        "Manga",
+        "http://dbpedia.org/ontology/Manga",
+        "Who originally wrote the manga which was later illustrated by Tamon Ohta?"
+    ],
+    "stadiums": [
+        "Stadium",
+        "http://dbpedia.org/ontology/Stadium",
+        "In how many different stadiums are the seasons of the 2015 NA Soccer league held?"
+    ],
+    "televesion show": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Name the televesion show which has artist named Christopher Franke ?"
+    ],
+    "screen writer": [
+        "ScreenWriter",
+        "http://dbpedia.org/ontology/ScreenWriter",
+        "List all the notable work of the screen writer who produced Frasier ?"
+    ],
+    "academic journals": [
+        "AcademicJournal",
+        "http://dbpedia.org/ontology/AcademicJournal",
+        "Which fields are covered by academic journals in the US?"
+    ],
+    "those": [
+        "Athlete",
+        "http://dbpedia.org/ontology/Athlete",
+        "Count all those whose youthclub performed at the 14-15 La Liga?"
+    ],
+    "philosopher": [
+        "Philosopher",
+        "http://dbpedia.org/ontology/Philosopher",
+        "Which famous philosopher died on island Euboea?"
+    ],
+    "governors": [
+        "Governor",
+        "http://dbpedia.org/ontology/Governor",
+        "What is the religion of the governors whose office is the Bank of Thailand?"
+    ],
+    "planet": [
+        "Planet",
+        "http://dbpedia.org/ontology/Planet",
+        "Which planet was discovered by Johann Gottfired and Urbain Le Verrier ?"
+    ],
+    "amusement park attractions": [
+        "AmusementParkAttraction",
+        "http://dbpedia.org/ontology/AmusementParkAttraction",
+        "Who has starred in the amusement park attractions where Jim Dooley was performing?"
+    ],
+    "car": [
+        "Automobile",
+        "http://dbpedia.org/ontology/Automobile",
+        "Which company produced the car which was a new version of Daewoo's Tico?"
+    ],
+    "tv show": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "What tv show is created by Brian Graden?"
+    ],
+    "dam": [
+        "Dam",
+        "http://dbpedia.org/ontology/Dam",
+        "What are some rivers in Zambia which have a dam on them?"
+    ],
+    "play": [
+        "Play",
+        "http://dbpedia.org/ontology/Play",
+        "Who wrote the play in which Blanche DuBois is a character?"
+    ],
+    "members of parliament": [
+        "MemberOfParliament",
+        "http://dbpedia.org/ontology/MemberOfParliament",
+        "People of which religion have been the members of parliament, and are from the Kalutara Electoral district?"
+    ],
+    "architect": [
+        "Architect",
+        "http://dbpedia.org/ontology/Architect",
+        "List the significant building of the architect who also designed  Kiev?"
+    ],
+    "car engine": [
+        "Engine",
+        "http://dbpedia.org/ontology/Engine",
+        "What is the predecessor of the car engine which was succeeded by  BMW M43 ?"
+    ],
+    "musical artists": [
+        "MusicalArtist",
+        "http://dbpedia.org/ontology/MusicalArtist",
+        "Which musical artists have collaborated with Waylon Jennings?"
+    ],
+    "tunnels": [
+        "RoadTunnel",
+        "http://dbpedia.org/ontology/RoadTunnel",
+        "Who owns the tunnels operated by the Massachusetts Department of Transportation?"
+    ],
+    "comic characters": [
+        "ComicsCharacter",
+        "http://dbpedia.org/ontology/ComicsCharacter",
+        "Which comic characters are painted by Bill Finger?"
+    ],
+    "engineers": [
+        "Engineer",
+        "http://dbpedia.org/ontology/Engineer",
+        "Which nation's engineers have graduated in Poland?"
+    ],
+    "televison shows": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Which televison shows have location as Massachusetts ?"
+    ],
+    "clubs": [
+        "SoccerClub",
+        "http://dbpedia.org/ontology/SoccerClub",
+        "Which clubs play in the La Liga?"
+    ],
+    "badminton player": [
+        "BadmintonPlayer",
+        "http://dbpedia.org/ontology/BadmintonPlayer",
+        "What is the place of birth of the badminton player who is the bronze medalist of Badminton at the 2012 Summer Olympics  Women's doubles ?"
+    ],
+    "royalities": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "List the graves of the royalities which have been buried at Beeleigh Abbey ?"
+    ],
+    "rockets": [
+        "Rocket",
+        "http://dbpedia.org/ontology/Rocket",
+        "What are the other launch site of the rockets which also have been launched from  Cape Canaveral Air Force Station Launch Complex 5 ?"
+    ],
+    "legislature": [
+        "Legislature",
+        "http://dbpedia.org/ontology/Legislature",
+        "What are the houses of legislature in the political leader's seat of Medininagar?"
+    ],
+    "war": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "Who were fighting the war where the QF Hotchkiss was used?"
+    ],
+    "commander": [
+        "OfficeHolder",
+        "http://dbpedia.org/ontology/OfficeHolder",
+        "Which military commander fought his battle at Fort Gadsen?"
+    ],
+    "educational institution": [
+        "EducationalInstitution",
+        "http://dbpedia.org/ontology/EducationalInstitution",
+        "Which educational institution has Kaplan, Inc as it's affiliation?"
+    ],
+    "group": [
+        "Group",
+        "http://dbpedia.org/ontology/Group",
+        "In what group Joe Jonas and Kevin Jonas were previously involved?"
+    ],
+    "soccer clubs": [
+        "SoccerClub",
+        "http://dbpedia.org/ontology/SoccerClub",
+        "Which soccer clubs are in the Liga Divisi Utama?"
+    ],
+    "figure skater": [
+        "FigureSkater",
+        "http://dbpedia.org/ontology/FigureSkater",
+        "List all the former partners of the figure skater whose one of the former partner was Andrea poapst ?"
+    ],
+    "Unitary": [
+        "Unitary_state",
+        "http://dbpedia.org/resource/Unitary_state",
+        "How many ships belong to states which has Unitary as government type ?"
+    ],
+    "ships": [
+        "Ship",
+        "http://dbpedia.org/ontology/Ship",
+        "How many ships belong to states which has Unitary as government type ?"
+    ],
+    "motion picture stories": [
+        "Film",
+        "http://dbpedia.org/ontology/Film",
+        "Which motion picture stories were edited by Ishir Honda?"
+    ],
+    "tv series": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Which tv series have a score composed by judy hard angelo?"
+    ],
+    "newspaper": [
+        "Newspaper",
+        "http://dbpedia.org/ontology/Newspaper",
+        "Which newspaper owned by Schibsted is published in Swedish ?"
+    ],
+    "parliament member": [
+        "MemberOfParliament",
+        "http://dbpedia.org/ontology/MemberOfParliament",
+        "What are the relatives of the parliament member whose successor is Peter Thorneycroft?"
+    ],
+    "volleyball player": [
+        "VolleyballPlayer",
+        "http://dbpedia.org/ontology/VolleyballPlayer",
+        "What is the hometown of the volleyball player whose club is VC Lokomotiv Novosibirsk ?"
+    ],
+    "music artist": [
+        "MusicalArtist",
+        "http://dbpedia.org/ontology/MusicalArtist",
+        "Name the music artist which collaborated with the spouse of Jessi Colter?"
+    ],
+    "comedian": [
+        "Comedian",
+        "http://dbpedia.org/ontology/Comedian",
+        "List the people who influenced the comedian who acted in Good Hair ?"
+    ],
+    "railway line": [
+        "RailwayLine",
+        "http://dbpedia.org/ontology/RailwayLine",
+        "Who operates the railway line which begins in Minneapolis?"
+    ],
+    "speedway league": [
+        "SpeedwayLeague",
+        "http://dbpedia.org/ontology/SpeedwayLeague",
+        "What is the nation of the speedway league where Ikaros Smederna played?"
+    ],
+    "American football player": [
+        "AmericanFootballPlayer",
+        "http://dbpedia.org/ontology/AmericanFootballPlayer",
+        "Which American football player is a former team player of Indianapolis Colts and current team is Michigan Wolverines?"
+    ],
+    "gymnasts": [
+        "Gymnast",
+        "http://dbpedia.org/ontology/Gymnast",
+        "What are some gymnasts coached by Amanda Reddin?"
+    ],
+    "continent": [
+        "Continent",
+        "http://dbpedia.org/ontology/Continent",
+        "In which continent do Air 2000 and Novair International airways operate?"
+    ],
+    "Artists": [
+        "Artist",
+        "http://dbpedia.org/ontology/Artist",
+        "Artists trained at art students league NY are buried where?"
+    ],
+    "skier": [
+        "Skier",
+        "http://dbpedia.org/ontology/Skier",
+        "What is the location of death of the skier who was the bronze medalist of Alpine skiing at the 1964 Winter Olympics  Men's slalom ?"
+    ],
+    "educational institutes": [
+        "EducationalInstitution",
+        "http://dbpedia.org/ontology/EducationalInstitution",
+        "Which educational institutes have campuses at Iowa and Indiana ?"
+    ],
+    "airplanes": [
+        "Aircraft",
+        "http://dbpedia.org/ontology/Aircraft",
+        "For which country did Alexander Lippisch design airplanes?"
+    ],
+    "baseball player": [
+        "BaseballPlayer",
+        "http://dbpedia.org/ontology/BaseballPlayer",
+        "What is the debut team of the baseball player who was born in Williamsburg, Kansas ?"
+    ],
+    "video games": [
+        "VideoGame",
+        "http://dbpedia.org/ontology/VideoGame",
+        "What are some video games whose music is composed by an employee of the company Creatures?"
+    ],
+    "comics characters": [
+        "ComicsCharacter",
+        "http://dbpedia.org/ontology/ComicsCharacter",
+        "Which are the comics characters painted by Bruce Timm and created by  Paul Dini?"
+    ],
+    "TV station": [
+        "TelevisionStation",
+        "http://dbpedia.org/ontology/TelevisionStation",
+        "Name the licensee of the TV station whose one of the licensee is Incorporation ?"
+    ],
+    "senators": [
+        "Senator",
+        "http://dbpedia.org/ontology/Senator",
+        "For all the senators who once studied in Sturm College of Law, give their burial place?"
+    ],
+    "politicians reside": [
+        "OfficeHolder",
+        "http://dbpedia.org/ontology/OfficeHolder",
+        "How many politicians reside in Cape Town?"
+    ],
+    "units": [
+        "MilitaryUnit",
+        "http://dbpedia.org/ontology/MilitaryUnit",
+        "What units are garrisoned in the Pentagon?"
+    ],
+    "military people": [
+        "MilitaryPerson",
+        "http://dbpedia.org/ontology/MilitaryPerson",
+        "Which military people served their allegiance to Union (American Civil War)?"
+    ],
+    "admin region": [
+        "AdministrativeRegion",
+        "http://dbpedia.org/ontology/AdministrativeRegion",
+        "List the border of the admin region which shares border with North Korea ?"
+    ],
+    "baseball players": [
+        "BaseballPlayer",
+        "http://dbpedia.org/ontology/BaseballPlayer",
+        "What are the baseball players who played for San Francisco Giants?"
+    ],
+    "train": [
+        "Train",
+        "http://dbpedia.org/ontology/Train",
+        "List all the operators of the train who operates in Budapest ?"
+    ],
+    "appliance": [
+        "InformationAppliance",
+        "http://dbpedia.org/ontology/InformationAppliance",
+        "Which appliance has cpu from Freescale Semiconductor and Marvell Technology Group?"
+    ],
+    "People": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "People who debuted from Houston Astros have played in which clubs?"
+    ],
+    "Radios": [
+        "RadioStation",
+        "http://dbpedia.org/ontology/RadioStation",
+        "Radios on what topics can be tuned in to in Washington DC?"
+    ],
+    "some shows": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Give me some shows related to the ones created by Russell Davies"
+    ],
+    "conflict": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "Who battled under commander Egushawa in a conflict?"
+    ],
+    "matches": [
+        "FootballMatch",
+        "http://dbpedia.org/ontology/FootballMatch",
+        "Where did some of the matches take place where Columbus Crew SC played?"
+    ],
+    "kings and queens": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "Where are the tombs of kings and queens who have died in England?"
+    ],
+    "soccer club seasons": [
+        "SoccerClubSeason",
+        "http://dbpedia.org/ontology/SoccerClubSeason",
+        "What is the home stadium of the soccer club seasons whose chairman is Merritt Paulson?"
+    ],
+    "monarch": [
+        "Monarch",
+        "http://dbpedia.org/ontology/Monarch",
+        "Name the veneration of the monarch who is the predecessor of Solomon?"
+    ],
+    "relative": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "Who is a famous relative of Aaround Van Heemstra?"
+    ],
+    "private universities": [
+        "Private_university",
+        "http://dbpedia.org/resource/Private_university",
+        "How many athletic associations are there in all of the private universities?"
+    ],
+    "golf player": [
+        "GolfPlayer",
+        "http://dbpedia.org/ontology/GolfPlayer",
+        "What is the nationality of the golf player who won the  2002 Players Championship ?"
+    ],
+    "flight companies": [
+        "Airline",
+        "http://dbpedia.org/ontology/Airline",
+        "Which continents can be reached by flight companies available on Gatwick Airport?"
+    ],
+    "veterans": [
+        "MilitaryPerson",
+        "http://dbpedia.org/ontology/MilitaryPerson",
+        "How many veterans are buried in the US?"
+    ],
+    "tennis players": [
+        "TennisPlayer",
+        "http://dbpedia.org/ontology/TennisPlayer",
+        "Which tennis players live in Kenthurst, new south wales?"
+    ],
+    "arch.": [
+        "Architect",
+        "http://dbpedia.org/ontology/Architect",
+        "List the significant buildings of the arch. whose one of the important work is Government Building, Kiev ?"
+    ],
+    "automobiles": [
+        "Automobile",
+        "http://dbpedia.org/ontology/Automobile",
+        "What is the layout of the automobiles whose designer company is Olivier Boulay?"
+    ],
+    "dude": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "What awards have been given to the dude who made Shaun the Sheep?"
+    ],
+    "office holders": [
+        "OfficeHolder",
+        "http://dbpedia.org/ontology/OfficeHolder",
+        "Give me all office holders who finally retired in Montpelier, Orange, Virgina?"
+    ],
+    "author": [
+        "Writer",
+        "http://dbpedia.org/ontology/Writer",
+        " Wringer (novel) and Maniac Magee is the notable work of which author?"
+    ],
+    "soccer club": [
+        "SoccerClub",
+        "http://dbpedia.org/ontology/SoccerClub",
+        "Name the stock holders of soccer club whose one of the stockholder is Carl Sanders ?"
+    ],
+    "members": [
+        "OrganisationMember",
+        "http://dbpedia.org/ontology/OrganisationMember",
+        "List the other members of the team where Jason Hayne currently plays?"
+    ],
+    "town": [
+        "Town",
+        "http://dbpedia.org/ontology/Town",
+        "Who is the leader of the town where the Myntdu river originates?"
+    ],
+    "language": [
+        "Language",
+        "http://dbpedia.org/ontology/Language",
+        "Which company developed the language designed by Lars Bak?"
+    ],
+    "army unit": [
+        "MilitaryUnit",
+        "http://dbpedia.org/ontology/MilitaryUnit",
+        "What is the mascot of the army unit whose commander is Peter Cosgrove ?"
+    ],
+    "rugby player": [
+        "RugbyPlayer",
+        "http://dbpedia.org/ontology/RugbyPlayer",
+        "List all the school of the rugby player whose one of the school is Michael House ?"
+    ],
+    "public transit system": [
+        "PublicTransitSystem",
+        "http://dbpedia.org/ontology/PublicTransitSystem",
+        "What is the headquarters of the public transit system which is the section of Red Ahead ?"
+    ],
+    "football teams": [
+        "AmericanFootballTeam",
+        "http://dbpedia.org/ontology/AmericanFootballTeam",
+        "Which football teams are in a city where Oakland Athletics were the tenants?"
+    ],
+    "cookies": [
+        "Cookie",
+        "http://dbpedia.org/resource/Cookie",
+        "Who all have created new kinds of cookies?"
+    ],
+    "athlete": [
+        "Athlete",
+        "http://dbpedia.org/ontology/Athlete",
+        "List the schools of the athlete with Balgowan as one of the school ?"
+    ],
+    "non for profit": [
+        "Non-ProfitOrganisation",
+        "http://dbpedia.org/ontology/Non-ProfitOrganisation",
+        "List all the co-founders of the non for profit which have founding member as David pressman ?"
+    ],
+    "soccer players": [
+        "SoccerPlayer",
+        "http://dbpedia.org/ontology/SoccerPlayer",
+        "Which soccer players are currently playing for NYC FC?"
+    ],
+    "party leaders": [
+        "Politician",
+        "http://dbpedia.org/ontology/Politician",
+        "How many party leaders are there whose parties are headquartered in Berlin?"
+    ],
+    "parliament members": [
+        "MemberOfParliament",
+        "http://dbpedia.org/ontology/MemberOfParliament",
+        "Where is the tombstone of the parliament members who served with James Roberts as the Vice President, US?"
+    ],
+    "entomologist": [
+        "Entomologist",
+        "http://dbpedia.org/ontology/Entomologist",
+        "What is the nationality of the entomologist who is a renowned authority of Smerinthus saliceti ?"
+    ],
+    "radio": [
+        "RadioStation",
+        "http://dbpedia.org/ontology/RadioStation",
+        "Where is the radio broadcasted in, whose sister station is CKFM-FM?"
+    ],
+    "royal people": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "Which royal people are buried in Rome?"
+    ],
+    "netball player": [
+        "NetballPlayer",
+        "http://dbpedia.org/ontology/NetballPlayer",
+        "What is the birthplace of the netball player who is the relative of Rachel Rasmussen ?"
+    ],
+    "researchers": [
+        "Scientist",
+        "http://dbpedia.org/ontology/Scientist",
+        "Which set of researchers won the Gold Medal of the Royal Astronomical Society award?"
+    ],
+    "song": [
+        "Song",
+        "http://dbpedia.org/ontology/Song",
+        "Who is the producer of the song which is the previous work of He's a Liar ?"
+    ],
+    "gadgets": [
+        "Device",
+        "http://dbpedia.org/ontology/Device",
+        "What are the gadgets whose manufacturing company is founded by Terry Gou?"
+    ],
+    "species": [
+        "Species",
+        "http://dbpedia.org/ontology/Species",
+        "To how many different species does the members of the Animal Kingdom belong?"
+    ],
+    "water bodies": [
+        "BodyOfWater",
+        "http://dbpedia.org/ontology/BodyOfWater",
+        "What water bodies are nearest to Helsinki city?"
+    ],
+    "formula one racer": [
+        "FormulaOneRacer",
+        "http://dbpedia.org/ontology/FormulaOneRacer",
+        "Which relative of ralf schumacher is a famous formula one racer?"
+    ],
+    "battles": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "In what battles did president Park Chung-hee participate?"
+    ],
+    "groups": [
+        "EthnicGroup",
+        "http://dbpedia.org/ontology/EthnicGroup",
+        "How many groups speak the English Language?"
+    ],
+    "corporations": [
+        "Company",
+        "http://dbpedia.org/ontology/Company",
+        "How many corporations were founded in Texas?"
+    ],
+    "network": [
+        "BroadcastNetwork",
+        "http://dbpedia.org/ontology/BroadcastNetwork",
+        "Where does the network cofounded by Seewoosagur Ramgoolam air its shows?"
+    ],
+    "artworks": [
+        "Artwork",
+        "http://dbpedia.org/ontology/Artwork",
+        "Whose artworks are in Sao Paulo Museum of Art?"
+    ],
+    "league": [
+        "SportsLeague",
+        "http://dbpedia.org/ontology/SportsLeague",
+        "Who founded the league which was won by Joe McKeehen?"
+    ],
+    "Stadium": [
+        "Stadium",
+        "http://dbpedia.org/ontology/Stadium",
+        "Who is the builder of the Stadium of Costa Rica women's national football team?"
+    ],
+    "Games": [
+        "VideoGame",
+        "http://dbpedia.org/ontology/VideoGame",
+        "Games on amiga are typically of what kind?"
+    ],
+    "Movie": [
+        "Film",
+        "http://dbpedia.org/ontology/Film",
+        "Movie's produced by Michael Deeley has Jordan Cronenweth as director of photography"
+    ],
+    "martial artists": [
+        "MartialArtist",
+        "http://dbpedia.org/ontology/MartialArtist",
+        "Give me all martial artists trained by Joe Schilling."
+    ],
+    "TV Episodes": [
+        "TelevisionEpisode",
+        "http://dbpedia.org/ontology/TelevisionEpisode",
+        "Who has given guest appearances on the TV Episodes whose was music done by Mama Makes 3?"
+    ],
+    "organization": [
+        "Organisation",
+        "http://dbpedia.org/ontology/Organisation",
+        "Give me the name of the organization hqed at  Chaeng Watthana Govt Complex?"
+    ],
+    "economist": [
+        "Economist",
+        "http://dbpedia.org/ontology/Economist",
+        "What is the nationality of the economist who is one of the important people in the Foundation for Economic Education?"
+    ],
+    "government agency": [
+        "GovernmentAgency",
+        "http://dbpedia.org/ontology/GovernmentAgency",
+        "Which government agency is run by Supachai Somcharoen?"
+    ],
+    "races": [
+        "HorseRace",
+        "http://dbpedia.org/ontology/HorseRace",
+        "Give me an estimate number of races where horses grandsired by the Wild Risk have raced in?"
+    ],
+    "name of the movie": [
+        "Film",
+        "http://dbpedia.org/ontology/Film",
+        "What is the name of the movie whose director of photography was Jordan Cronenweth and music composer was Vangelis?"
+    ],
+    "origins": [
+        "Place",
+        "http://dbpedia.org/ontology/Place",
+        "Count the different origins of members of the Vitis Vinifera species."
+    ],
+    "valley": [
+        "Valley",
+        "http://dbpedia.org/ontology/Valley",
+        "What cities are around the valley bordering Lake Mead?"
+    ],
+    "film": [
+        "Film",
+        "http://dbpedia.org/ontology/Film",
+        "List the film starring of the movies whose editor is Harvey  Rosenstock ?"
+    ],
+    "grape": [
+        "Grape",
+        "http://dbpedia.org/ontology/Grape",
+        "What is the origin of the grape whose wine region is the Troodos Mountains ?"
+    ],
+    "televion show": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Which televion show's theme music was given by Ron Grainer and is broadcasted by BBC HD ?"
+    ],
+    "team": [
+        "SportsTeam",
+        "http://dbpedia.org/ontology/SportsTeam",
+        "What team is famous for Robert Nederlander and also the debuting team of Gary Sanchez?"
+    ],
+    "genres of music": [
+        "MusicGenre",
+        "http://dbpedia.org/ontology/MusicGenre",
+        "From which genres of music did those genres emerge where drums are important?"
+    ],
+    "aristocrat": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "In which sects was the aristocrat venerated, whose parent is Thelred the Unready?"
+    ],
+    "states": [
+        "Place",
+        "http://dbpedia.org/ontology/Place",
+        "How many states are in the Mediterranean Basketball Association?"
+    ],
+    "roads": [
+        "Road",
+        "http://dbpedia.org/ontology/Road",
+        "To which US states does the roads belong which meet at the East Whiteland Township in Pennsylvania?"
+    ],
+    "wrestlers": [
+        "Wrestler",
+        "http://dbpedia.org/ontology/Wrestler",
+        "Name the states which have been billed by the wrestlers who has also billed Georgia ?"
+    ],
+    "battle": [
+        "MilitaryConflict",
+        "http://dbpedia.org/ontology/MilitaryConflict",
+        "Where was the battle fought where 2nd Foreign Infantry Regiment participated  ?"
+    ],
+    "governmental agencies": [
+        "GovernmentAgency",
+        "http://dbpedia.org/ontology/GovernmentAgency",
+        "Who had headed the governmental agencies whose admin HQ was in Niederkirchnerstrasse?"
+    ],
+    "basketball league": [
+        "BasketballLeague",
+        "http://dbpedia.org/ontology/BasketballLeague",
+        "What basketball league's champion is Golden State Warriors"
+    ],
+    "organisations": [
+        "Organisation",
+        "http://dbpedia.org/ontology/Organisation",
+        "What organisations purpose is Peace?"
+    ],
+    "mangas": [
+        "Manga",
+        "http://dbpedia.org/ontology/Manga",
+        "Who wrote the mangas produced by Masahike Minami?"
+    ],
+    "officers": [
+        "OfficeHolder",
+        "http://dbpedia.org/ontology/OfficeHolder",
+        "Which officers fought in the war of Siege of Fort Recovery?"
+    ],
+    "everything": [
+        "Work",
+        "http://dbpedia.org/ontology/Work",
+        "List everything written in languages developed by EXperimental Computing Facility?"
+    ],
+    "football team": [
+        "AmericanFootballTeam",
+        "http://dbpedia.org/ontology/AmericanFootballTeam",
+        "Which football team is in a city where A J Clark was a builder?"
+    ],
+    "railway tracks": [
+        "RailwayLine",
+        "http://dbpedia.org/ontology/RailwayLine",
+        "Where does the railway tracks start, which ends in Kazan?"
+    ],
+    "venues": [
+        "Venue",
+        "http://dbpedia.org/ontology/Venue",
+        "How many venues are located in the US?"
+    ],
+    "army men": [
+        "MilitaryPerson",
+        "http://dbpedia.org/ontology/MilitaryPerson",
+        "In which wars army men awarded with the Croix de Guerre, fought?"
+    ],
+    "Tv series": [
+        "TelevisionShow",
+        "http://dbpedia.org/ontology/TelevisionShow",
+        "Which Tv series led to Frasier?"
+    ],
+    "films": [
+        "Film",
+        "http://dbpedia.org/ontology/Film",
+        "What are the films whose atleast one cast member died due to Colorectal cancer?"
+    ],
+    "currencies": [
+        "Currency",
+        "http://dbpedia.org/ontology/Currency",
+        "How many currencies are in used in places where people speak French?"
+    ],
+    "music artists": [
+        "MusicalArtist",
+        "http://dbpedia.org/ontology/MusicalArtist",
+        "What is the birth place of music artists which were associated with Albert Ayler ?"
+    ],
+    "american football team": [
+        "AmericanFootballTeam",
+        "http://dbpedia.org/ontology/AmericanFootballTeam",
+        "Bud Adams owns which american football team?"
+    ],
+    "band members": [
+        "Person",
+        "http://dbpedia.org/ontology/Person",
+        "Count the band members of Skull Gang?"
+    ],
+    "computers": [
+        "InformationAppliance",
+        "http://dbpedia.org/ontology/InformationAppliance",
+        "Give me a list of computers whose CPU is in the US."
+    ],
+    "beverages": [
+        "Beverage",
+        "http://dbpedia.org/ontology/Beverage",
+        "What beverages originate in Leuven?"
+    ],
+    "presidents": [
+        "President",
+        "http://dbpedia.org/ontology/President",
+        "What are the different religions followed by presidents whose prime minister was Surayud Chulanont?"
+    ],
+    "broadcast networks": [
+        "BroadcastNetwork",
+        "http://dbpedia.org/ontology/BroadcastNetwork",
+        "Who are the shareholder of the broadcast networks whose owning company is Jamie Kellner?"
+    ],
+    "Prime minister": [
+        "PrimeMinister",
+        "http://dbpedia.org/ontology/PrimeMinister",
+        "The Prime minister who worked in the Khmer Issarak follows which religion?"
+    ],
+    "player": [
+        "Athlete",
+        "http://dbpedia.org/ontology/Athlete",
+        "Who is the player who plays for the team that has the Michigan Stadium?"
+    ],
+    "royal person": [
+        "Royalty",
+        "http://dbpedia.org/ontology/Royalty",
+        "Which royal person married the successor of Darius I?"
+    ],
+    "broadcast network": [
+        "BroadcastNetwork",
+        "http://dbpedia.org/ontology/BroadcastNetwork",
+        "Who owns the broadcast network founded by CNN?"
+    ],
+    "pole drivers": [
+        "FormulaOneRacer",
+        "http://dbpedia.org/ontology/FormulaOneRacer",
+        "How many different pole drivers are there, of the GPs when Renault was the first team?"
+    ],
+    "senate": [
+        "Politician",
+        "http://dbpedia.org/ontology/Politician",
+        "List the profession of senate whose one of the profession is United States Coast Guard ?"
+    ],
+    "military units": [
+        "MilitaryUnit",
+        "http://dbpedia.org/ontology/MilitaryUnit",
+        "Name the military units whose command structure's headquarters is The Pentagon?"
+    ],
+    "programming languages": [
+        "ProgrammingLanguage",
+        "http://dbpedia.org/ontology/ProgrammingLanguage",
+        "Who developed the programming languages designed by Rob Pike?"
+    ],
+    "tunnel": [
+        "RailwayTunnel",
+        "http://dbpedia.org/ontology/RailwayTunnel",
+        "Where is the tunnel, which is operated by BNSF railways?"
+    ],
+    "architects": [
+        "Architect",
+        "http://dbpedia.org/ontology/Architect",
+        "Terminal Station at Chattanooga is made by architects from which University?"
+    ],
+    "airport": [
+        "Airport",
+        "http://dbpedia.org/ontology/Airport",
+        "What is an airport inside ontario?"
+    ],
+    "molluscas": [
+        "Mollusca",
+        "http://dbpedia.org/ontology/Mollusca",
+        "What are a few molluscas whose family is Buccinidae?"
+    ],
+    "soccer seasons": [
+        "SoccerClubSeason",
+        "http://dbpedia.org/ontology/SoccerClubSeason",
+        "Where is the main ground of soccer seasons whose chairman is Ronaldo?"
+    ],
+    "device": [
+        "Device",
+        "http://dbpedia.org/ontology/Device",
+        "What is the device whose successor's CPU is by AMD?"
+    ],
+    "private schools": [
+        "Private_school",
+        "http://dbpedia.org/resource/Private_school",
+        "Which sports are played typically in private schools?"
+    ],
+    "island": [
+        "Island",
+        "http://dbpedia.org/ontology/Island",
+        "Name the island with archipelago as Society Islands and has the largest city named Faaa ?"
+    ]
+}

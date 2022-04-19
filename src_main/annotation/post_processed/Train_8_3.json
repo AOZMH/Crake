@@ -1,0 +1,4378 @@
+[
+    {
+        "_id": "642",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/products> <http://dbpedia.org/resource/Edsel_Ranger> . ?x <http://dbpedia.org/property/parent> ?uri  . }",
+        "question": "Which company owns the manufacturer of the Edsel Ranger?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <products> <Edsel_Ranger> .?x <parent> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "manufacturer",
+                "l_pos": 23,
+                "r_pos": 34
+            },
+            "http://dbpedia.org/resource/Edsel_Ranger": {
+                "name": "Edsel_Ranger",
+                "mention": "Edsel Ranger",
+                "l_pos": 43,
+                "r_pos": 54
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "company",
+                "l_pos": 6,
+                "r_pos": 12
+            }
+        }
+    },
+    {
+        "_id": "4635",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Irving_Chernev> <http://dbpedia.org/ontology/occupation> ?uri. <http://dbpedia.org/resource/Karen_Grigorian> <http://dbpedia.org/ontology/occupation> ?uri . }",
+        "question": "What is the occupation of the Irving Chernev and Karen Grigorian?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Irving_Chernev> <occupation> ?uri .<Karen_Grigorian> <occupation> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Irving_Chernev": {
+                "name": "Irving_Chernev",
+                "mention": "Irving Chernev",
+                "l_pos": 30,
+                "r_pos": 43
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "occupation",
+                "l_pos": 12,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Karen_Grigorian": {
+                "name": "Karen_Grigorian",
+                "mention": "Karen Grigorian",
+                "l_pos": 49,
+                "r_pos": 63
+            }
+        }
+    },
+    {
+        "_id": "84",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Zaman_Shah_Durrani> <http://dbpedia.org/property/title> ?uri. <http://dbpedia.org/resource/Salahuddin_Rabbani> <http://dbpedia.org/ontology/nationality> ?uri}",
+        "question": "Which title of Zaman Shah Durrani is also the nationality of Salahuddin ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Zaman_Shah_Durrani> <title> ?uri .<Salahuddin_Rabbani> <nationality> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Zaman_Shah_Durrani": {
+                "name": "Zaman_Shah_Durrani",
+                "mention": "Zaman Shah Durrani",
+                "l_pos": 15,
+                "r_pos": 32
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "title",
+                "l_pos": 6,
+                "r_pos": 10
+            },
+            "http://dbpedia.org/resource/Salahuddin_Rabbani": {
+                "name": "Salahuddin_Rabbani",
+                "mention": "Salahuddin",
+                "l_pos": 61,
+                "r_pos": 70
+            }
+        }
+    },
+    {
+        "_id": "4740",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/property/occupation> <http://dbpedia.org/resource/Screenwriter> . ?x <http://dbpedia.org/property/awards> ?uri  . }",
+        "question": "How many awards have been given to screenwriters?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <occupation> <Screenwriter> .?x <awards> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "screenwriters",
+                "l_pos": 35,
+                "r_pos": 47
+            },
+            "http://dbpedia.org/resource/Screenwriter": {
+                "name": "Screenwriter",
+                "mention": "screenwriters",
+                "l_pos": 35,
+                "r_pos": 47
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "awards",
+                "l_pos": 9,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "2351",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Doctor_Who:_Evacuation_Earth> <http://dbpedia.org/ontology/series> ?uri }",
+        "question": "Name the series of Doctor Who: Evacuation Earth ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Doctor_Who:_Evacuation_Earth> <series> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Doctor_Who:_Evacuation_Earth": {
+                "name": "Doctor_Who:_Evacuation_Earth",
+                "mention": "Doctor Who: Evacuation Earth",
+                "l_pos": 19,
+                "r_pos": 46
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "series",
+                "l_pos": 9,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "3899",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/1993_European_Grand_Prix> <http://dbpedia.org/property/firstDriver> ?uri }",
+        "question": "Which driver came first in the 1993 European Grand Prix ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <1993_European_Grand_Prix> <firstDriver> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/1993_European_Grand_Prix": {
+                "name": "1993_European_Grand_Prix",
+                "mention": "1993 European Grand Prix",
+                "l_pos": 31,
+                "r_pos": 54
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "driver",
+                "l_pos": 6,
+                "r_pos": 11
+            }
+        }
+    },
+    {
+        "_id": "1590",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/notableInstruments> <http://dbpedia.org/resource/PRS_Guitars> . ?uri <http://dbpedia.org/property/currentMembers> ?x  . }",
+        "question": "Whose band members are known to play a PRS guitar?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <notableInstruments> <PRS_Guitars> .?uri <currentMembers> ?x . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "members",
+                "l_pos": 11,
+                "r_pos": 17
+            },
+            "http://dbpedia.org/resource/PRS_Guitars": {
+                "name": "PRS_Guitars",
+                "mention": "PRS guitar",
+                "l_pos": 39,
+                "r_pos": 48
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Whose",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "3794",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/employer> <http://dbpedia.org/resource/Detroit_Red_Wings> . ?x <http://dbpedia.org/ontology/residence> ?uri  . }",
+        "question": "Where do employees of Deroit Red Wings live?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <employer> <Detroit_Red_Wings> .?x <residence> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "employees",
+                "l_pos": 9,
+                "r_pos": 17
+            },
+            "http://dbpedia.org/resource/Detroit_Red_Wings": {
+                "name": "Detroit_Red_Wings",
+                "mention": "Deroit Red Wings",
+                "l_pos": 22,
+                "r_pos": 37
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "2370",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Levi_Lincoln,_Sr.> <http://dbpedia.org/property/successor> ?uri. <http://dbpedia.org/resource/William_Clark> <http://dbpedia.org/property/appointer> ?uri}",
+        "question": "Which appointer of William Clark is the successor of Levi Lincoln Sr ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Levi_Lincoln,_Sr.> <successor> ?uri .<William_Clark> <appointer> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Levi_Lincoln,_Sr.": {
+                "name": "Levi_Lincoln,_Sr.",
+                "mention": "Levi Lincoln Sr",
+                "l_pos": 53,
+                "r_pos": 67
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "appointer",
+                "l_pos": 6,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/resource/William_Clark": {
+                "name": "William_Clark",
+                "mention": "William Clark",
+                "l_pos": 19,
+                "r_pos": 31
+            }
+        }
+    },
+    {
+        "_id": "4863",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Fr._Agnel_Multipurpose_School_and_Junior_College> <http://dbpedia.org/ontology/sport> ?uri. <http://dbpedia.org/resource/Jamiatu_Muslim_Mindanao> <http://dbpedia.org/ontology/athletics> ?uri}",
+        "question": "List the common sports between Fr. Agnel Multipurpose School  and Jamiatu Muslim Mindanao",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Fr._Agnel_Multipurpose_School_and_Junior_College> <sport> ?uri .<Jamiatu_Muslim_Mindanao> <athletics> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Fr._Agnel_Multipurpose_School_and_Junior_College": {
+                "name": "Fr._Agnel_Multipurpose_School_and_Junior_College",
+                "mention": "Fr. Agnel Multipurpose School",
+                "l_pos": 31,
+                "r_pos": 59
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "sports",
+                "l_pos": 16,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Jamiatu_Muslim_Mindanao": {
+                "name": "Jamiatu_Muslim_Mindanao",
+                "mention": "Jamiatu Muslim Mindanao",
+                "l_pos": 66,
+                "r_pos": 88
+            }
+        }
+    },
+    {
+        "_id": "4483",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/U.S._Route_59> <http://dbpedia.org/property/junction> ?uri }",
+        "question": "Name all the junctions of U.S. Route 59?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <U.S._Route_59> <junction> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/U.S._Route_59": {
+                "name": "U.S._Route_59",
+                "mention": "U.S. Route 59",
+                "l_pos": 26,
+                "r_pos": 38
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "junctions",
+                "l_pos": 13,
+                "r_pos": 21
+            }
+        }
+    },
+    {
+        "_id": "3268",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/property/battles> <http://dbpedia.org/resource/Operation_Dragoon> . ?x <http://dbpedia.org/ontology/award> ?uri  . }",
+        "question": "How many titles were given to people who engaged in the Operation Dragoon?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <battles> <Operation_Dragoon> .?x <award> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "people",
+                "l_pos": 30,
+                "r_pos": 35
+            },
+            "http://dbpedia.org/resource/Operation_Dragoon": {
+                "name": "Operation_Dragoon",
+                "mention": "Operation Dragoon",
+                "l_pos": 56,
+                "r_pos": 72
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "titles",
+                "l_pos": 9,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "3625",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/successor> <http://dbpedia.org/resource/PlayStation_4> . ?uri <http://dbpedia.org/property/manufacturer> <http://dbpedia.org/resource/Foxconn>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/InformationAppliance>}",
+        "question": "What is the information appliance whose successor is PlayStation 4 and maker is Foxconn?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <successor> <PlayStation_4> .?uri <manufacturer> <Foxconn> .?uri <22-rdf-syntax-ns#type> <InformationAppliance> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "information appliance",
+                "l_pos": 12,
+                "r_pos": 32
+            },
+            "http://dbpedia.org/resource/PlayStation_4": {
+                "name": "PlayStation_4",
+                "mention": "PlayStation 4",
+                "l_pos": 53,
+                "r_pos": 65
+            },
+            "http://dbpedia.org/resource/Foxconn": {
+                "name": "Foxconn",
+                "mention": "Foxconn",
+                "l_pos": 80,
+                "r_pos": 86
+            },
+            "http://dbpedia.org/ontology/InformationAppliance": {
+                "name": "InformationAppliance",
+                "mention": "information appliance",
+                "l_pos": 12,
+                "r_pos": 32
+            }
+        }
+    },
+    {
+        "_id": "893",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/Walt_Disney_Studios_(division)> <http://dbpedia.org/ontology/subsidiary> <http://dbpedia.org/resource/Pixar> }",
+        "question": "Does Walt Disney Studio have a subsidiary called PixarCascadia_",
+        "readable_sparql": "ASK WHERE { <Walt_Disney_Studios_(division)> <subsidiary> <Pixar> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Walt_Disney_Studios_(division)": {
+                "name": "Walt_Disney_Studios_(division)",
+                "mention": "Walt Disney Studio",
+                "l_pos": 5,
+                "r_pos": 22
+            },
+            "http://dbpedia.org/resource/Pixar": {
+                "name": "Pixar",
+                "mention": "Pixar",
+                "l_pos": 49,
+                "r_pos": 53
+            }
+        }
+    },
+    {
+        "_id": "1961",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE {?uri <http://dbpedia.org/property/currentclub> <http://dbpedia.org/resource/New_York_City_FC>  . }",
+        "question": "How many people currently play for the NYC FC?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?uri <currentclub> <New_York_City_FC> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "people",
+                "l_pos": 9,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/resource/New_York_City_FC": {
+                "name": "New_York_City_FC",
+                "mention": "NYC FC",
+                "l_pos": 39,
+                "r_pos": 44
+            }
+        }
+    },
+    {
+        "_id": "2292",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/fields> <http://dbpedia.org/resource/Sanskrit> . ?x <http://dbpedia.org/property/fields> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>}",
+        "question": "List the fields of the scientists with Sanskrit as one of the interest ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <fields> <Sanskrit> .?x <fields> ?uri .?x <22-rdf-syntax-ns#type> <Scientist> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "scientists",
+                "l_pos": 23,
+                "r_pos": 32
+            },
+            "http://dbpedia.org/resource/Sanskrit": {
+                "name": "Sanskrit",
+                "mention": "Sanskrit",
+                "l_pos": 39,
+                "r_pos": 46
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "fields",
+                "l_pos": 9,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/ontology/Scientist": {
+                "name": "Scientist",
+                "mention": "scientists",
+                "l_pos": 23,
+                "r_pos": 32
+            }
+        }
+    },
+    {
+        "_id": "811",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/Charat_District> <http://dbpedia.org/property/settlementType> <http://dbpedia.org/resource/Districts_of_Peru> }",
+        "question": "Is the charat district a district in peru?",
+        "readable_sparql": "ASK WHERE { <Charat_District> <settlementType> <Districts_of_Peru> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Charat_District": {
+                "name": "Charat_District",
+                "mention": "charat district",
+                "l_pos": 7,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Districts_of_Peru": {
+                "name": "Districts_of_Peru",
+                "mention": "district in peru",
+                "l_pos": 25,
+                "r_pos": 40
+            }
+        }
+    },
+    {
+        "_id": "4410",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/builder> <http://dbpedia.org/resource/Charles_V,_Holy_Roman_Emperor> . ?uri <http://dbpedia.org/ontology/deathPlace> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>}",
+        "question": "Which politicians died in cities built by the Roman emperor Charles 5?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <builder> <Charles_V,_Holy_Roman_Emperor> .?uri <deathPlace> ?x .?uri <22-rdf-syntax-ns#type> <OfficeHolder> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "cities",
+                "l_pos": 26,
+                "r_pos": 31
+            },
+            "http://dbpedia.org/resource/Charles_V,_Holy_Roman_Emperor": {
+                "name": "Charles_V,_Holy_Roman_Emperor",
+                "mention": "Roman emperor Charles 5",
+                "l_pos": 46,
+                "r_pos": 68
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "politicians",
+                "l_pos": 6,
+                "r_pos": 16
+            },
+            "http://dbpedia.org/ontology/OfficeHolder": {
+                "name": "OfficeHolder",
+                "mention": "politicians",
+                "l_pos": 6,
+                "r_pos": 16
+            }
+        }
+    },
+    {
+        "_id": "1292",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/Honeybuns> <http://dbpedia.org/ontology/previousWork> <http://dbpedia.org/resource/Wahoo!> }",
+        "question": "Is Wahoo! the previous work of Honeybuns?",
+        "readable_sparql": "ASK WHERE { <Honeybuns> <previousWork> <Wahoo!> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Honeybuns": {
+                "name": "Honeybuns",
+                "mention": "Honeybuns",
+                "l_pos": 31,
+                "r_pos": 39
+            },
+            "http://dbpedia.org/resource/Wahoo!": {
+                "name": "Wahoo!",
+                "mention": "Wahoo!",
+                "l_pos": 3,
+                "r_pos": 8
+            }
+        }
+    },
+    {
+        "_id": "219",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/architect> <http://dbpedia.org/resource/Populous_(company)> . ?x <http://dbpedia.org/ontology/tenant> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Stadium>}",
+        "question": "Who all have rented the stadium whose architect is Populous?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <architect> <Populous_(company)> .?x <tenant> ?uri .?x <22-rdf-syntax-ns#type> <Stadium> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "stadium",
+                "l_pos": 24,
+                "r_pos": 30
+            },
+            "http://dbpedia.org/resource/Populous_(company)": {
+                "name": "Populous_(company)",
+                "mention": "Populous",
+                "l_pos": 51,
+                "r_pos": 58
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            },
+            "http://dbpedia.org/ontology/Stadium": {
+                "name": "Stadium",
+                "mention": "stadium",
+                "l_pos": 24,
+                "r_pos": 30
+            }
+        }
+    },
+    {
+        "_id": "4480",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/species> <http://dbpedia.org/resource/American_Pekin_duck> . ?uri <http://dbpedia.org/property/relatives> <http://dbpedia.org/resource/Ludwig_Von_Drake>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FictionalCharacter>}",
+        "question": "Name the fictional character whose species is American Pekin duck and has relatives named Ludwig Von Drake?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <species> <American_Pekin_duck> .?uri <relatives> <Ludwig_Von_Drake> .?uri <22-rdf-syntax-ns#type> <FictionalCharacter> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "fictional character",
+                "l_pos": 9,
+                "r_pos": 27
+            },
+            "http://dbpedia.org/resource/American_Pekin_duck": {
+                "name": "American_Pekin_duck",
+                "mention": "American Pekin duck",
+                "l_pos": 46,
+                "r_pos": 64
+            },
+            "http://dbpedia.org/resource/Ludwig_Von_Drake": {
+                "name": "Ludwig_Von_Drake",
+                "mention": "Ludwig Von Drake",
+                "l_pos": 90,
+                "r_pos": 105
+            },
+            "http://dbpedia.org/ontology/FictionalCharacter": {
+                "name": "FictionalCharacter",
+                "mention": "fictional character",
+                "l_pos": 9,
+                "r_pos": 27
+            }
+        }
+    },
+    {
+        "_id": "3142",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/restingplace> <http://dbpedia.org/resource/United_First_Parish_Church> . ?uri <http://dbpedia.org/ontology/vicePresident> ?x  . }",
+        "question": "Who served a vice president buried in United First Parish Church?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <restingplace> <United_First_Parish_Church> .?uri <vicePresident> ?x . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "vice president",
+                "l_pos": 13,
+                "r_pos": 26
+            },
+            "http://dbpedia.org/resource/United_First_Parish_Church": {
+                "name": "United_First_Parish_Church",
+                "mention": "United First Parish Church",
+                "l_pos": 38,
+                "r_pos": 63
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "2298",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/John_Randolph_of_Roanoke>  . }",
+        "question": "Who are the predecessors of John Randolph of Roanoke?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <predecessor> <John_Randolph_of_Roanoke> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "predecessors",
+                "l_pos": 12,
+                "r_pos": 23
+            },
+            "http://dbpedia.org/resource/John_Randolph_of_Roanoke": {
+                "name": "John_Randolph_of_Roanoke",
+                "mention": "John Randolph of Roanoke",
+                "l_pos": 28,
+                "r_pos": 51
+            }
+        }
+    },
+    {
+        "_id": "4880",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE {?uri <http://dbpedia.org/ontology/recordLabel> <http://dbpedia.org/resource/Kobalt_Label_Services>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Band>}",
+        "question": "How many bands are signed up with Kobalt Label Services?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?uri <recordLabel> <Kobalt_Label_Services> .?uri <22-rdf-syntax-ns#type> <Band> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "bands",
+                "l_pos": 9,
+                "r_pos": 13
+            },
+            "http://dbpedia.org/resource/Kobalt_Label_Services": {
+                "name": "Kobalt_Label_Services",
+                "mention": "Kobalt Label Services",
+                "l_pos": 34,
+                "r_pos": 54
+            },
+            "http://dbpedia.org/ontology/Band": {
+                "name": "Band",
+                "mention": "bands",
+                "l_pos": 9,
+                "r_pos": 13
+            }
+        }
+    },
+    {
+        "_id": "1876",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/creator> <http://dbpedia.org/resource/Ted_Osborne> . ?uri <http://dbpedia.org/property/relatives> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FictionalCharacter>}",
+        "question": "Which fictional character's relatives were made by Ted Osborne?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <creator> <Ted_Osborne> .?uri <relatives> ?x .?uri <22-rdf-syntax-ns#type> <FictionalCharacter> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "relatives",
+                "l_pos": 28,
+                "r_pos": 36
+            },
+            "http://dbpedia.org/resource/Ted_Osborne": {
+                "name": "Ted_Osborne",
+                "mention": "Ted Osborne",
+                "l_pos": 51,
+                "r_pos": 61
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "fictional character",
+                "l_pos": 6,
+                "r_pos": 24
+            },
+            "http://dbpedia.org/ontology/FictionalCharacter": {
+                "name": "FictionalCharacter",
+                "mention": "fictional character",
+                "l_pos": 6,
+                "r_pos": 24
+            }
+        }
+    },
+    {
+        "_id": "3226",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/mother> <http://dbpedia.org/resource/Cleopatra_V_of_Egypt> }",
+        "question": "Cleopatra V of Egypt is father to which royalty?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <mother> <Cleopatra_V_of_Egypt> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "royalty",
+                "l_pos": 40,
+                "r_pos": 46
+            },
+            "http://dbpedia.org/resource/Cleopatra_V_of_Egypt": {
+                "name": "Cleopatra_V_of_Egypt",
+                "mention": "Cleopatra V of Egypt",
+                "l_pos": 0,
+                "r_pos": 19
+            }
+        }
+    },
+    {
+        "_id": "4252",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/honours> <http://dbpedia.org/resource/National_Museum_of_Racing_and_Hall_of_Fame> . ?x <http://dbpedia.org/ontology/birthPlace> ?uri  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Place>}",
+        "question": "Count the birthplaces of recepients of the National Museum of Racing and Hall of Fame.",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <honours> <National_Museum_of_Racing_and_Hall_of_Fame> .?x <birthPlace> ?uri .?uri <22-rdf-syntax-ns#type> <Place> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "recepients",
+                "l_pos": 25,
+                "r_pos": 34
+            },
+            "http://dbpedia.org/resource/National_Museum_of_Racing_and_Hall_of_Fame": {
+                "name": "National_Museum_of_Racing_and_Hall_of_Fame",
+                "mention": "National Museum of Racing and Hall of Fame",
+                "l_pos": 43,
+                "r_pos": 84
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "birthplaces",
+                "l_pos": 10,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/ontology/Place": {
+                "name": "Place",
+                "mention": "birthplaces",
+                "l_pos": 10,
+                "r_pos": 20
+            }
+        }
+    },
+    {
+        "_id": "195",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Charles_Pinckney_(governor)> <http://dbpedia.org/ontology/successor> ?x . ?x <http://dbpedia.org/property/appointer> ?uri  . }",
+        "question": "Who appointed the successor of Charles Pinckney ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Charles_Pinckney_(governor)> <successor> ?x .?x <appointer> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Charles_Pinckney_(governor)": {
+                "name": "Charles_Pinckney_(governor)",
+                "mention": "Charles Pinckney",
+                "l_pos": 31,
+                "r_pos": 46
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "successor",
+                "l_pos": 18,
+                "r_pos": 26
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "2463",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/Siege_of_Fort_Recovery> . ?uri <http://dbpedia.org/property/branch> <http://dbpedia.org/resource/Indiana_Territory>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>}",
+        "question": "Name the office holder whose theatre is Siege of Fort Recovery and belongs to Indian territory branch ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <battle> <Siege_of_Fort_Recovery> .?uri <branch> <Indiana_Territory> .?uri <22-rdf-syntax-ns#type> <OfficeHolder> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "office holder",
+                "l_pos": 9,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Siege_of_Fort_Recovery": {
+                "name": "Siege_of_Fort_Recovery",
+                "mention": "Siege of Fort Recovery",
+                "l_pos": 40,
+                "r_pos": 61
+            },
+            "http://dbpedia.org/resource/Indiana_Territory": {
+                "name": "Indiana_Territory",
+                "mention": "Indian territory",
+                "l_pos": 78,
+                "r_pos": 93
+            },
+            "http://dbpedia.org/ontology/OfficeHolder": {
+                "name": "OfficeHolder",
+                "mention": "office holder",
+                "l_pos": 9,
+                "r_pos": 21
+            }
+        }
+    },
+    {
+        "_id": "3185",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <http://dbpedia.org/resource/Cadillac_Fleetwood> <http://dbpedia.org/property/related> ?x . ?x <http://dbpedia.org/ontology/predecessor> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Automobile>}",
+        "question": "How many cars succeeded the cars which were similar to Cadillac Fleetwood?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <Cadillac_Fleetwood> <related> ?x .?x <predecessor> ?uri .?x <22-rdf-syntax-ns#type> <Automobile> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Cadillac_Fleetwood": {
+                "name": "Cadillac_Fleetwood",
+                "mention": "Cadillac Fleetwood",
+                "l_pos": 55,
+                "r_pos": 72
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "cars",
+                "l_pos": 28,
+                "r_pos": 31
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "cars",
+                "l_pos": 9,
+                "r_pos": 12
+            },
+            "http://dbpedia.org/ontology/Automobile": {
+                "name": "Automobile",
+                "mention": "cars",
+                "l_pos": 28,
+                "r_pos": 31
+            }
+        }
+    },
+    {
+        "_id": "4053",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Edward_O._Wolcott> <http://dbpedia.org/property/successor> ?x . ?x <http://dbpedia.org/ontology/restingPlace> ?uri  . }",
+        "question": "Where is the tombstone of the successor of Edward Wolcott?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Edward_O._Wolcott> <successor> ?x .?x <restingPlace> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Edward_O._Wolcott": {
+                "name": "Edward_O._Wolcott",
+                "mention": "Edward Wolcott",
+                "l_pos": 43,
+                "r_pos": 56
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "successor",
+                "l_pos": 30,
+                "r_pos": 38
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "tombstone",
+                "l_pos": 13,
+                "r_pos": 21
+            }
+        }
+    },
+    {
+        "_id": "2794",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Coneygree> <http://dbpedia.org/property/race> ?uri }",
+        "question": "In which races does Coneygree compete?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Coneygree> <race> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Coneygree": {
+                "name": "Coneygree",
+                "mention": "Coneygree",
+                "l_pos": 20,
+                "r_pos": 28
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "races",
+                "l_pos": 9,
+                "r_pos": 13
+            }
+        }
+    },
+    {
+        "_id": "1721",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/workInstitutions> <http://dbpedia.org/resource/University_of_Miami> . ?x <http://dbpedia.org/property/workInstitutions> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Medician>}",
+        "question": "List the work institute of the medicians who has also worked at University of Miami ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <workInstitutions> <University_of_Miami> .?x <workInstitutions> ?uri .?x <22-rdf-syntax-ns#type> <Medician> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "medicians",
+                "l_pos": 31,
+                "r_pos": 39
+            },
+            "http://dbpedia.org/resource/University_of_Miami": {
+                "name": "University_of_Miami",
+                "mention": "University of Miami",
+                "l_pos": 64,
+                "r_pos": 82
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "work institute",
+                "l_pos": 9,
+                "r_pos": 22
+            },
+            "http://dbpedia.org/ontology/Medician": {
+                "name": "Medician",
+                "mention": "medicians",
+                "l_pos": 31,
+                "r_pos": 39
+            }
+        }
+    },
+    {
+        "_id": "3165",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Tales_of_Suspense> <http://dbpedia.org/property/writers> ?uri. <http://dbpedia.org/resource/Karakuri_D\u00f4ji_Ultimo> <http://dbpedia.org/property/author> ?uri}",
+        "question": "Which writer of Tales of Suspense is also the writer of karakuri Dji Ultimo ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Tales_of_Suspense> <writers> ?uri .<Karakuri_D\u00f4ji_Ultimo> <author> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Tales_of_Suspense": {
+                "name": "Tales_of_Suspense",
+                "mention": "Tales of Suspense",
+                "l_pos": 16,
+                "r_pos": 32
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "writer",
+                "l_pos": 6,
+                "r_pos": 11
+            },
+            "http://dbpedia.org/resource/Karakuri_D\u00f4ji_Ultimo": {
+                "name": "Karakuri_D\u00f4ji_Ultimo",
+                "mention": "karakuri Dji Ultimo",
+                "l_pos": 56,
+                "r_pos": 74
+            }
+        }
+    },
+    {
+        "_id": "2722",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/presenter> <http://dbpedia.org/resource/Ryan_Seacrest> . ?uri <http://dbpedia.org/ontology/channel> <http://dbpedia.org/resource/Fox_Broadcasting_Company>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}",
+        "question": "Name the TV show broadcasted by Fox and presented by Ryan Seacrest ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <presenter> <Ryan_Seacrest> .?uri <channel> <Fox_Broadcasting_Company> .?uri <22-rdf-syntax-ns#type> <TelevisionShow> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "TV show",
+                "l_pos": 9,
+                "r_pos": 15
+            },
+            "http://dbpedia.org/resource/Ryan_Seacrest": {
+                "name": "Ryan_Seacrest",
+                "mention": "Ryan Seacrest",
+                "l_pos": 53,
+                "r_pos": 65
+            },
+            "http://dbpedia.org/resource/Fox_Broadcasting_Company": {
+                "name": "Fox_Broadcasting_Company",
+                "mention": "Fox",
+                "l_pos": 32,
+                "r_pos": 34
+            },
+            "http://dbpedia.org/ontology/TelevisionShow": {
+                "name": "TelevisionShow",
+                "mention": "TV show",
+                "l_pos": 9,
+                "r_pos": 15
+            }
+        }
+    },
+    {
+        "_id": "4650",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/knownFor> <http://dbpedia.org/resource/Young_Life> . ?x <http://dbpedia.org/ontology/deathPlace> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>}",
+        "question": "Where did the people die who were known for Young Life?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <knownFor> <Young_Life> .?x <deathPlace> ?uri .?x <22-rdf-syntax-ns#type> <Person> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "people",
+                "l_pos": 14,
+                "r_pos": 19
+            },
+            "http://dbpedia.org/resource/Young_Life": {
+                "name": "Young_Life",
+                "mention": "Young Life",
+                "l_pos": 44,
+                "r_pos": 53
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            },
+            "http://dbpedia.org/ontology/Person": {
+                "name": "Person",
+                "mention": "people",
+                "l_pos": 14,
+                "r_pos": 19
+            }
+        }
+    },
+    {
+        "_id": "3732",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/school> <http://dbpedia.org/resource/Robert_Morris_Colonials_football> . ?x <http://dbpedia.org/property/highschool> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AmericanFootballPlayer>}",
+        "question": "What is the highschool of the american football player who joined the Robert Morris Colonials program?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <school> <Robert_Morris_Colonials_football> .?x <highschool> ?uri .?x <22-rdf-syntax-ns#type> <AmericanFootballPlayer> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "american football player",
+                "l_pos": 30,
+                "r_pos": 53
+            },
+            "http://dbpedia.org/resource/Robert_Morris_Colonials_football": {
+                "name": "Robert_Morris_Colonials_football",
+                "mention": "Robert Morris Colonials",
+                "l_pos": 70,
+                "r_pos": 92
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "highschool",
+                "l_pos": 12,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/ontology/AmericanFootballPlayer": {
+                "name": "AmericanFootballPlayer",
+                "mention": "american football player",
+                "l_pos": 30,
+                "r_pos": 53
+            }
+        }
+    },
+    {
+        "_id": "1503",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/mainInterest> <http://dbpedia.org/resource/Feminism_in_Canada> . ?x <http://dbpedia.org/property/region> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Philosopher>}",
+        "question": "Where are the philosophers from, whose main work is on the matter of feminism in Canada?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <mainInterest> <Feminism_in_Canada> .?x <region> ?uri .?x <22-rdf-syntax-ns#type> <Philosopher> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "philosophers",
+                "l_pos": 14,
+                "r_pos": 25
+            },
+            "http://dbpedia.org/resource/Feminism_in_Canada": {
+                "name": "Feminism_in_Canada",
+                "mention": "feminism in Canada",
+                "l_pos": 69,
+                "r_pos": 86
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            },
+            "http://dbpedia.org/ontology/Philosopher": {
+                "name": "Philosopher",
+                "mention": "philosophers",
+                "l_pos": 14,
+                "r_pos": 25
+            }
+        }
+    },
+    {
+        "_id": "96",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Playboy_Enterprises> <http://dbpedia.org/property/products> ?uri }",
+        "question": "List the products of Playboy Enterprises?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Playboy_Enterprises> <products> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Playboy_Enterprises": {
+                "name": "Playboy_Enterprises",
+                "mention": "Playboy Enterprises",
+                "l_pos": 21,
+                "r_pos": 39
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "products",
+                "l_pos": 9,
+                "r_pos": 16
+            }
+        }
+    },
+    {
+        "_id": "2984",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Jimmy_Wales> <http://dbpedia.org/ontology/board> ?uri }",
+        "question": "Who are in the board of Jimmy Wales ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Jimmy_Wales> <board> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Jimmy_Wales": {
+                "name": "Jimmy_Wales",
+                "mention": "Jimmy Wales",
+                "l_pos": 24,
+                "r_pos": 34
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "3022",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <http://dbpedia.org/resource/The_Other_Side_(The_Outer_Limits)> <http://dbpedia.org/property/guests> ?uri  . }",
+        "question": "The Other Side has hosted how many guests?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <The_Other_Side_(The_Outer_Limits)> <guests> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/The_Other_Side_(The_Outer_Limits)": {
+                "name": "The_Other_Side_(The_Outer_Limits)",
+                "mention": "The Other Side",
+                "l_pos": 0,
+                "r_pos": 13
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "guests",
+                "l_pos": 35,
+                "r_pos": 40
+            }
+        }
+    },
+    {
+        "_id": "4368",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/subsidiary> <http://dbpedia.org/resource/Tandem_Computers> . ?uri <http://dbpedia.org/ontology/foundedBy> <http://dbpedia.org/resource/Jim_Harris_(entrepreneur)>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>}",
+        "question": "Name the subsidary of Tandem Computers which was founded by Jim Harris ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <subsidiary> <Tandem_Computers> .?uri <foundedBy> <Jim_Harris_(entrepreneur)> .?uri <22-rdf-syntax-ns#type> <Company> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "subsidary",
+                "l_pos": 9,
+                "r_pos": 17
+            },
+            "http://dbpedia.org/resource/Tandem_Computers": {
+                "name": "Tandem_Computers",
+                "mention": "Tandem Computers",
+                "l_pos": 22,
+                "r_pos": 37
+            },
+            "http://dbpedia.org/resource/Jim_Harris_(entrepreneur)": {
+                "name": "Jim_Harris_(entrepreneur)",
+                "mention": "Jim Harris",
+                "l_pos": 60,
+                "r_pos": 69
+            },
+            "http://dbpedia.org/ontology/Company": {
+                "name": "Company",
+                "mention": "subsidary",
+                "l_pos": 9,
+                "r_pos": 17
+            }
+        }
+    },
+    {
+        "_id": "4900",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/producer> <http://dbpedia.org/resource/Stephen_E._Ambrose> . ?uri <http://dbpedia.org/ontology/company> <http://dbpedia.org/resource/DreamWorks_Television>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}",
+        "question": "Which TV show's producer is Stephen E. Ambrose and company is DreamWorks Television?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <producer> <Stephen_E._Ambrose> .?uri <company> <DreamWorks_Television> .?uri <22-rdf-syntax-ns#type> <TelevisionShow> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "TV show",
+                "l_pos": 6,
+                "r_pos": 12
+            },
+            "http://dbpedia.org/resource/Stephen_E._Ambrose": {
+                "name": "Stephen_E._Ambrose",
+                "mention": "Stephen E. Ambrose",
+                "l_pos": 28,
+                "r_pos": 45
+            },
+            "http://dbpedia.org/resource/DreamWorks_Television": {
+                "name": "DreamWorks_Television",
+                "mention": "DreamWorks Television",
+                "l_pos": 62,
+                "r_pos": 82
+            },
+            "http://dbpedia.org/ontology/TelevisionShow": {
+                "name": "TelevisionShow",
+                "mention": "TV show",
+                "l_pos": 6,
+                "r_pos": 12
+            }
+        }
+    },
+    {
+        "_id": "2980",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Vishwajyot_High_School> <http://dbpedia.org/ontology/sport> ?uri }",
+        "question": "What sports are played at Vishwajyot High School?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Vishwajyot_High_School> <sport> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Vishwajyot_High_School": {
+                "name": "Vishwajyot_High_School",
+                "mention": "Vishwajyot High School",
+                "l_pos": 26,
+                "r_pos": 47
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "sports",
+                "l_pos": 5,
+                "r_pos": 10
+            }
+        }
+    },
+    {
+        "_id": "2251",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/property/hairColor> <http://dbpedia.org/resource/Brown_hair> . ?x <http://dbpedia.org/property/title> ?uri  . }",
+        "question": "How many titles have been won by the beauty queens which had brown hair?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <hairColor> <Brown_hair> .?x <title> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "beauty queens",
+                "l_pos": 37,
+                "r_pos": 49
+            },
+            "http://dbpedia.org/resource/Brown_hair": {
+                "name": "Brown_hair",
+                "mention": "brown hair",
+                "l_pos": 61,
+                "r_pos": 70
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "titles",
+                "l_pos": 9,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "1862",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/hometown> <http://dbpedia.org/resource/Volos> . ?uri <http://dbpedia.org/property/music> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>}",
+        "question": "What are the movies whose musicians's home town is Volos?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <hometown> <Volos> .?uri <music> ?x .?uri <22-rdf-syntax-ns#type> <Film> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "musicians",
+                "l_pos": 26,
+                "r_pos": 34
+            },
+            "http://dbpedia.org/resource/Volos": {
+                "name": "Volos",
+                "mention": "Volos",
+                "l_pos": 51,
+                "r_pos": 55
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "movies",
+                "l_pos": 13,
+                "r_pos": 18
+            },
+            "http://dbpedia.org/ontology/Film": {
+                "name": "Film",
+                "mention": "movies",
+                "l_pos": 13,
+                "r_pos": 18
+            }
+        }
+    },
+    {
+        "_id": "4189",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/academicAdvisor> <http://dbpedia.org/resource/Benjamin_Pulleyn>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>}",
+        "question": "Which famous physicist was academically advised by Benjamin Pulleyn?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <academicAdvisor> <Benjamin_Pulleyn> .?uri <22-rdf-syntax-ns#type> <Scientist> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "physicist",
+                "l_pos": 13,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Benjamin_Pulleyn": {
+                "name": "Benjamin_Pulleyn",
+                "mention": "Benjamin Pulleyn",
+                "l_pos": 51,
+                "r_pos": 66
+            },
+            "http://dbpedia.org/ontology/Scientist": {
+                "name": "Scientist",
+                "mention": "physicist",
+                "l_pos": 13,
+                "r_pos": 21
+            }
+        }
+    },
+    {
+        "_id": "3007",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/executiveProducer> <http://dbpedia.org/resource/Steven_Peterman>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}",
+        "question": "What is the television show whose executive producer is Steven Peterman?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <executiveProducer> <Steven_Peterman> .?uri <22-rdf-syntax-ns#type> <TelevisionShow> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "television show",
+                "l_pos": 12,
+                "r_pos": 26
+            },
+            "http://dbpedia.org/resource/Steven_Peterman": {
+                "name": "Steven_Peterman",
+                "mention": "Steven Peterman",
+                "l_pos": 56,
+                "r_pos": 70
+            },
+            "http://dbpedia.org/ontology/TelevisionShow": {
+                "name": "TelevisionShow",
+                "mention": "television show",
+                "l_pos": 12,
+                "r_pos": 26
+            }
+        }
+    },
+    {
+        "_id": "73",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/anthem> <http://dbpedia.org/resource/Oj,_svijetla_majska_zoro> . ?x <http://dbpedia.org/property/currency> ?uri  . }",
+        "question": "List the base currency of the country whose anthem is Oj, svijetla majska zoro.",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <anthem> <Oj,_svijetla_majska_zoro> .?x <currency> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "country",
+                "l_pos": 30,
+                "r_pos": 36
+            },
+            "http://dbpedia.org/resource/Oj,_svijetla_majska_zoro": {
+                "name": "Oj,_svijetla_majska_zoro",
+                "mention": "Oj, svijetla majska zoro",
+                "l_pos": 54,
+                "r_pos": 77
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "currency",
+                "l_pos": 14,
+                "r_pos": 21
+            }
+        }
+    },
+    {
+        "_id": "1957",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE {?uri <http://dbpedia.org/ontology/doctoralAdvisor> <http://dbpedia.org/resource/Ernest_Rutherford>  . }",
+        "question": "How many thesis were supervised by Ernest Rutherford?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?uri <doctoralAdvisor> <Ernest_Rutherford> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "thesis",
+                "l_pos": 9,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/resource/Ernest_Rutherford": {
+                "name": "Ernest_Rutherford",
+                "mention": "Ernest Rutherford",
+                "l_pos": 35,
+                "r_pos": 51
+            }
+        }
+    },
+    {
+        "_id": "1630",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/associatedMusicalArtist> <http://dbpedia.org/resource/Yes_(band)> . ?uri <http://dbpedia.org/ontology/musicComposer> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>}",
+        "question": "For how many movies have the music composer composed music, who have collaborated with Yes ?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <associatedMusicalArtist> <Yes_(band)> .?uri <musicComposer> ?x .?uri <22-rdf-syntax-ns#type> <Film> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "music composer",
+                "l_pos": 29,
+                "r_pos": 42
+            },
+            "http://dbpedia.org/resource/Yes_(band)": {
+                "name": "Yes_(band)",
+                "mention": "Yes",
+                "l_pos": 87,
+                "r_pos": 89
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "movies",
+                "l_pos": 13,
+                "r_pos": 18
+            },
+            "http://dbpedia.org/ontology/Film": {
+                "name": "Film",
+                "mention": "movies",
+                "l_pos": 13,
+                "r_pos": 18
+            }
+        }
+    },
+    {
+        "_id": "2478",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/coach> <http://dbpedia.org/resource/Jason_Maas> . ?uri <http://dbpedia.org/ontology/formerTeam> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AmericanFootballPlayer>}",
+        "question": "What are the american football players whose former team's coach is Jason Maas?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <coach> <Jason_Maas> .?uri <formerTeam> ?x .?uri <22-rdf-syntax-ns#type> <AmericanFootballPlayer> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "former team",
+                "l_pos": 45,
+                "r_pos": 55
+            },
+            "http://dbpedia.org/resource/Jason_Maas": {
+                "name": "Jason_Maas",
+                "mention": "Jason Maas",
+                "l_pos": 68,
+                "r_pos": 77
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "american football players",
+                "l_pos": 13,
+                "r_pos": 37
+            },
+            "http://dbpedia.org/ontology/AmericanFootballPlayer": {
+                "name": "AmericanFootballPlayer",
+                "mention": "american football players",
+                "l_pos": 13,
+                "r_pos": 37
+            }
+        }
+    },
+    {
+        "_id": "3154",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/formerBandMember> <http://dbpedia.org/resource/Todd_Huth> . ?uri <http://dbpedia.org/property/themeMusicComposer> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}",
+        "question": "Which TV show's theme was composed by a band in which Todd Huth used to perform?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <formerBandMember> <Todd_Huth> .?uri <themeMusicComposer> ?x .?uri <22-rdf-syntax-ns#type> <TelevisionShow> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "theme",
+                "l_pos": 16,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/resource/Todd_Huth": {
+                "name": "Todd_Huth",
+                "mention": "Todd Huth",
+                "l_pos": 54,
+                "r_pos": 62
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "TV show",
+                "l_pos": 6,
+                "r_pos": 12
+            },
+            "http://dbpedia.org/ontology/TelevisionShow": {
+                "name": "TelevisionShow",
+                "mention": "TV show",
+                "l_pos": 6,
+                "r_pos": 12
+            }
+        }
+    },
+    {
+        "_id": "4868",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/2009\u201310_Marquette_Golden_Eagles_men's_basketball_team> <http://dbpedia.org/ontology/coach> ?uri. <http://dbpedia.org/resource/2013\u201314_Marquette_Golden_Eagles_men's_basketball_team> <http://dbpedia.org/ontology/coach> ?uri . }",
+        "question": "Who coached the Marquette golden eagles men team in 09 to 10 and then again in 13 to 14 ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <2009\u201310_Marquette_Golden_Eagles_men's_basketball_team> <coach> ?uri .<2013\u201314_Marquette_Golden_Eagles_men's_basketball_team> <coach> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/2009\u201310_Marquette_Golden_Eagles_men's_basketball_team": {
+                "name": "2009\u201310_Marquette_Golden_Eagles_men's_basketball_team",
+                "mention": "Marquette golden eagles men team in 09 to 10",
+                "l_pos": 16,
+                "r_pos": 59
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            },
+            "http://dbpedia.org/resource/2013\u201314_Marquette_Golden_Eagles_men's_basketball_team": {
+                "name": "2013\u201314_Marquette_Golden_Eagles_men's_basketball_team",
+                "mention": "13 to 14",
+                "l_pos": 79,
+                "r_pos": 86
+            }
+        }
+    },
+    {
+        "_id": "783",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Mary_Poppins_(musical)> <http://dbpedia.org/ontology/author> ?uri }",
+        "question": "Who has written the mary poppins musical?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Mary_Poppins_(musical)> <author> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Mary_Poppins_(musical)": {
+                "name": "Mary_Poppins_(musical)",
+                "mention": "mary poppins musical",
+                "l_pos": 20,
+                "r_pos": 39
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "564",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/city> <http://dbpedia.org/resource/Alabama> . ?x <http://dbpedia.org/ontology/owner> ?uri  . }",
+        "question": "How many owners are there of things located in Alabama?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <city> <Alabama> .?x <owner> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "things",
+                "l_pos": 29,
+                "r_pos": 34
+            },
+            "http://dbpedia.org/resource/Alabama": {
+                "name": "Alabama",
+                "mention": "Alabama",
+                "l_pos": 47,
+                "r_pos": 53
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "owners",
+                "l_pos": 9,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "1374",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Kira_Plastinina> <http://dbpedia.org/property/placeOfBirth> ?uri. <http://dbpedia.org/resource/Sergey_Ryazansky> <http://dbpedia.org/property/placeOfBirth> ?uri . }",
+        "question": "What is the place of birth of the Kira Plastinina and Sergey Ryazansky",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Kira_Plastinina> <placeOfBirth> ?uri .<Sergey_Ryazansky> <placeOfBirth> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Kira_Plastinina": {
+                "name": "Kira_Plastinina",
+                "mention": "Kira Plastinina",
+                "l_pos": 34,
+                "r_pos": 48
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "place of birth",
+                "l_pos": 12,
+                "r_pos": 25
+            },
+            "http://dbpedia.org/resource/Sergey_Ryazansky": {
+                "name": "Sergey_Ryazansky",
+                "mention": "Sergey Ryazansky",
+                "l_pos": 54,
+                "r_pos": 69
+            }
+        }
+    },
+    {
+        "_id": "809",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/battle> <http://dbpedia.org/resource/Shays'_Rebellion> . ?x <http://dbpedia.org/property/president> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Governor>}",
+        "question": "Who was the president under whom, a governor participated in Shay's rebellion?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <battle> <Shays'_Rebellion> .?x <president> ?uri .?x <22-rdf-syntax-ns#type> <Governor> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "governor",
+                "l_pos": 36,
+                "r_pos": 43
+            },
+            "http://dbpedia.org/resource/Shays'_Rebellion": {
+                "name": "Shays'_Rebellion",
+                "mention": "Shay's rebellion",
+                "l_pos": 61,
+                "r_pos": 76
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "president",
+                "l_pos": 12,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/ontology/Governor": {
+                "name": "Governor",
+                "mention": "governor",
+                "l_pos": 36,
+                "r_pos": 43
+            }
+        }
+    },
+    {
+        "_id": "1106",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <http://dbpedia.org/resource/2004\u201305_FC_Barcelona_season> <http://dbpedia.org/property/name> ?uri  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerPlayer>}",
+        "question": "How many players participated in the 2004-05 FC Barcelona season?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <2004\u201305_FC_Barcelona_season> <name> ?uri .?uri <22-rdf-syntax-ns#type> <SoccerPlayer> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/2004\u201305_FC_Barcelona_season": {
+                "name": "2004\u201305_FC_Barcelona_season",
+                "mention": "2004-05 FC Barcelona season",
+                "l_pos": 37,
+                "r_pos": 63
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "players",
+                "l_pos": 9,
+                "r_pos": 15
+            },
+            "http://dbpedia.org/ontology/SoccerPlayer": {
+                "name": "SoccerPlayer",
+                "mention": "players",
+                "l_pos": 9,
+                "r_pos": 15
+            }
+        }
+    },
+    {
+        "_id": "990",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/gender> <http://dbpedia.org/resource/Mixed-sex_education> . ?x <http://dbpedia.org/ontology/localAuthority> ?uri  . }",
+        "question": "How many local authorities manage mixed gender schools?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <gender> <Mixed-sex_education> .?x <localAuthority> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "schools",
+                "l_pos": 47,
+                "r_pos": 53
+            },
+            "http://dbpedia.org/resource/Mixed-sex_education": {
+                "name": "Mixed-sex_education",
+                "mention": "mixed gender",
+                "l_pos": 34,
+                "r_pos": 45
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "local authorities",
+                "l_pos": 9,
+                "r_pos": 25
+            }
+        }
+    },
+    {
+        "_id": "1097",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/province> <http://dbpedia.org/resource/Metropolitan_City_of_Venice> . ?uri <http://dbpedia.org/ontology/leaderName> <http://dbpedia.org/resource/Luigi_Brugnaro>  . }",
+        "question": " Name the city whose province is Metropolitan City of Venice and has leader as Luigi Brugnaro ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <province> <Metropolitan_City_of_Venice> .?uri <leaderName> <Luigi_Brugnaro> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "city",
+                "l_pos": 10,
+                "r_pos": 13
+            },
+            "http://dbpedia.org/resource/Metropolitan_City_of_Venice": {
+                "name": "Metropolitan_City_of_Venice",
+                "mention": "Metropolitan City of Venice",
+                "l_pos": 33,
+                "r_pos": 59
+            },
+            "http://dbpedia.org/resource/Luigi_Brugnaro": {
+                "name": "Luigi_Brugnaro",
+                "mention": "Luigi Brugnaro",
+                "l_pos": 79,
+                "r_pos": 92
+            }
+        }
+    },
+    {
+        "_id": "3231",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Manu_Cornet> <http://dbpedia.org/property/employer> ?uri. <http://dbpedia.org/resource/Google_Web_Toolkit> <http://dbpedia.org/ontology/author> ?uri}",
+        "question": "NAme the emplyer for whihc Manu cornet has worked and also written in Google Web Toolkit ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Manu_Cornet> <employer> ?uri .<Google_Web_Toolkit> <author> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Manu_Cornet": {
+                "name": "Manu_Cornet",
+                "mention": "Manu cornet",
+                "l_pos": 27,
+                "r_pos": 37
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "emplyer",
+                "l_pos": 9,
+                "r_pos": 15
+            },
+            "http://dbpedia.org/resource/Google_Web_Toolkit": {
+                "name": "Google_Web_Toolkit",
+                "mention": "Google Web Toolkit",
+                "l_pos": 70,
+                "r_pos": 87
+            }
+        }
+    },
+    {
+        "_id": "3012",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Henri,_Duke_of_Rohan> <http://dbpedia.org/ontology/placeOfBurial> ?uri }",
+        "question": "Where was Henri, Duke of Rohan laid to rest?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Henri,_Duke_of_Rohan> <placeOfBurial> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Henri,_Duke_of_Rohan": {
+                "name": "Henri,_Duke_of_Rohan",
+                "mention": "Henri, Duke of Rohan",
+                "l_pos": 10,
+                "r_pos": 29
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "2465",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Polytechnic_University_of_the_Philippines_\u2013_Bataan> <http://dbpedia.org/ontology/sport> ?uri. <http://dbpedia.org/resource/Polytechnic_University_of_the_Philippines_Taguig> <http://dbpedia.org/ontology/sport> ?uri . }",
+        "question": "Which sports are played at both the Polytech uni of Bataan and Taguig?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Polytechnic_University_of_the_Philippines_\u2013_Bataan> <sport> ?uri .<Polytechnic_University_of_the_Philippines_Taguig> <sport> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Polytechnic_University_of_the_Philippines_\u2013_Bataan": {
+                "name": "Polytechnic_University_of_the_Philippines_\u2013_Bataan",
+                "mention": "Polytech uni of Bataan",
+                "l_pos": 36,
+                "r_pos": 57
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "sports",
+                "l_pos": 6,
+                "r_pos": 11
+            },
+            "http://dbpedia.org/resource/Polytechnic_University_of_the_Philippines_Taguig": {
+                "name": "Polytechnic_University_of_the_Philippines_Taguig",
+                "mention": "Taguig",
+                "l_pos": 63,
+                "r_pos": 68
+            }
+        }
+    },
+    {
+        "_id": "4782",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/profession> <http://dbpedia.org/resource/Politician> . ?x <http://dbpedia.org/ontology/religion> ?uri  . }",
+        "question": "What is the total number of religions that politicians have followed?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <profession> <Politician> .?x <religion> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "politicians",
+                "l_pos": 43,
+                "r_pos": 53
+            },
+            "http://dbpedia.org/resource/Politician": {
+                "name": "Politician",
+                "mention": "politicians",
+                "l_pos": 43,
+                "r_pos": 53
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "religions",
+                "l_pos": 28,
+                "r_pos": 36
+            }
+        }
+    },
+    {
+        "_id": "4408",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/presenter> <http://dbpedia.org/resource/Swedish_Academy>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Award>}",
+        "question": "What is the award which is presented by Swedish Academy?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <presenter> <Swedish_Academy> .?uri <22-rdf-syntax-ns#type> <Award> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "award",
+                "l_pos": 12,
+                "r_pos": 16
+            },
+            "http://dbpedia.org/resource/Swedish_Academy": {
+                "name": "Swedish_Academy",
+                "mention": "Swedish Academy",
+                "l_pos": 40,
+                "r_pos": 54
+            },
+            "http://dbpedia.org/ontology/Award": {
+                "name": "Award",
+                "mention": "award",
+                "l_pos": 12,
+                "r_pos": 16
+            }
+        }
+    },
+    {
+        "_id": "4265",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/children> <http://dbpedia.org/resource/Samuel_Moreno_Rojas> . ?x <http://dbpedia.org/property/almaMater> ?uri  . }",
+        "question": "What is the alma mater of the person, whose child is Samuel Moreno Rojas?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <children> <Samuel_Moreno_Rojas> .?x <almaMater> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "person",
+                "l_pos": 30,
+                "r_pos": 35
+            },
+            "http://dbpedia.org/resource/Samuel_Moreno_Rojas": {
+                "name": "Samuel_Moreno_Rojas",
+                "mention": "Samuel Moreno Rojas",
+                "l_pos": 53,
+                "r_pos": 71
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "alma mater",
+                "l_pos": 12,
+                "r_pos": 21
+            }
+        }
+    },
+    {
+        "_id": "2815",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Monta\u00f1as_Mayas_Chiquibul> <http://dbpedia.org/property/country> ?uri. <http://dbpedia.org/resource/Jos\u00e9_Bernardo_Escobar> <http://dbpedia.org/property/birthPlace> ?uri . }",
+        "question": "Which country of Montaas Mayas Chiquibul is the birth place of Jos Bernardo Escobar?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Monta\u00f1as_Mayas_Chiquibul> <country> ?uri .<Jos\u00e9_Bernardo_Escobar> <birthPlace> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Monta\u00f1as_Mayas_Chiquibul": {
+                "name": "Monta\u00f1as_Mayas_Chiquibul",
+                "mention": "Montaas Mayas Chiquibul",
+                "l_pos": 17,
+                "r_pos": 39
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "country",
+                "l_pos": 6,
+                "r_pos": 12
+            },
+            "http://dbpedia.org/resource/Jos\u00e9_Bernardo_Escobar": {
+                "name": "Jos\u00e9_Bernardo_Escobar",
+                "mention": "Jos Bernardo Escobar",
+                "l_pos": 63,
+                "r_pos": 82
+            }
+        }
+    },
+    {
+        "_id": "1556",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/officialLanguage> <http://dbpedia.org/resource/French_language> . ?x <http://dbpedia.org/ontology/currency> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Location>}",
+        "question": "What currencies are circulated in the countries where people speak French?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <officialLanguage> <French_language> .?x <currency> ?uri .?x <22-rdf-syntax-ns#type> <Location> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "countries",
+                "l_pos": 38,
+                "r_pos": 46
+            },
+            "http://dbpedia.org/resource/French_language": {
+                "name": "French_language",
+                "mention": "French",
+                "l_pos": 67,
+                "r_pos": 72
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "currencies",
+                "l_pos": 5,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/ontology/Location": {
+                "name": "Location",
+                "mention": "countries",
+                "l_pos": 38,
+                "r_pos": 46
+            }
+        }
+    },
+    {
+        "_id": "4983",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/languageFamily> <http://dbpedia.org/resource/Italic_languages> }",
+        "question": "What are some languages in the italic family of languages?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <languageFamily> <Italic_languages> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "languages",
+                "l_pos": 14,
+                "r_pos": 22
+            },
+            "http://dbpedia.org/resource/Italic_languages": {
+                "name": "Italic_languages",
+                "mention": "italic family of languages",
+                "l_pos": 31,
+                "r_pos": 56
+            }
+        }
+    },
+    {
+        "_id": "124",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Chris_Myers_(New_Jersey)> <http://dbpedia.org/ontology/profession> ?uri. <http://dbpedia.org/resource/Oahu_Railway_and_Land_Company> <http://dbpedia.org/property/governingBody> ?uri}",
+        "question": "What is the profession of the Chris Myers (New Jersey) which is the governing body of Oahu Railway and Land Company ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Chris_Myers_(New_Jersey)> <profession> ?uri .<Oahu_Railway_and_Land_Company> <governingBody> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Chris_Myers_(New_Jersey)": {
+                "name": "Chris_Myers_(New_Jersey)",
+                "mention": "Chris Myers (New Jersey)",
+                "l_pos": 30,
+                "r_pos": 53
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "profession",
+                "l_pos": 12,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Oahu_Railway_and_Land_Company": {
+                "name": "Oahu_Railway_and_Land_Company",
+                "mention": "Oahu Railway and Land Company",
+                "l_pos": 86,
+                "r_pos": 114
+            }
+        }
+    },
+    {
+        "_id": "4072",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/doctoralAdvisor> <http://dbpedia.org/resource/Ernest_Rutherford>  . }",
+        "question": "To which students did Ernest Rutherford advised to?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <doctoralAdvisor> <Ernest_Rutherford> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "students",
+                "l_pos": 9,
+                "r_pos": 16
+            },
+            "http://dbpedia.org/resource/Ernest_Rutherford": {
+                "name": "Ernest_Rutherford",
+                "mention": "Ernest Rutherford",
+                "l_pos": 22,
+                "r_pos": 38
+            }
+        }
+    },
+    {
+        "_id": "4584",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/notableWork> <http://dbpedia.org/resource/Frasier> . ?x <http://dbpedia.org/ontology/notableWork> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ScreenWriter>}",
+        "question": "List all the notable work of the screen writer who produced Frasier ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <notableWork> <Frasier> .?x <notableWork> ?uri .?x <22-rdf-syntax-ns#type> <ScreenWriter> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "screen writer",
+                "l_pos": 33,
+                "r_pos": 45
+            },
+            "http://dbpedia.org/resource/Frasier": {
+                "name": "Frasier",
+                "mention": "Frasier",
+                "l_pos": 60,
+                "r_pos": 66
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "notable work",
+                "l_pos": 13,
+                "r_pos": 24
+            },
+            "http://dbpedia.org/ontology/ScreenWriter": {
+                "name": "ScreenWriter",
+                "mention": "screen writer",
+                "l_pos": 33,
+                "r_pos": 45
+            }
+        }
+    },
+    {
+        "_id": "4616",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/deathDate> <http://dbpedia.org/resource/Euboea>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Philosopher>}",
+        "question": "Which famous philosopher died on island Euboea?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <deathDate> <Euboea> .?uri <22-rdf-syntax-ns#type> <Philosopher> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "philosopher",
+                "l_pos": 13,
+                "r_pos": 23
+            },
+            "http://dbpedia.org/resource/Euboea": {
+                "name": "Euboea",
+                "mention": "Euboea",
+                "l_pos": 40,
+                "r_pos": 45
+            },
+            "http://dbpedia.org/ontology/Philosopher": {
+                "name": "Philosopher",
+                "mention": "philosopher",
+                "l_pos": 13,
+                "r_pos": 23
+            }
+        }
+    },
+    {
+        "_id": "2133",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/George_Frisbie_Hoar> <http://dbpedia.org/property/order> ?uri }",
+        "question": "What is the order of George Frisbie Hoar?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <George_Frisbie_Hoar> <order> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/George_Frisbie_Hoar": {
+                "name": "George_Frisbie_Hoar",
+                "mention": "George Frisbie Hoar",
+                "l_pos": 21,
+                "r_pos": 39
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "order",
+                "l_pos": 12,
+                "r_pos": 16
+            }
+        }
+    },
+    {
+        "_id": "209",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/sisterNames> <http://dbpedia.org/resource/Discovery_Communications> . ?x <http://dbpedia.org/property/founder> ?uri  . }",
+        "question": "Who founded the sister stations of Discovery Communications?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <sisterNames> <Discovery_Communications> .?x <founder> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "sister stations",
+                "l_pos": 16,
+                "r_pos": 30
+            },
+            "http://dbpedia.org/resource/Discovery_Communications": {
+                "name": "Discovery_Communications",
+                "mention": "Discovery Communications",
+                "l_pos": 35,
+                "r_pos": 58
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "4311",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/G\u00fcm\u00fc\u015f_(TV_series)> <http://dbpedia.org/property/firstAired> ?uri. <http://dbpedia.org/resource/Sergei_Ovchinnikov_(volleyball)> <http://dbpedia.org/property/placeOfDeath> ?uri}",
+        "question": "What is the country where Sergei Ovchinnikov the volleyball player die, and Gumus was first aired ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <G\u00fcm\u00fc\u015f_(TV_series)> <firstAired> ?uri .<Sergei_Ovchinnikov_(volleyball)> <placeOfDeath> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/G\u00fcm\u00fc\u015f_(TV_series)": {
+                "name": "G\u00fcm\u00fc\u015f_(TV_series)",
+                "mention": "Gumus",
+                "l_pos": 76,
+                "r_pos": 80
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "country",
+                "l_pos": 12,
+                "r_pos": 18
+            },
+            "http://dbpedia.org/resource/Sergei_Ovchinnikov_(volleyball)": {
+                "name": "Sergei_Ovchinnikov_(volleyball)",
+                "mention": "Sergei Ovchinnikov",
+                "l_pos": 26,
+                "r_pos": 43
+            }
+        }
+    },
+    {
+        "_id": "2881",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Parliament_of_India> <http://dbpedia.org/property/houses> ?uri }",
+        "question": "List the houses of Parliament of India ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Parliament_of_India> <houses> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Parliament_of_India": {
+                "name": "Parliament_of_India",
+                "mention": "Parliament of India",
+                "l_pos": 19,
+                "r_pos": 37
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "houses",
+                "l_pos": 9,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "2153",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/team> <http://dbpedia.org/resource/Middlesbrough_F.C.> . ?x <http://dbpedia.org/ontology/manager> ?uri  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>}",
+        "question": "How many people have coached the players of Middlesbrough FC?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <team> <Middlesbrough_F.C.> .?x <manager> ?uri .?uri <22-rdf-syntax-ns#type> <Person> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "players",
+                "l_pos": 33,
+                "r_pos": 39
+            },
+            "http://dbpedia.org/resource/Middlesbrough_F.C.": {
+                "name": "Middlesbrough_F.C.",
+                "mention": "Middlesbrough FC",
+                "l_pos": 44,
+                "r_pos": 59
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "people",
+                "l_pos": 9,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/ontology/Person": {
+                "name": "Person",
+                "mention": "people",
+                "l_pos": 9,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "554",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/lieutenant> <http://dbpedia.org/resource/Lewis_Stuyvesant_Chanler> . ?x <http://dbpedia.org/ontology/president> ?uri  . }",
+        "question": "Which president was served by someone whose lieutenant is Lewis Stuyvesant Chanler?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <lieutenant> <Lewis_Stuyvesant_Chanler> .?x <president> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "someone",
+                "l_pos": 30,
+                "r_pos": 36
+            },
+            "http://dbpedia.org/resource/Lewis_Stuyvesant_Chanler": {
+                "name": "Lewis_Stuyvesant_Chanler",
+                "mention": "Lewis Stuyvesant Chanler",
+                "l_pos": 58,
+                "r_pos": 81
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "president",
+                "l_pos": 6,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "2629",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Ed_Podolak> <http://dbpedia.org/ontology/highschool> ?uri }",
+        "question": "Where did ed podolak go to high school",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Ed_Podolak> <highschool> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Ed_Podolak": {
+                "name": "Ed_Podolak",
+                "mention": "ed podolak",
+                "l_pos": 10,
+                "r_pos": 19
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "1964",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/affiliations> <http://dbpedia.org/resource/Kaplan,_Inc.>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/EducationalInstitution>}",
+        "question": "Which educational institution has Kaplan, Inc as it's affiliation?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <affiliations> <Kaplan,_Inc.> .?uri <22-rdf-syntax-ns#type> <EducationalInstitution> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "educational institution",
+                "l_pos": 6,
+                "r_pos": 28
+            },
+            "http://dbpedia.org/resource/Kaplan,_Inc.": {
+                "name": "Kaplan,_Inc.",
+                "mention": "Kaplan, Inc",
+                "l_pos": 34,
+                "r_pos": 44
+            },
+            "http://dbpedia.org/ontology/EducationalInstitution": {
+                "name": "EducationalInstitution",
+                "mention": "educational institution",
+                "l_pos": 6,
+                "r_pos": 28
+            }
+        }
+    },
+    {
+        "_id": "3868",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Marv_Throneberry> <http://dbpedia.org/property/debutteam> ?uri. <http://dbpedia.org/resource/Curt_Coleman> <http://dbpedia.org/ontology/debutTeam> ?uri}",
+        "question": "What team had the debut of Marv Throneberry and Curt Coleman?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Marv_Throneberry> <debutteam> ?uri .<Curt_Coleman> <debutTeam> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Marv_Throneberry": {
+                "name": "Marv_Throneberry",
+                "mention": "Marv Throneberry",
+                "l_pos": 27,
+                "r_pos": 42
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "team",
+                "l_pos": 5,
+                "r_pos": 8
+            },
+            "http://dbpedia.org/resource/Curt_Coleman": {
+                "name": "Curt_Coleman",
+                "mention": "Curt Coleman",
+                "l_pos": 48,
+                "r_pos": 59
+            }
+        }
+    },
+    {
+        "_id": "1892",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/currentteam> <http://dbpedia.org/resource/Michigan_Wolverines> . ?uri <http://dbpedia.org/ontology/formerTeam> <http://dbpedia.org/resource/1998_Baltimore_Ravens_season>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AmericanFootballPlayer>}",
+        "question": "Which american football player's current team is Michigan Wolverines and former team was  Baltimore Ravens ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <currentteam> <Michigan_Wolverines> .?uri <formerTeam> <1998_Baltimore_Ravens_season> .?uri <22-rdf-syntax-ns#type> <AmericanFootballPlayer> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "american football player",
+                "l_pos": 6,
+                "r_pos": 29
+            },
+            "http://dbpedia.org/resource/Michigan_Wolverines": {
+                "name": "Michigan_Wolverines",
+                "mention": "Michigan Wolverines",
+                "l_pos": 49,
+                "r_pos": 67
+            },
+            "http://dbpedia.org/resource/1998_Baltimore_Ravens_season": {
+                "name": "1998_Baltimore_Ravens_season",
+                "mention": "Baltimore Ravens",
+                "l_pos": 90,
+                "r_pos": 105
+            },
+            "http://dbpedia.org/ontology/AmericanFootballPlayer": {
+                "name": "AmericanFootballPlayer",
+                "mention": "american football player",
+                "l_pos": 6,
+                "r_pos": 29
+            }
+        }
+    },
+    {
+        "_id": "1621",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Air_2000> <http://dbpedia.org/property/destinations> ?uri }",
+        "question": "To which destinations does Air 2000 fly?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Air_2000> <destinations> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Air_2000": {
+                "name": "Air_2000",
+                "mention": "Air 2000",
+                "l_pos": 27,
+                "r_pos": 34
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "destinations",
+                "l_pos": 9,
+                "r_pos": 20
+            }
+        }
+    },
+    {
+        "_id": "2759",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/computingPlatform> <http://dbpedia.org/resource/Commodore_64> . ?x <http://dbpedia.org/property/genre> ?uri  . }",
+        "question": "How many different genres of games can I find which are compatible with the Commodore 64?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <computingPlatform> <Commodore_64> .?x <genre> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "games",
+                "l_pos": 29,
+                "r_pos": 33
+            },
+            "http://dbpedia.org/resource/Commodore_64": {
+                "name": "Commodore_64",
+                "mention": "Commodore 64",
+                "l_pos": 76,
+                "r_pos": 87
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "genres",
+                "l_pos": 19,
+                "r_pos": 24
+            }
+        }
+    },
+    {
+        "_id": "3697",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/spouse> <http://dbpedia.org/resource/Jessi_Colter> . ?uri <http://dbpedia.org/ontology/associatedMusicalArtist> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MusicalArtist>}",
+        "question": "Name the music artist which collaborated with the spouse of Jessi Colter?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <spouse> <Jessi_Colter> .?uri <associatedMusicalArtist> ?x .?uri <22-rdf-syntax-ns#type> <MusicalArtist> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "spouse",
+                "l_pos": 50,
+                "r_pos": 55
+            },
+            "http://dbpedia.org/resource/Jessi_Colter": {
+                "name": "Jessi_Colter",
+                "mention": "Jessi Colter",
+                "l_pos": 60,
+                "r_pos": 71
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "music artist",
+                "l_pos": 9,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/ontology/MusicalArtist": {
+                "name": "MusicalArtist",
+                "mention": "music artist",
+                "l_pos": 9,
+                "r_pos": 20
+            }
+        }
+    },
+    {
+        "_id": "2342",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/routeStart> <http://dbpedia.org/resource/Minneapolis> . ?x <http://dbpedia.org/ontology/operatedBy> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RailwayLine>}",
+        "question": "Who operates the railway line which begins in Minneapolis?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <routeStart> <Minneapolis> .?x <operatedBy> ?uri .?x <22-rdf-syntax-ns#type> <RailwayLine> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "railway line",
+                "l_pos": 17,
+                "r_pos": 28
+            },
+            "http://dbpedia.org/resource/Minneapolis": {
+                "name": "Minneapolis",
+                "mention": "Minneapolis",
+                "l_pos": 46,
+                "r_pos": 56
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            },
+            "http://dbpedia.org/ontology/RailwayLine": {
+                "name": "RailwayLine",
+                "mention": "railway line",
+                "l_pos": 17,
+                "r_pos": 28
+            }
+        }
+    },
+    {
+        "_id": "2867",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/computingPlatform> <http://dbpedia.org/resource/Virtual_Console> . ?uri <http://dbpedia.org/property/composer> <http://dbpedia.org/resource/Hirokazu_Tanaka>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VideoGame>}",
+        "question": "Which video game composed by Hirokazu Tanaka can be played on virtual Console ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <computingPlatform> <Virtual_Console> .?uri <composer> <Hirokazu_Tanaka> .?uri <22-rdf-syntax-ns#type> <VideoGame> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "video game",
+                "l_pos": 6,
+                "r_pos": 15
+            },
+            "http://dbpedia.org/resource/Virtual_Console": {
+                "name": "Virtual_Console",
+                "mention": "virtual Console",
+                "l_pos": 62,
+                "r_pos": 76
+            },
+            "http://dbpedia.org/resource/Hirokazu_Tanaka": {
+                "name": "Hirokazu_Tanaka",
+                "mention": "Hirokazu Tanaka",
+                "l_pos": 29,
+                "r_pos": 43
+            },
+            "http://dbpedia.org/ontology/VideoGame": {
+                "name": "VideoGame",
+                "mention": "video game",
+                "l_pos": 6,
+                "r_pos": 15
+            }
+        }
+    },
+    {
+        "_id": "268",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Alpine_skiing_at_the_1964_Winter_Olympics_\u2013_Men's_slalom> <http://dbpedia.org/ontology/bronzeMedalist> ?x . ?x <http://dbpedia.org/property/deathPlace> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Skier>}",
+        "question": "What is the location of death of the skier who was the bronze medalist of Alpine skiing at the 1964 Winter Olympics  Men's slalom ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Alpine_skiing_at_the_1964_Winter_Olympics_\u2013_Men's_slalom> <bronzeMedalist> ?x .?x <deathPlace> ?uri .?x <22-rdf-syntax-ns#type> <Skier> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Alpine_skiing_at_the_1964_Winter_Olympics_\u2013_Men's_slalom": {
+                "name": "Alpine_skiing_at_the_1964_Winter_Olympics_\u2013_Men's_slalom",
+                "mention": "Alpine skiing at the 1964 Winter Olympics  Men's slalom",
+                "l_pos": 74,
+                "r_pos": 128
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "skier",
+                "l_pos": 37,
+                "r_pos": 41
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "location of death",
+                "l_pos": 12,
+                "r_pos": 28
+            },
+            "http://dbpedia.org/ontology/Skier": {
+                "name": "Skier",
+                "mention": "skier",
+                "l_pos": 37,
+                "r_pos": 41
+            }
+        }
+    },
+    {
+        "_id": "1967",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sony_Bank> <http://dbpedia.org/property/parent> ?x . ?x <http://dbpedia.org/ontology/parentCompany> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>}",
+        "question": "What is the parent company of company which owns Sony Bank?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Sony_Bank> <parent> ?x .?x <parentCompany> ?uri .?x <22-rdf-syntax-ns#type> <Company> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Sony_Bank": {
+                "name": "Sony_Bank",
+                "mention": "Sony Bank",
+                "l_pos": 49,
+                "r_pos": 57
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "company",
+                "l_pos": 30,
+                "r_pos": 36
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "parent company",
+                "l_pos": 12,
+                "r_pos": 25
+            },
+            "http://dbpedia.org/ontology/Company": {
+                "name": "Company",
+                "mention": "company",
+                "l_pos": 30,
+                "r_pos": 36
+            }
+        }
+    },
+    {
+        "_id": "1749",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Erastus_Wiman> <http://dbpedia.org/ontology/citizenship> ?uri }",
+        "question": "What is the citizenship of Erastus Wiman ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Erastus_Wiman> <citizenship> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Erastus_Wiman": {
+                "name": "Erastus_Wiman",
+                "mention": "Erastus Wiman",
+                "l_pos": 27,
+                "r_pos": 39
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "citizenship",
+                "l_pos": 12,
+                "r_pos": 22
+            }
+        }
+    },
+    {
+        "_id": "1537",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Jerry_Tagge> <http://dbpedia.org/property/highSchool> ?uri }",
+        "question": "Where did Jerry Tagge do his elementary schooling?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Jerry_Tagge> <highSchool> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Jerry_Tagge": {
+                "name": "Jerry_Tagge",
+                "mention": "Jerry Tagge",
+                "l_pos": 10,
+                "r_pos": 20
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "2378",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/notableWork> <http://dbpedia.org/resource/Adventures_of_Huckleberry_Finn> . ?uri <http://dbpedia.org/ontology/deathPlace> <http://dbpedia.org/resource/Redding,_Connecticut>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>}",
+        "question": "Name the writer whose one of the notable work is Adventures of Huckleberry Finn and died in Redding, Connecticut?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <notableWork> <Adventures_of_Huckleberry_Finn> .?uri <deathPlace> <Redding,_Connecticut> .?uri <22-rdf-syntax-ns#type> <Writer> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "writer",
+                "l_pos": 9,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/resource/Adventures_of_Huckleberry_Finn": {
+                "name": "Adventures_of_Huckleberry_Finn",
+                "mention": "Adventures of Huckleberry Finn",
+                "l_pos": 49,
+                "r_pos": 78
+            },
+            "http://dbpedia.org/resource/Redding,_Connecticut": {
+                "name": "Redding,_Connecticut",
+                "mention": "Redding, Connecticut",
+                "l_pos": 92,
+                "r_pos": 111
+            },
+            "http://dbpedia.org/ontology/Writer": {
+                "name": "Writer",
+                "mention": "writer",
+                "l_pos": 9,
+                "r_pos": 14
+            }
+        }
+    },
+    {
+        "_id": "2348",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Eristoff> <http://dbpedia.org/property/manufacturer> ?uri. <http://dbpedia.org/resource/Bombay_Sapphire> <http://dbpedia.org/property/distributor> ?uri}",
+        "question": "Which producer of  the Eristoff is also the  distributor of  Bombay Sapphire?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Eristoff> <manufacturer> ?uri .<Bombay_Sapphire> <distributor> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Eristoff": {
+                "name": "Eristoff",
+                "mention": "Eristoff",
+                "l_pos": 23,
+                "r_pos": 30
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "producer",
+                "l_pos": 6,
+                "r_pos": 13
+            },
+            "http://dbpedia.org/resource/Bombay_Sapphire": {
+                "name": "Bombay_Sapphire",
+                "mention": "Bombay Sapphire",
+                "l_pos": 61,
+                "r_pos": 75
+            }
+        }
+    },
+    {
+        "_id": "3995",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Antoine_Bibeau> <http://dbpedia.org/property/draftTeam> ?uri. <http://dbpedia.org/resource/Nathan_Dempsey> <http://dbpedia.org/property/playedFor> ?uri}",
+        "question": "What is the draft team of the Antoine Bibeau and also has player named Nathan Dempsey ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Antoine_Bibeau> <draftTeam> ?uri .<Nathan_Dempsey> <playedFor> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Antoine_Bibeau": {
+                "name": "Antoine_Bibeau",
+                "mention": "Antoine Bibeau",
+                "l_pos": 30,
+                "r_pos": 43
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "draft team",
+                "l_pos": 12,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Nathan_Dempsey": {
+                "name": "Nathan_Dempsey",
+                "mention": "Nathan Dempsey",
+                "l_pos": 71,
+                "r_pos": 84
+            }
+        }
+    },
+    {
+        "_id": "2097",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/associatedBand> <http://dbpedia.org/resource/Shorty_Rogers> . ?x <http://dbpedia.org/ontology/associatedMusicalArtist> ?uri  . }",
+        "question": "Who are the associated musical artist of the  artists of band Shorty Rogers?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <associatedBand> <Shorty_Rogers> .?x <associatedMusicalArtist> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "associated musical artist",
+                "l_pos": 12,
+                "r_pos": 36
+            },
+            "http://dbpedia.org/resource/Shorty_Rogers": {
+                "name": "Shorty_Rogers",
+                "mention": "Shorty Rogers",
+                "l_pos": 62,
+                "r_pos": 74
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "4133",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Goose_Lake_Valley> <http://dbpedia.org/ontology/state> ?uri. <http://dbpedia.org/resource/Lava_River_Cave> <http://dbpedia.org/ontology/location> ?uri}",
+        "question": "In which state is Goose Lake Valle, which is also part of Lava River Cave ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Goose_Lake_Valley> <state> ?uri .<Lava_River_Cave> <location> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Goose_Lake_Valley": {
+                "name": "Goose_Lake_Valley",
+                "mention": "Goose Lake Valle",
+                "l_pos": 18,
+                "r_pos": 33
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "state",
+                "l_pos": 9,
+                "r_pos": 13
+            },
+            "http://dbpedia.org/resource/Lava_River_Cave": {
+                "name": "Lava_River_Cave",
+                "mention": "Lava River Cave",
+                "l_pos": 58,
+                "r_pos": 72
+            }
+        }
+    },
+    {
+        "_id": "4750",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/USS_Tillamook_(AT-16)> <http://dbpedia.org/property/shipBuilder> <http://dbpedia.org/resource/Seattle> }",
+        "question": "Was the USS Tillamook built in Seattle?",
+        "readable_sparql": "ASK WHERE { <USS_Tillamook_(AT-16)> <shipBuilder> <Seattle> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/USS_Tillamook_(AT-16)": {
+                "name": "USS_Tillamook_(AT-16)",
+                "mention": "USS Tillamook",
+                "l_pos": 8,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/resource/Seattle": {
+                "name": "Seattle",
+                "mention": "Seattle",
+                "l_pos": 31,
+                "r_pos": 37
+            }
+        }
+    },
+    {
+        "_id": "3055",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Pittsburgh_Line> <http://dbpedia.org/ontology/routeEnd> ?x . ?x <http://dbpedia.org/ontology/founder> ?uri  . }",
+        "question": "Who founded the city at the end of the Pittsburgh Line route?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Pittsburgh_Line> <routeEnd> ?x .?x <founder> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Pittsburgh_Line": {
+                "name": "Pittsburgh_Line",
+                "mention": "Pittsburgh Line",
+                "l_pos": 39,
+                "r_pos": 53
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "city",
+                "l_pos": 16,
+                "r_pos": 19
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "4350",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/property/publisher> <http://dbpedia.org/resource/Titus_Software> . ?x <http://dbpedia.org/ontology/genre> ?uri  . }",
+        "question": "Count the different genres of games published by Titus Software",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <publisher> <Titus_Software> .?x <genre> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "games",
+                "l_pos": 30,
+                "r_pos": 34
+            },
+            "http://dbpedia.org/resource/Titus_Software": {
+                "name": "Titus_Software",
+                "mention": "Titus Software",
+                "l_pos": 49,
+                "r_pos": 62
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "genres",
+                "l_pos": 20,
+                "r_pos": 25
+            }
+        }
+    },
+    {
+        "_id": "460",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/destinations> <http://dbpedia.org/resource/Mediterranean_Sea> . ?x <http://dbpedia.org/property/destinations> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Airline>}",
+        "question": "List the destinations of the airlines which also serves Mediterranean  Sea ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <destinations> <Mediterranean_Sea> .?x <destinations> ?uri .?x <22-rdf-syntax-ns#type> <Airline> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "airlines",
+                "l_pos": 29,
+                "r_pos": 36
+            },
+            "http://dbpedia.org/resource/Mediterranean_Sea": {
+                "name": "Mediterranean_Sea",
+                "mention": "Mediterranean  Sea",
+                "l_pos": 56,
+                "r_pos": 73
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "destinations",
+                "l_pos": 9,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/ontology/Airline": {
+                "name": "Airline",
+                "mention": "airlines",
+                "l_pos": 29,
+                "r_pos": 36
+            }
+        }
+    },
+    {
+        "_id": "779",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/award> <http://dbpedia.org/resource/Becket_Fund_for_Religious_Liberty> . ?x <http://dbpedia.org/property/awards> ?uri  . }",
+        "question": "Count the awards given to the recepients of the Becket fund for religious liberty.",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <award> <Becket_Fund_for_Religious_Liberty> .?x <awards> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "recepients",
+                "l_pos": 30,
+                "r_pos": 39
+            },
+            "http://dbpedia.org/resource/Becket_Fund_for_Religious_Liberty": {
+                "name": "Becket_Fund_for_Religious_Liberty",
+                "mention": "Becket fund for religious liberty",
+                "l_pos": 48,
+                "r_pos": 80
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "awards",
+                "l_pos": 10,
+                "r_pos": 15
+            }
+        }
+    },
+    {
+        "_id": "2207",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Glover_(video_game)> <http://dbpedia.org/ontology/distributor> ?uri. <http://dbpedia.org/resource/Seattle_Mariners> <http://dbpedia.org/ontology/owner> ?uri}",
+        "question": "Which distributer of Glover is also the stockholde of Seattle Mariners ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Glover_(video_game)> <distributor> ?uri .<Seattle_Mariners> <owner> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Glover_(video_game)": {
+                "name": "Glover_(video_game)",
+                "mention": "Glover",
+                "l_pos": 21,
+                "r_pos": 26
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "distributer",
+                "l_pos": 6,
+                "r_pos": 16
+            },
+            "http://dbpedia.org/resource/Seattle_Mariners": {
+                "name": "Seattle_Mariners",
+                "mention": "Seattle Mariners",
+                "l_pos": 54,
+                "r_pos": 69
+            }
+        }
+    },
+    {
+        "_id": "3032",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Mickey's_Mellerdrammer> <http://dbpedia.org/property/cinematography> ?uri }",
+        "question": "List down the cinematographers of Mickey's Mellerdrammer?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Mickey's_Mellerdrammer> <cinematography> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Mickey's_Mellerdrammer": {
+                "name": "Mickey's_Mellerdrammer",
+                "mention": "Mickey's Mellerdrammer",
+                "l_pos": 34,
+                "r_pos": 55
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "cinematographers",
+                "l_pos": 14,
+                "r_pos": 29
+            }
+        }
+    },
+    {
+        "_id": "2090",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/Susan_Weber_Soros>  . }",
+        "question": "Who is married to Susan Weber Soros?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <spouse> <Susan_Weber_Soros> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            },
+            "http://dbpedia.org/resource/Susan_Weber_Soros": {
+                "name": "Susan_Weber_Soros",
+                "mention": "Susan Weber Soros",
+                "l_pos": 18,
+                "r_pos": 34
+            }
+        }
+    },
+    {
+        "_id": "4726",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/regionServed> <http://dbpedia.org/resource/Mid_Wales> . ?x <http://dbpedia.org/ontology/foundedBy> ?uri  . }",
+        "question": "Who founded a company which served Mid Wales ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <regionServed> <Mid_Wales> .?x <foundedBy> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "company",
+                "l_pos": 14,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/resource/Mid_Wales": {
+                "name": "Mid_Wales",
+                "mention": "Mid Wales",
+                "l_pos": 35,
+                "r_pos": 43
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "464",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Hohenau,_Paraguay> <http://dbpedia.org/ontology/founder> ?uri }",
+        "question": "Who is the founder of Hohenau, Paraguay?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Hohenau,_Paraguay> <founder> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Hohenau,_Paraguay": {
+                "name": "Hohenau,_Paraguay",
+                "mention": "Hohenau, Paraguay",
+                "l_pos": 22,
+                "r_pos": 38
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "founder",
+                "l_pos": 11,
+                "r_pos": 17
+            }
+        }
+    },
+    {
+        "_id": "1549",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/Iceman_(comics)> <http://dbpedia.org/property/creators> <http://dbpedia.org/resource/Stan_Lee> }",
+        "question": "Did Stan Lee create the Iceman comics?",
+        "readable_sparql": "ASK WHERE { <Iceman_(comics)> <creators> <Stan_Lee> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Iceman_(comics)": {
+                "name": "Iceman_(comics)",
+                "mention": "Iceman comics",
+                "l_pos": 24,
+                "r_pos": 36
+            },
+            "http://dbpedia.org/resource/Stan_Lee": {
+                "name": "Stan_Lee",
+                "mention": "Stan Lee",
+                "l_pos": 4,
+                "r_pos": 11
+            }
+        }
+    },
+    {
+        "_id": "4973",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/South_African_Class_11E> <http://dbpedia.org/ontology/designer> ?uri. <http://dbpedia.org/resource/RENFE_Class_333> <http://dbpedia.org/ontology/designer> ?uri . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>}",
+        "question": "Which company was the designer of South African class 11e and RENFE class 333 ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <South_African_Class_11E> <designer> ?uri .<RENFE_Class_333> <designer> ?uri .?uri <22-rdf-syntax-ns#type> <Company> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/South_African_Class_11E": {
+                "name": "South_African_Class_11E",
+                "mention": "South African class 11e",
+                "l_pos": 34,
+                "r_pos": 56
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "company",
+                "l_pos": 6,
+                "r_pos": 12
+            },
+            "http://dbpedia.org/resource/RENFE_Class_333": {
+                "name": "RENFE_Class_333",
+                "mention": "RENFE class 333",
+                "l_pos": 62,
+                "r_pos": 76
+            },
+            "http://dbpedia.org/ontology/Company": {
+                "name": "Company",
+                "mention": "company",
+                "l_pos": 6,
+                "r_pos": 12
+            }
+        }
+    },
+    {
+        "_id": "389",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/foundedBy> <http://dbpedia.org/resource/David_Pressman> . ?x <http://dbpedia.org/ontology/foundedBy> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Non-ProfitOrganisation>}",
+        "question": "List all the co-founders of the non for profit which have founding member as David pressman ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <foundedBy> <David_Pressman> .?x <foundedBy> ?uri .?x <22-rdf-syntax-ns#type> <Non-ProfitOrganisation> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "non for profit",
+                "l_pos": 32,
+                "r_pos": 45
+            },
+            "http://dbpedia.org/resource/David_Pressman": {
+                "name": "David_Pressman",
+                "mention": "David pressman",
+                "l_pos": 77,
+                "r_pos": 90
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "co-founders",
+                "l_pos": 13,
+                "r_pos": 23
+            },
+            "http://dbpedia.org/ontology/Non-ProfitOrganisation": {
+                "name": "Non-ProfitOrganisation",
+                "mention": "non for profit",
+                "l_pos": 32,
+                "r_pos": 45
+            }
+        }
+    },
+    {
+        "_id": "163",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/city> <http://dbpedia.org/resource/Monticello,_Maine> . ?x <http://dbpedia.org/property/area> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RadioStation>}",
+        "question": "In which areas are the radio stations of Monticello, Maine available too?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <city> <Monticello,_Maine> .?x <area> ?uri .?x <22-rdf-syntax-ns#type> <RadioStation> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "radio stations",
+                "l_pos": 23,
+                "r_pos": 36
+            },
+            "http://dbpedia.org/resource/Monticello,_Maine": {
+                "name": "Monticello,_Maine",
+                "mention": "Monticello, Maine",
+                "l_pos": 41,
+                "r_pos": 57
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "areas",
+                "l_pos": 9,
+                "r_pos": 13
+            },
+            "http://dbpedia.org/ontology/RadioStation": {
+                "name": "RadioStation",
+                "mention": "radio stations",
+                "l_pos": 23,
+                "r_pos": 36
+            }
+        }
+    },
+    {
+        "_id": "243",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Amitava_Datta> <http://dbpedia.org/property/almaMater> ?x . ?x <http://dbpedia.org/ontology/sport> ?uri  . }",
+        "question": "Which sports are played in the alma mater of Amitava Datta?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Amitava_Datta> <almaMater> ?x .?x <sport> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Amitava_Datta": {
+                "name": "Amitava_Datta",
+                "mention": "Amitava Datta",
+                "l_pos": 45,
+                "r_pos": 57
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "alma mater",
+                "l_pos": 31,
+                "r_pos": 40
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "sports",
+                "l_pos": 6,
+                "r_pos": 11
+            }
+        }
+    },
+    {
+        "_id": "4638",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/Holler_If_Ya_Hear_Me_(musical)> <http://dbpedia.org/property/lyrics> <http://dbpedia.org/resource/Tupac_Shakur> }",
+        "question": "Did Tupac write the lyrics of Holler If Ya Hear Me?",
+        "readable_sparql": "ASK WHERE { <Holler_If_Ya_Hear_Me_(musical)> <lyrics> <Tupac_Shakur> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Holler_If_Ya_Hear_Me_(musical)": {
+                "name": "Holler_If_Ya_Hear_Me_(musical)",
+                "mention": "Holler If Ya Hear Me",
+                "l_pos": 30,
+                "r_pos": 49
+            },
+            "http://dbpedia.org/resource/Tupac_Shakur": {
+                "name": "Tupac_Shakur",
+                "mention": "Tupac",
+                "l_pos": 4,
+                "r_pos": 8
+            }
+        }
+    },
+    {
+        "_id": "632",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/occupation> <http://dbpedia.org/resource/Pepsi_Center> . ?uri <http://dbpedia.org/ontology/operator> ?x  . }",
+        "question": "Which stadium's operator works in the Pepsi Center?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <occupation> <Pepsi_Center> .?uri <operator> ?x . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "operator",
+                "l_pos": 16,
+                "r_pos": 23
+            },
+            "http://dbpedia.org/resource/Pepsi_Center": {
+                "name": "Pepsi_Center",
+                "mention": "Pepsi Center",
+                "l_pos": 38,
+                "r_pos": 49
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "stadium",
+                "l_pos": 6,
+                "r_pos": 12
+            }
+        }
+    },
+    {
+        "_id": "4288",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Rachel_Rasmussen> <http://dbpedia.org/property/relatives> ?x . ?x <http://dbpedia.org/ontology/birthPlace> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/NetballPlayer>}",
+        "question": "What is the birthplace of the netball player who is the relative of Rachel Rasmussen ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Rachel_Rasmussen> <relatives> ?x .?x <birthPlace> ?uri .?x <22-rdf-syntax-ns#type> <NetballPlayer> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Rachel_Rasmussen": {
+                "name": "Rachel_Rasmussen",
+                "mention": "Rachel Rasmussen",
+                "l_pos": 68,
+                "r_pos": 83
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "netball player",
+                "l_pos": 30,
+                "r_pos": 43
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "birthplace",
+                "l_pos": 12,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/ontology/NetballPlayer": {
+                "name": "NetballPlayer",
+                "mention": "netball player",
+                "l_pos": 30,
+                "r_pos": 43
+            }
+        }
+    },
+    {
+        "_id": "1190",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/founder> <http://dbpedia.org/resource/Terry_Gou> . ?uri <http://dbpedia.org/ontology/manufacturer> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Device>}",
+        "question": "What are the gadgets whose manufacturing company is founded by Terry Gou?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <founder> <Terry_Gou> .?uri <manufacturer> ?x .?uri <22-rdf-syntax-ns#type> <Device> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "company",
+                "l_pos": 41,
+                "r_pos": 47
+            },
+            "http://dbpedia.org/resource/Terry_Gou": {
+                "name": "Terry_Gou",
+                "mention": "Terry Gou",
+                "l_pos": 63,
+                "r_pos": 71
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "gadgets",
+                "l_pos": 13,
+                "r_pos": 19
+            },
+            "http://dbpedia.org/ontology/Device": {
+                "name": "Device",
+                "mention": "gadgets",
+                "l_pos": 13,
+                "r_pos": 19
+            }
+        }
+    },
+    {
+        "_id": "4756",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Neungin_High_School> <http://dbpedia.org/property/religiousAffiliation> ?uri. <http://dbpedia.org/resource/Sylvain_L\u00e9vi> <http://dbpedia.org/property/fields> ?uri}",
+        "question": "What is the religious affiliation of the Neungin High School which is also the academic interest of Sylvain Lvi ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Neungin_High_School> <religiousAffiliation> ?uri .<Sylvain_L\u00e9vi> <fields> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Neungin_High_School": {
+                "name": "Neungin_High_School",
+                "mention": "Neungin High School",
+                "l_pos": 41,
+                "r_pos": 59
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "religious affiliation",
+                "l_pos": 12,
+                "r_pos": 32
+            },
+            "http://dbpedia.org/resource/Sylvain_L\u00e9vi": {
+                "name": "Sylvain_L\u00e9vi",
+                "mention": "Sylvain Lvi",
+                "l_pos": 100,
+                "r_pos": 110
+            }
+        }
+    },
+    {
+        "_id": "2631",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Donn_Barber> <http://dbpedia.org/property/education> ?uri. <http://dbpedia.org/resource/Jack_McGregor> <http://dbpedia.org/ontology/education> ?uri}",
+        "question": "Which university attended by Donn Barber and education institute of Jack McGregor ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Donn_Barber> <education> ?uri .<Jack_McGregor> <education> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Donn_Barber": {
+                "name": "Donn_Barber",
+                "mention": "Donn Barber",
+                "l_pos": 29,
+                "r_pos": 39
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "university",
+                "l_pos": 6,
+                "r_pos": 15
+            },
+            "http://dbpedia.org/resource/Jack_McGregor": {
+                "name": "Jack_McGregor",
+                "mention": "Jack McGregor",
+                "l_pos": 68,
+                "r_pos": 80
+            }
+        }
+    },
+    {
+        "_id": "3541",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/routeEnd> <http://dbpedia.org/resource/Madison,_Wisconsin> . ?x <http://dbpedia.org/ontology/routeStart> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Road>}",
+        "question": "Where does the road starting from Madison, Wisconsin end?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <routeEnd> <Madison,_Wisconsin> .?x <routeStart> ?uri .?x <22-rdf-syntax-ns#type> <Road> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "road",
+                "l_pos": 15,
+                "r_pos": 18
+            },
+            "http://dbpedia.org/resource/Madison,_Wisconsin": {
+                "name": "Madison,_Wisconsin",
+                "mention": "Madison, Wisconsin",
+                "l_pos": 34,
+                "r_pos": 51
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            },
+            "http://dbpedia.org/ontology/Road": {
+                "name": "Road",
+                "mention": "road",
+                "l_pos": 15,
+                "r_pos": 18
+            }
+        }
+    },
+    {
+        "_id": "1916",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/recordedIn> <http://dbpedia.org/resource/Anaheim,_California> . ?x <http://dbpedia.org/property/director> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Album>}",
+        "question": "Who directed the albums recorded in Anaheim?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <recordedIn> <Anaheim,_California> .?x <director> ?uri .?x <22-rdf-syntax-ns#type> <Album> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "albums",
+                "l_pos": 17,
+                "r_pos": 22
+            },
+            "http://dbpedia.org/resource/Anaheim,_California": {
+                "name": "Anaheim,_California",
+                "mention": "Anaheim",
+                "l_pos": 36,
+                "r_pos": 42
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            },
+            "http://dbpedia.org/ontology/Album": {
+                "name": "Album",
+                "mention": "albums",
+                "l_pos": 17,
+                "r_pos": 22
+            }
+        }
+    },
+    {
+        "_id": "2545",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE {?uri <http://dbpedia.org/ontology/restingPlace> <http://dbpedia.org/resource/United_States>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryPerson>}",
+        "question": "How many veterans are buried in the US?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?uri <restingPlace> <United_States> .?uri <22-rdf-syntax-ns#type> <MilitaryPerson> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "veterans",
+                "l_pos": 9,
+                "r_pos": 16
+            },
+            "http://dbpedia.org/resource/United_States": {
+                "name": "United_States",
+                "mention": "US",
+                "l_pos": 36,
+                "r_pos": 37
+            },
+            "http://dbpedia.org/ontology/MilitaryPerson": {
+                "name": "MilitaryPerson",
+                "mention": "veterans",
+                "l_pos": 9,
+                "r_pos": 16
+            }
+        }
+    },
+    {
+        "_id": "2149",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Gymnastics_at_the_1956_Summer_Olympics_\u2013_Men's_rings> <http://dbpedia.org/ontology/silverMedalist> ?x . ?x <http://dbpedia.org/property/placeOfDeath> ?uri  . }",
+        "question": "What is the place of death of the gymnast who was the silver medalist at the 1956 Summer Olympics Men's rings ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Gymnastics_at_the_1956_Summer_Olympics_\u2013_Men's_rings> <silverMedalist> ?x .?x <placeOfDeath> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Gymnastics_at_the_1956_Summer_Olympics_\u2013_Men's_rings": {
+                "name": "Gymnastics_at_the_1956_Summer_Olympics_\u2013_Men's_rings",
+                "mention": "1956 Summer Olympics Men's rings",
+                "l_pos": 77,
+                "r_pos": 108
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "gymnast",
+                "l_pos": 34,
+                "r_pos": 40
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "place of death",
+                "l_pos": 12,
+                "r_pos": 25
+            }
+        }
+    },
+    {
+        "_id": "1667",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/Mark_Latham> . ?uri <http://dbpedia.org/ontology/partner> <http://dbpedia.org/resource/Tim_Mathieson>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>}",
+        "question": "Name the office holder with predecessor as Mark Latham and partner Tim Mathieson ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <predecessor> <Mark_Latham> .?uri <partner> <Tim_Mathieson> .?uri <22-rdf-syntax-ns#type> <OfficeHolder> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "office holder",
+                "l_pos": 9,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Mark_Latham": {
+                "name": "Mark_Latham",
+                "mention": "Mark Latham",
+                "l_pos": 43,
+                "r_pos": 53
+            },
+            "http://dbpedia.org/resource/Tim_Mathieson": {
+                "name": "Tim_Mathieson",
+                "mention": "Tim Mathieson",
+                "l_pos": 67,
+                "r_pos": 79
+            },
+            "http://dbpedia.org/ontology/OfficeHolder": {
+                "name": "OfficeHolder",
+                "mention": "office holder",
+                "l_pos": 9,
+                "r_pos": 21
+            }
+        }
+    },
+    {
+        "_id": "986",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/property/chairman> <http://dbpedia.org/resource/Josep_Maria_Bartomeu> . ?uri <http://dbpedia.org/property/youthclubs> ?x  . }",
+        "question": "Count everyone who was in a youthclub chaired by Josep Maria Bartomeu ?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <chairman> <Josep_Maria_Bartomeu> .?uri <youthclubs> ?x . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "youthclub",
+                "l_pos": 28,
+                "r_pos": 36
+            },
+            "http://dbpedia.org/resource/Josep_Maria_Bartomeu": {
+                "name": "Josep_Maria_Bartomeu",
+                "mention": "Josep Maria Bartomeu",
+                "l_pos": 49,
+                "r_pos": 68
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "everyone",
+                "l_pos": 6,
+                "r_pos": 13
+            }
+        }
+    },
+    {
+        "_id": "1359",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/property/predecessor> <http://dbpedia.org/resource/Desilu_Productions> . ?uri <http://dbpedia.org/property/company> ?x  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}",
+        "question": "How many sitcoms were produced by the company whose predecessor was the Desilu Productions",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <predecessor> <Desilu_Productions> .?uri <company> ?x .?uri <22-rdf-syntax-ns#type> <TelevisionShow> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "company",
+                "l_pos": 38,
+                "r_pos": 44
+            },
+            "http://dbpedia.org/resource/Desilu_Productions": {
+                "name": "Desilu_Productions",
+                "mention": "Desilu Productions",
+                "l_pos": 72,
+                "r_pos": 89
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "sitcoms",
+                "l_pos": 9,
+                "r_pos": 15
+            },
+            "http://dbpedia.org/ontology/TelevisionShow": {
+                "name": "TelevisionShow",
+                "mention": "sitcoms",
+                "l_pos": 9,
+                "r_pos": 15
+            }
+        }
+    },
+    {
+        "_id": "4026",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Sammy_Hagar_&_Friends> <http://dbpedia.org/ontology/previousWork> ?x . ?x <http://dbpedia.org/ontology/hometown> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Band>}",
+        "question": "What is the home town of the Band which is the previous work of Sammy Hagar & Friends ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Sammy_Hagar_&_Friends> <previousWork> ?x .?x <hometown> ?uri .?x <22-rdf-syntax-ns#type> <Band> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Sammy_Hagar_&_Friends": {
+                "name": "Sammy_Hagar_&_Friends",
+                "mention": "Sammy Hagar & Friends",
+                "l_pos": 64,
+                "r_pos": 84
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "Band",
+                "l_pos": 29,
+                "r_pos": 32
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "home town",
+                "l_pos": 12,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/ontology/Band": {
+                "name": "Band",
+                "mention": "Band",
+                "l_pos": 29,
+                "r_pos": 32
+            }
+        }
+    },
+    {
+        "_id": "2352",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Ford_Kansas_City_Assembly_Plant> <http://dbpedia.org/ontology/owningOrganisation> ?uri. <http://dbpedia.org/resource/Ford_Theatre> <http://dbpedia.org/property/company> ?uri}",
+        "question": "Which company of Ford Theatre is the owning organization of F0ord Kansa City Assemply Plant ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Ford_Kansas_City_Assembly_Plant> <owningOrganisation> ?uri .<Ford_Theatre> <company> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Ford_Kansas_City_Assembly_Plant": {
+                "name": "Ford_Kansas_City_Assembly_Plant",
+                "mention": "F0ord Kansa City Assemply Plant",
+                "l_pos": 60,
+                "r_pos": 90
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "company",
+                "l_pos": 6,
+                "r_pos": 12
+            },
+            "http://dbpedia.org/resource/Ford_Theatre": {
+                "name": "Ford_Theatre",
+                "mention": "Ford Theatre",
+                "l_pos": 17,
+                "r_pos": 28
+            }
+        }
+    },
+    {
+        "_id": "3081",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE {?uri <http://dbpedia.org/property/company> <http://dbpedia.org/resource/Paramount_Television> . ?uri <http://dbpedia.org/ontology/network> <http://dbpedia.org/resource/NBC> }",
+        "question": "How many have company as Paramount Television and network as NBC are there?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?uri <company> <Paramount_Television> .?uri <network> <NBC> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "company",
+                "l_pos": 14,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/resource/Paramount_Television": {
+                "name": "Paramount_Television",
+                "mention": "Paramount Television",
+                "l_pos": 25,
+                "r_pos": 44
+            },
+            "http://dbpedia.org/resource/NBC": {
+                "name": "NBC",
+                "mention": "NBC",
+                "l_pos": 61,
+                "r_pos": 63
+            }
+        }
+    },
+    {
+        "_id": "2365",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/designer> <http://dbpedia.org/resource/Malaysian_Highway_Authority> . ?x <http://dbpedia.org/property/crosses> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Bridge>}",
+        "question": "Malaysian highway authority has designed bridges over what things?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <designer> <Malaysian_Highway_Authority> .?x <crosses> ?uri .?x <22-rdf-syntax-ns#type> <Bridge> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "bridges",
+                "l_pos": 41,
+                "r_pos": 47
+            },
+            "http://dbpedia.org/resource/Malaysian_Highway_Authority": {
+                "name": "Malaysian_Highway_Authority",
+                "mention": "Malaysian highway authority",
+                "l_pos": 0,
+                "r_pos": 26
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "things",
+                "l_pos": 59,
+                "r_pos": 64
+            },
+            "http://dbpedia.org/ontology/Bridge": {
+                "name": "Bridge",
+                "mention": "bridges",
+                "l_pos": 41,
+                "r_pos": 47
+            }
+        }
+    },
+    {
+        "_id": "3179",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/North\u2013South_Transport_Corridor> <http://dbpedia.org/ontology/routeEnd> ?uri }",
+        "question": "What is the route end of NorthSouth Transport Corridor ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <North\u2013South_Transport_Corridor> <routeEnd> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/North\u2013South_Transport_Corridor": {
+                "name": "North\u2013South_Transport_Corridor",
+                "mention": "NorthSouth Transport Corridor",
+                "l_pos": 25,
+                "r_pos": 53
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "route end",
+                "l_pos": 12,
+                "r_pos": 20
+            }
+        }
+    },
+    {
+        "_id": "1977",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/leftTributary> <http://dbpedia.org/resource/Zarqa_River>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/River>}",
+        "question": "What is the river whose tributary is Zarqa River?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <leftTributary> <Zarqa_River> .?uri <22-rdf-syntax-ns#type> <River> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "river",
+                "l_pos": 12,
+                "r_pos": 16
+            },
+            "http://dbpedia.org/resource/Zarqa_River": {
+                "name": "Zarqa_River",
+                "mention": "Zarqa River",
+                "l_pos": 37,
+                "r_pos": 47
+            },
+            "http://dbpedia.org/ontology/River": {
+                "name": "River",
+                "mention": "river",
+                "l_pos": 12,
+                "r_pos": 16
+            }
+        }
+    },
+    {
+        "_id": "694",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/G\u00fcm\u00fc\u015f_(TV_series)> <http://dbpedia.org/property/firstAired> <http://dbpedia.org/resource/Albania> }",
+        "question": "Was GM first aired in Albania?",
+        "readable_sparql": "ASK WHERE { <G\u00fcm\u00fc\u015f_(TV_series)> <firstAired> <Albania> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/G\u00fcm\u00fc\u015f_(TV_series)": {
+                "name": "G\u00fcm\u00fc\u015f_(TV_series)",
+                "mention": "GM",
+                "l_pos": 4,
+                "r_pos": 5
+            },
+            "http://dbpedia.org/resource/Albania": {
+                "name": "Albania",
+                "mention": "Albania",
+                "l_pos": 22,
+                "r_pos": 28
+            }
+        }
+    },
+    {
+        "_id": "207",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/cinematography> <http://dbpedia.org/resource/Jordan_Cronenweth> . ?uri <http://dbpedia.org/ontology/musicComposer> <http://dbpedia.org/resource/Vangelis>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Film>}",
+        "question": "What is the name of the movie whose director of photography was Jordan Cronenweth and music composer was Vangelis?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <cinematography> <Jordan_Cronenweth> .?uri <musicComposer> <Vangelis> .?uri <22-rdf-syntax-ns#type> <Film> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "name of the movie",
+                "l_pos": 12,
+                "r_pos": 28
+            },
+            "http://dbpedia.org/resource/Jordan_Cronenweth": {
+                "name": "Jordan_Cronenweth",
+                "mention": "Jordan Cronenweth",
+                "l_pos": 64,
+                "r_pos": 80
+            },
+            "http://dbpedia.org/resource/Vangelis": {
+                "name": "Vangelis",
+                "mention": "Vangelis",
+                "l_pos": 105,
+                "r_pos": 112
+            },
+            "http://dbpedia.org/ontology/Film": {
+                "name": "Film",
+                "mention": "name of the movie",
+                "l_pos": 12,
+                "r_pos": 28
+            }
+        }
+    },
+    {
+        "_id": "4699",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/occupation> <http://dbpedia.org/resource/CBS>  . }",
+        "question": "Which veterans served at CBS?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <occupation> <CBS> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "veterans",
+                "l_pos": 6,
+                "r_pos": 13
+            },
+            "http://dbpedia.org/resource/CBS": {
+                "name": "CBS",
+                "mention": "CBS",
+                "l_pos": 25,
+                "r_pos": 27
+            }
+        }
+    },
+    {
+        "_id": "1951",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/area> <http://dbpedia.org/resource/Nashville,_Tennessee> . ?x <http://dbpedia.org/property/licensee> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RadioStation>}",
+        "question": "What are some licensees of the stations playing in Nashville, Tennessee?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <area> <Nashville,_Tennessee> .?x <licensee> ?uri .?x <22-rdf-syntax-ns#type> <RadioStation> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "stations",
+                "l_pos": 31,
+                "r_pos": 38
+            },
+            "http://dbpedia.org/resource/Nashville,_Tennessee": {
+                "name": "Nashville,_Tennessee",
+                "mention": "Nashville, Tennessee",
+                "l_pos": 51,
+                "r_pos": 70
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "licensees",
+                "l_pos": 14,
+                "r_pos": 22
+            },
+            "http://dbpedia.org/ontology/RadioStation": {
+                "name": "RadioStation",
+                "mention": "stations",
+                "l_pos": 31,
+                "r_pos": 38
+            }
+        }
+    },
+    {
+        "_id": "1567",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE {?uri <http://dbpedia.org/property/doctoralAdvisor> <http://dbpedia.org/resource/Ernest_Rutherford>  . }",
+        "question": "Ernest Rutherford was the advisor of how many people?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?uri <doctoralAdvisor> <Ernest_Rutherford> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "people",
+                "l_pos": 46,
+                "r_pos": 51
+            },
+            "http://dbpedia.org/resource/Ernest_Rutherford": {
+                "name": "Ernest_Rutherford",
+                "mention": "Ernest Rutherford",
+                "l_pos": 0,
+                "r_pos": 16
+            }
+        }
+    },
+    {
+        "_id": "1875",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/ontology/mouthMountain> <http://dbpedia.org/resource/Arkansas> . ?x <http://dbpedia.org/ontology/city> ?uri  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/City>}",
+        "question": "Through how many cities does the river flowing into Arkansas go?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <mouthMountain> <Arkansas> .?x <city> ?uri .?uri <22-rdf-syntax-ns#type> <City> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "river",
+                "l_pos": 33,
+                "r_pos": 37
+            },
+            "http://dbpedia.org/resource/Arkansas": {
+                "name": "Arkansas",
+                "mention": "Arkansas",
+                "l_pos": 52,
+                "r_pos": 59
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "cities",
+                "l_pos": 17,
+                "r_pos": 22
+            },
+            "http://dbpedia.org/ontology/City": {
+                "name": "City",
+                "mention": "cities",
+                "l_pos": 17,
+                "r_pos": 22
+            }
+        }
+    },
+    {
+        "_id": "2477",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE {?uri <http://dbpedia.org/property/music> <http://dbpedia.org/resource/Danny_Elfman> . ?uri <http://dbpedia.org/property/director> <http://dbpedia.org/resource/Tim_Burton> }",
+        "question": "Count the movies directed by Tim Burton and music composer Danny Elfman ?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?uri <music> <Danny_Elfman> .?uri <director> <Tim_Burton> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "movies",
+                "l_pos": 10,
+                "r_pos": 15
+            },
+            "http://dbpedia.org/resource/Danny_Elfman": {
+                "name": "Danny_Elfman",
+                "mention": "Danny Elfman",
+                "l_pos": 59,
+                "r_pos": 70
+            },
+            "http://dbpedia.org/resource/Tim_Burton": {
+                "name": "Tim_Burton",
+                "mention": "Tim Burton",
+                "l_pos": 29,
+                "r_pos": 38
+            }
+        }
+    },
+    {
+        "_id": "20",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Samur\u2013Absheron_channel> <http://dbpedia.org/ontology/sourceCountry> ?uri. <http://dbpedia.org/resource/Anar_Salmanov> <http://dbpedia.org/property/placeOfBirth> ?uri}",
+        "question": "Which source country of SamurAbsheron channel is the birth place of Anar Salmanov ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Samur\u2013Absheron_channel> <sourceCountry> ?uri .<Anar_Salmanov> <placeOfBirth> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Samur\u2013Absheron_channel": {
+                "name": "Samur\u2013Absheron_channel",
+                "mention": "SamurAbsheron channel",
+                "l_pos": 24,
+                "r_pos": 44
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "source country",
+                "l_pos": 6,
+                "r_pos": 19
+            },
+            "http://dbpedia.org/resource/Anar_Salmanov": {
+                "name": "Anar_Salmanov",
+                "mention": "Anar Salmanov",
+                "l_pos": 68,
+                "r_pos": 80
+            }
+        }
+    },
+    {
+        "_id": "1453",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Ben_Dreith> <http://dbpedia.org/ontology/occupation> ?uri. <http://dbpedia.org/resource/John_McGeever> <http://dbpedia.org/ontology/team> ?uri . }",
+        "question": "What team does John McGeever play for, which also employed Ben Dreith at some time?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Ben_Dreith> <occupation> ?uri .<John_McGeever> <team> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Ben_Dreith": {
+                "name": "Ben_Dreith",
+                "mention": "Ben Dreith",
+                "l_pos": 59,
+                "r_pos": 68
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "team",
+                "l_pos": 5,
+                "r_pos": 8
+            },
+            "http://dbpedia.org/resource/John_McGeever": {
+                "name": "John_McGeever",
+                "mention": "John McGeever",
+                "l_pos": 15,
+                "r_pos": 27
+            }
+        }
+    },
+    {
+        "_id": "473",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/director> <http://dbpedia.org/resource/Faisal_Aman_Khan> . ?x <http://dbpedia.org/property/recorded> ?uri  . }",
+        "question": "Where are the movies directed by Faisal Aman Khan recorded?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <director> <Faisal_Aman_Khan> .?x <recorded> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "movies",
+                "l_pos": 14,
+                "r_pos": 19
+            },
+            "http://dbpedia.org/resource/Faisal_Aman_Khan": {
+                "name": "Faisal_Aman_Khan",
+                "mention": "Faisal Aman Khan",
+                "l_pos": 33,
+                "r_pos": 48
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "3930",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <http://dbpedia.org/property/position> <http://dbpedia.org/resource/Defenceman> . ?x <http://dbpedia.org/property/playedFor> ?uri  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SportsTeam>}",
+        "question": "In how many different teams have all those who have played as a defenceman been?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?x <position> <Defenceman> .?x <playedFor> ?uri .?uri <22-rdf-syntax-ns#type> <SportsTeam> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "those",
+                "l_pos": 37,
+                "r_pos": 41
+            },
+            "http://dbpedia.org/resource/Defenceman": {
+                "name": "Defenceman",
+                "mention": "defenceman",
+                "l_pos": 64,
+                "r_pos": 73
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "teams",
+                "l_pos": 22,
+                "r_pos": 26
+            },
+            "http://dbpedia.org/ontology/SportsTeam": {
+                "name": "SportsTeam",
+                "mention": "teams",
+                "l_pos": 22,
+                "r_pos": 26
+            }
+        }
+    },
+    {
+        "_id": "1547",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/product> <http://dbpedia.org/resource/Microsoft_Azure> . ?uri <http://dbpedia.org/ontology/product> <http://dbpedia.org/resource/Microsoft_Surface> . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>}",
+        "question": "Which company builds Microsoft Azure and Microsoft Surface?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <product> <Microsoft_Azure> .?uri <product> <Microsoft_Surface> .?uri <22-rdf-syntax-ns#type> <Company> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "company",
+                "l_pos": 6,
+                "r_pos": 12
+            },
+            "http://dbpedia.org/resource/Microsoft_Azure": {
+                "name": "Microsoft_Azure",
+                "mention": "Microsoft Azure",
+                "l_pos": 21,
+                "r_pos": 35
+            },
+            "http://dbpedia.org/resource/Microsoft_Surface": {
+                "name": "Microsoft_Surface",
+                "mention": "Microsoft Surface",
+                "l_pos": 41,
+                "r_pos": 57
+            },
+            "http://dbpedia.org/ontology/Company": {
+                "name": "Company",
+                "mention": "company",
+                "l_pos": 6,
+                "r_pos": 12
+            }
+        }
+    },
+    {
+        "_id": "2604",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/writer> <http://dbpedia.org/resource/Colin_Brake> . ?x <http://dbpedia.org/property/starring> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Work>}",
+        "question": "Who acted in the work written by Colin Brake?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <writer> <Colin_Brake> .?x <starring> ?uri .?x <22-rdf-syntax-ns#type> <Work> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "work",
+                "l_pos": 17,
+                "r_pos": 20
+            },
+            "http://dbpedia.org/resource/Colin_Brake": {
+                "name": "Colin_Brake",
+                "mention": "Colin Brake",
+                "l_pos": 33,
+                "r_pos": 43
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            },
+            "http://dbpedia.org/ontology/Work": {
+                "name": "Work",
+                "mention": "work",
+                "l_pos": 17,
+                "r_pos": 20
+            }
+        }
+    },
+    {
+        "_id": "4768",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/Fluidinfo> <http://dbpedia.org/property/programmingLanguage> <http://dbpedia.org/resource/PostgreSQL> }",
+        "question": "Is Fluidinfo written in PostgreSQL language?",
+        "readable_sparql": "ASK WHERE { <Fluidinfo> <programmingLanguage> <PostgreSQL> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Fluidinfo": {
+                "name": "Fluidinfo",
+                "mention": "Fluidinfo",
+                "l_pos": 3,
+                "r_pos": 11
+            },
+            "http://dbpedia.org/resource/PostgreSQL": {
+                "name": "PostgreSQL",
+                "mention": "PostgreSQL",
+                "l_pos": 24,
+                "r_pos": 33
+            }
+        }
+    },
+    {
+        "_id": "1418",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/label> <http://dbpedia.org/resource/Sony_Music_Entertainment> . ?uri <http://dbpedia.org/ontology/musicComposer> ?x  . }",
+        "question": "Whose music composer is signed up with Sony Music Entertainment?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <label> <Sony_Music_Entertainment> .?uri <musicComposer> ?x . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "music composer",
+                "l_pos": 6,
+                "r_pos": 19
+            },
+            "http://dbpedia.org/resource/Sony_Music_Entertainment": {
+                "name": "Sony_Music_Entertainment",
+                "mention": "Sony Music Entertainment",
+                "l_pos": 39,
+                "r_pos": 62
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Whose",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "3951",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Greater_San_Antonio> <http://dbpedia.org/ontology/part> ?uri }",
+        "question": "List the parts of Greater San Antonio?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Greater_San_Antonio> <part> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Greater_San_Antonio": {
+                "name": "Greater_San_Antonio",
+                "mention": "Greater San Antonio",
+                "l_pos": 18,
+                "r_pos": 36
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "parts",
+                "l_pos": 9,
+                "r_pos": 13
+            }
+        }
+    },
+    {
+        "_id": "2553",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE {?uri <http://dbpedia.org/ontology/composer> <http://dbpedia.org/resource/Murray_Gold>  . }",
+        "question": "Murray Gold has composed music for how many things?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { ?uri <composer> <Murray_Gold> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "things",
+                "l_pos": 44,
+                "r_pos": 49
+            },
+            "http://dbpedia.org/resource/Murray_Gold": {
+                "name": "Murray_Gold",
+                "mention": "Murray Gold",
+                "l_pos": 0,
+                "r_pos": 10
+            }
+        }
+    },
+    {
+        "_id": "3390",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Lao_Plaza_Hotel> <http://dbpedia.org/property/developer> ?uri }",
+        "question": "Where is Lao Plaza Hotel located?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Lao_Plaza_Hotel> <developer> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Lao_Plaza_Hotel": {
+                "name": "Lao_Plaza_Hotel",
+                "mention": "Lao Plaza Hotel",
+                "l_pos": 9,
+                "r_pos": 23
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "2033",
+        "raw_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <http://dbpedia.org/resource/Arthur_St._Clair> <http://dbpedia.org/property/battles> ?x . ?x <http://dbpedia.org/property/combatant> ?uri  . }",
+        "question": "How many factions were involved in the battles fought by Arthur St. Clair?",
+        "readable_sparql": "SELECT DISTINCT COUNT(?uri) WHERE { <Arthur_St._Clair> <battles> ?x .?x <combatant> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Arthur_St._Clair": {
+                "name": "Arthur_St._Clair",
+                "mention": "Arthur St. Clair",
+                "l_pos": 57,
+                "r_pos": 72
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "battles",
+                "l_pos": 39,
+                "r_pos": 45
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "factions",
+                "l_pos": 9,
+                "r_pos": 16
+            }
+        }
+    },
+    {
+        "_id": "3816",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Bordesley_railway_station> <http://dbpedia.org/property/borough> ?uri. <http://dbpedia.org/resource/Birmingham_and_Oxford_Junction_Railway> <http://dbpedia.org/ontology/routeEnd> ?uri}",
+        "question": "Name the  borough of the Bordesley railway station which is also the route end of the Birmingham and Oxford Junction Railway?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Bordesley_railway_station> <borough> ?uri .<Birmingham_and_Oxford_Junction_Railway> <routeEnd> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Bordesley_railway_station": {
+                "name": "Bordesley_railway_station",
+                "mention": "Bordesley railway station",
+                "l_pos": 25,
+                "r_pos": 49
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "borough",
+                "l_pos": 10,
+                "r_pos": 16
+            },
+            "http://dbpedia.org/resource/Birmingham_and_Oxford_Junction_Railway": {
+                "name": "Birmingham_and_Oxford_Junction_Railway",
+                "mention": "Birmingham and Oxford Junction Railway",
+                "l_pos": 86,
+                "r_pos": 123
+            }
+        }
+    },
+    {
+        "_id": "3468",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/ontology/owner> <http://dbpedia.org/resource/Bud_Adams>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AmericanFootballTeam>}",
+        "question": "Bud Adams owns which american football team?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <owner> <Bud_Adams> .?uri <22-rdf-syntax-ns#type> <AmericanFootballTeam> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "american football team",
+                "l_pos": 21,
+                "r_pos": 42
+            },
+            "http://dbpedia.org/resource/Bud_Adams": {
+                "name": "Bud_Adams",
+                "mention": "Bud Adams",
+                "l_pos": 0,
+                "r_pos": 8
+            },
+            "http://dbpedia.org/ontology/AmericanFootballTeam": {
+                "name": "AmericanFootballTeam",
+                "mention": "american football team",
+                "l_pos": 21,
+                "r_pos": 42
+            }
+        }
+    },
+    {
+        "_id": "614",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Lance_Adams-Schneider> <http://dbpedia.org/property/president> ?uri. <http://dbpedia.org/resource/Daniel_O'Regan> <http://dbpedia.org/property/nickname> ?uri}",
+        "question": "Which president of Lance Adams-Schneider had nickname Daniel O'Regan ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Lance_Adams-Schneider> <president> ?uri .<Daniel_O'Regan> <nickname> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Lance_Adams-Schneider": {
+                "name": "Lance_Adams-Schneider",
+                "mention": "Lance Adams-Schneider",
+                "l_pos": 19,
+                "r_pos": 39
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "president",
+                "l_pos": 6,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/resource/Daniel_O'Regan": {
+                "name": "Daniel_O'Regan",
+                "mention": "Daniel O'Regan",
+                "l_pos": 54,
+                "r_pos": 67
+            }
+        }
+    },
+    {
+        "_id": "1817",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/owningCompany> <http://dbpedia.org/resource/Jamie_Kellner> . ?x <http://dbpedia.org/property/owner> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BroadcastNetwork>}",
+        "question": "Who are the shareholder of the broadcast networks whose owning company is Jamie Kellner?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <owningCompany> <Jamie_Kellner> .?x <owner> ?uri .?x <22-rdf-syntax-ns#type> <BroadcastNetwork> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "broadcast networks",
+                "l_pos": 31,
+                "r_pos": 48
+            },
+            "http://dbpedia.org/resource/Jamie_Kellner": {
+                "name": "Jamie_Kellner",
+                "mention": "Jamie Kellner",
+                "l_pos": 74,
+                "r_pos": 86
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            },
+            "http://dbpedia.org/ontology/BroadcastNetwork": {
+                "name": "BroadcastNetwork",
+                "mention": "broadcast networks",
+                "l_pos": 31,
+                "r_pos": 48
+            }
+        }
+    },
+    {
+        "_id": "338",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE {?uri <http://dbpedia.org/property/producer> <http://dbpedia.org/resource/Stephen_E._Ambrose>  . ?uri <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/TelevisionShow>}",
+        "question": "What is the television show whose producer is Stephen E. Ambrose?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <producer> <Stephen_E._Ambrose> .?uri <22-rdf-syntax-ns#type> <TelevisionShow> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "television show",
+                "l_pos": 12,
+                "r_pos": 26
+            },
+            "http://dbpedia.org/resource/Stephen_E._Ambrose": {
+                "name": "Stephen_E._Ambrose",
+                "mention": "Stephen E. Ambrose",
+                "l_pos": 46,
+                "r_pos": 63
+            },
+            "http://dbpedia.org/ontology/TelevisionShow": {
+                "name": "TelevisionShow",
+                "mention": "television show",
+                "l_pos": 12,
+                "r_pos": 26
+            }
+        }
+    },
+    {
+        "_id": "4295",
+        "raw_sparql": "ASK WHERE { <http://dbpedia.org/resource/The_Mysterious_Stranger> <http://dbpedia.org/property/illustrator> <http://dbpedia.org/resource/N._C._Wyeth> }",
+        "question": "Is N. C. Wyeth the illustration by of The Mysterious Stranger?",
+        "readable_sparql": "ASK WHERE { <The_Mysterious_Stranger> <illustrator> <N._C._Wyeth> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/The_Mysterious_Stranger": {
+                "name": "The_Mysterious_Stranger",
+                "mention": "The Mysterious Stranger",
+                "l_pos": 38,
+                "r_pos": 60
+            },
+            "http://dbpedia.org/resource/N._C._Wyeth": {
+                "name": "N._C._Wyeth",
+                "mention": "N. C. Wyeth",
+                "l_pos": 3,
+                "r_pos": 13
+            }
+        }
+    },
+    {
+        "_id": "3538",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/ontology/academicDiscipline> <http://dbpedia.org/resource/Neuroimaging> . ?x <http://dbpedia.org/ontology/academicDiscipline> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AcademicJournal>}",
+        "question": "List the academic discipline of the journals whose one of the discipline is neuro imaging ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <academicDiscipline> <Neuroimaging> .?x <academicDiscipline> ?uri .?x <22-rdf-syntax-ns#type> <AcademicJournal> . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "journals",
+                "l_pos": 36,
+                "r_pos": 43
+            },
+            "http://dbpedia.org/resource/Neuroimaging": {
+                "name": "Neuroimaging",
+                "mention": "neuro imaging",
+                "l_pos": 76,
+                "r_pos": 88
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "academic discipline",
+                "l_pos": 9,
+                "r_pos": 27
+            },
+            "http://dbpedia.org/ontology/AcademicJournal": {
+                "name": "AcademicJournal",
+                "mention": "journals",
+                "l_pos": 36,
+                "r_pos": 43
+            }
+        }
+    },
+    {
+        "_id": "148",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Fr._Agnel_Multipurpose_School_and_Junior_College> <http://dbpedia.org/ontology/sport> ?uri. <http://dbpedia.org/resource/Vishwajyot_High_School> <http://dbpedia.org/ontology/sport> ?uri . }",
+        "question": "what are some common games played at both Fr Agnel Multipurpose School and Vishwajyot High School?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Fr._Agnel_Multipurpose_School_and_Junior_College> <sport> ?uri .<Vishwajyot_High_School> <sport> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Fr._Agnel_Multipurpose_School_and_Junior_College": {
+                "name": "Fr._Agnel_Multipurpose_School_and_Junior_College",
+                "mention": "Fr Agnel Multipurpose School",
+                "l_pos": 42,
+                "r_pos": 69
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "games",
+                "l_pos": 21,
+                "r_pos": 25
+            },
+            "http://dbpedia.org/resource/Vishwajyot_High_School": {
+                "name": "Vishwajyot_High_School",
+                "mention": "Vishwajyot High School",
+                "l_pos": 75,
+                "r_pos": 96
+            }
+        }
+    },
+    {
+        "_id": "2040",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/2013\u201314_Marquette_Golden_Eagles_men's_basketball_team> <http://dbpedia.org/property/headcoach> ?uri }",
+        "question": "Who is the headcoach of 2013-14 Marquette Golden Eagles men's basketball team ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <2013\u201314_Marquette_Golden_Eagles_men's_basketball_team> <headcoach> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/2013\u201314_Marquette_Golden_Eagles_men's_basketball_team": {
+                "name": "2013\u201314_Marquette_Golden_Eagles_men's_basketball_team",
+                "mention": "2013-14 Marquette Golden Eagles men's basketball team",
+                "l_pos": 24,
+                "r_pos": 76
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "3217",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/relative> <http://dbpedia.org/resource/Uncle_Henry_(Oz)> . ?uri <http://dbpedia.org/ontology/relative> <http://dbpedia.org/resource/Aunt_Em> . }",
+        "question": "Whose relatives are Uncle Henry (Oz) and Aunt Em?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <relative> <Uncle_Henry_(Oz)> .?uri <relative> <Aunt_Em> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "relatives",
+                "l_pos": 6,
+                "r_pos": 14
+            },
+            "http://dbpedia.org/resource/Uncle_Henry_(Oz)": {
+                "name": "Uncle_Henry_(Oz)",
+                "mention": "Uncle Henry (Oz)",
+                "l_pos": 20,
+                "r_pos": 35
+            },
+            "http://dbpedia.org/resource/Aunt_Em": {
+                "name": "Aunt_Em",
+                "mention": "Aunt Em",
+                "l_pos": 41,
+                "r_pos": 47
+            }
+        }
+    },
+    {
+        "_id": "2768",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/United_World_College_of_Costa_Rica> <http://dbpedia.org/ontology/president> ?uri }",
+        "question": "Who is the president of United World College of Costa Rica ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <United_World_College_of_Costa_Rica> <president> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/United_World_College_of_Costa_Rica": {
+                "name": "United_World_College_of_Costa_Rica",
+                "mention": "United World College of Costa Rica",
+                "l_pos": 24,
+                "r_pos": 57
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Who",
+                "l_pos": 0,
+                "r_pos": 2
+            }
+        }
+    },
+    {
+        "_id": "1555",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Ferrel_Harris> <http://dbpedia.org/property/birthplace> ?uri. <http://dbpedia.org/resource/Green_Wix_Unthank> <http://dbpedia.org/ontology/restingPlace> ?uri}",
+        "question": "What is the birthplace of the Ferrel Harris which is also resting palce of  Green Wix Unthank?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Ferrel_Harris> <birthplace> ?uri .<Green_Wix_Unthank> <restingPlace> ?uri . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Ferrel_Harris": {
+                "name": "Ferrel_Harris",
+                "mention": "Ferrel Harris",
+                "l_pos": 30,
+                "r_pos": 42
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "birthplace",
+                "l_pos": 12,
+                "r_pos": 21
+            },
+            "http://dbpedia.org/resource/Green_Wix_Unthank": {
+                "name": "Green_Wix_Unthank",
+                "mention": "Green Wix Unthank",
+                "l_pos": 76,
+                "r_pos": 92
+            }
+        }
+    },
+    {
+        "_id": "4232",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { <http://dbpedia.org/resource/Peter_Grauer> <http://dbpedia.org/property/occupation> ?x . ?x <http://dbpedia.org/property/owner> ?uri  . ?x <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Bank>}",
+        "question": "Who is the stock holder of the bank where  Peter Grauer works  ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { <Peter_Grauer> <occupation> ?x .?x <owner> ?uri .?x <22-rdf-syntax-ns#type> <Bank> . }",
+        "node_set": {
+            "http://dbpedia.org/resource/Peter_Grauer": {
+                "name": "Peter_Grauer",
+                "mention": "Peter Grauer",
+                "l_pos": 43,
+                "r_pos": 54
+            },
+            "?x": {
+                "name": "?x",
+                "mention": "bank",
+                "l_pos": 31,
+                "r_pos": 34
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "stock holder",
+                "l_pos": 11,
+                "r_pos": 22
+            },
+            "http://dbpedia.org/ontology/Bank": {
+                "name": "Bank",
+                "mention": "bank",
+                "l_pos": 31,
+                "r_pos": 34
+            }
+        }
+    },
+    {
+        "_id": "4177",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?x <http://dbpedia.org/property/spouse> <http://dbpedia.org/resource/P\u014dmare_II> . ?x <http://dbpedia.org/ontology/deathPlace> ?uri  . }",
+        "question": "Where did the spouse of pmare ii die?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?x <spouse> <P\u014dmare_II> .?x <deathPlace> ?uri . }",
+        "node_set": {
+            "?x": {
+                "name": "?x",
+                "mention": "spouse",
+                "l_pos": 14,
+                "r_pos": 19
+            },
+            "http://dbpedia.org/resource/P\u014dmare_II": {
+                "name": "P\u014dmare_II",
+                "mention": "pmare ii",
+                "l_pos": 24,
+                "r_pos": 31
+            },
+            "?uri": {
+                "name": "?uri",
+                "mention": "Where",
+                "l_pos": 0,
+                "r_pos": 4
+            }
+        }
+    },
+    {
+        "_id": "4922",
+        "raw_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <http://dbpedia.org/ontology/operatingSystem> <http://dbpedia.org/resource/Microsoft_Windows> . ?uri <http://dbpedia.org/ontology/operatingSystem> <http://dbpedia.org/resource/Mac_OS> . }",
+        "question": "list the  software which works on both the OS  - Microsoft Windows and Mac OS ?",
+        "readable_sparql": "SELECT DISTINCT ?uri WHERE { ?uri <operatingSystem> <Microsoft_Windows> .?uri <operatingSystem> <Mac_OS> . }",
+        "node_set": {
+            "?uri": {
+                "name": "?uri",
+                "mention": "software",
+                "l_pos": 10,
+                "r_pos": 17
+            },
+            "http://dbpedia.org/resource/Microsoft_Windows": {
+                "name": "Microsoft_Windows",
+                "mention": "Microsoft Windows",
+                "l_pos": 49,
+                "r_pos": 65
+            },
+            "http://dbpedia.org/resource/Mac_OS": {
+                "name": "Mac_OS",
+                "mention": "Mac OS",
+                "l_pos": 71,
+                "r_pos": 76
+            }
+        }
+    }
+]
