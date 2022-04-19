@@ -2,7 +2,7 @@
 
 > Source code for "Crake: Causal-Enhanced Table-Filler for Question Answering over Large Scale Knowledge Base" to appear at NAACL 2022 Findings
 
-> Due to the nature of KBQA pipelines (that require specific KB servers, KB linking APIs, etc.), despite our efforts to release all our codes and provide the instructions, this process is rather complicated to implement from scratch and may contain erroneous edge cases (we apologize in advance for the potential issues:), please feel free to reach out to us for any questions, thanks!
+> Due to the nature of KBQA pipelines (that require specific KB servers, KB linking APIs, etc.), despite our efforts to release all our codes and provide the instructions, this process is rather complicated to implement from scratch and may contain erroneous edge cases (we apologize in advance for the potential issues:), please feel free to reach out to us for any questions :crossed_fingers:!
 
 ![alt text](src_main/pics/graph_structure_generation_4k_cut.png)
 
@@ -30,7 +30,6 @@ python main.py
 * A well-trained RE model can be found **[here](https://disk.pku.edu.cn:443/link/0896756C2C74978680B08912957552BE)**
 
 ## To run end-to-end evaluations
-* 
 
 ### Build a KB server
 
@@ -74,7 +73,6 @@ cd src_main/pipeline
 * Modify the code in **tf_ne_qg_link.py** as below
 * To customize the clients of Lookup-API and KB server according to the ip/port the server is running on
 ```
-# 
 {
     ...
     'kb_host_ip': '111.111.222.222',
@@ -107,7 +105,6 @@ python server.py
 * Modify the code in **pipeline.py** as below
 * To customize the clients of RE model server and KB server according to the ip/port the server is running on
 ```
-# 
 {
     ...
     'kb_host_ip': '111.222.111.222',
