@@ -1,6 +1,6 @@
 # Which person discovered the class of Swinhoe's Crake?
 
-> Source code for ":dodo:Crake:owl:: Causal-Enhanced Table-Filler for Question Answering over Large Scale Knowledge Base" to appear at NAACL 2022 Findings
+> Source code for ":hatched_chick:Crake:owl:: Causal-Enhanced Table-Filler for Question Answering over Large Scale Knowledge Base" to appear at NAACL 2022 Findings
 
 > Due to the nature of KBQA pipelines (that require specific KB servers, KB linking APIs, etc.), despite our efforts to release all our codes and provide the instructions, this process is rather complicated to implement from scratch and may contain erroneous edge cases (we apologize in advance for the potential issues:), please feel free to reach out to us for any questions!:crossed_fingers:
 
